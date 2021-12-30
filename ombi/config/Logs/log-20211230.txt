@@ -1,0 +1,343 @@
+2021-12-30 10:03:29.582 +00:00 [Information] Default Quartz.NET properties loaded from embedded resource file
+2021-12-30 10:03:29.634 +00:00 [Debug] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2021-12-30 10:03:29.639 +00:00 [Information] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2021-12-30 10:03:29.641 +00:00 [Information] Quartz Scheduler v."3.1.0.0" created.
+2021-12-30 10:03:29.643 +00:00 [Information] RAMJobStore initialized.
+2021-12-30 10:03:29.646 +00:00 [Information] Scheduler meta-data: Quartz Scheduler (v3.1.0.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-12-30 10:03:29.647 +00:00 [Information] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2021-12-30 10:03:29.648 +00:00 [Information] Quartz scheduler version: 3.1.0.0
+2021-12-30 10:03:29.649 +00:00 [Information] JobFactory set to: Ombi.Schedule.IoCJobFactory
+2021-12-30 10:03:29.696 +00:00 [Information] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2021-12-30 10:03:29.699 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:03:57.961 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:04:21.169 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:04:48.517 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:05:00.004 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:05:00.005 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:05:00.016 +00:00 [Debug] Calling Execute on job Emby.IEmbyContentSync
+2021-12-30 10:05:00.016 +00:00 [Debug] Calling Execute on job Jellyfin.IJellyfinContentSync
+2021-12-30 10:05:00.089 +00:00 [Debug] Trigger instruction : NoInstruction
+2021-12-30 10:05:00.272 +00:00 [Debug] Trigger instruction : NoInstruction
+2021-12-30 10:05:27.267 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:05:54.189 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:06:20.064 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:06:49.469 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:07:13.737 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:07:39.857 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:08:07.854 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:08:37.511 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:09:06.318 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:09:31.447 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:10:00.005 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:10:00.007 +00:00 [Debug] Calling Execute on job DVR.ISonarrSync
+2021-12-30 10:10:00.061 +00:00 [Debug] Trigger instruction : NoInstruction
+2021-12-30 10:10:26.392 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:10:53.364 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:11:19.248 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:11:45.154 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:12:15.025 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:12:44.663 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:13:14.168 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:13:43.216 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:14:07.049 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:14:34.267 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:15:00.003 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:15:00.006 +00:00 [Debug] Calling Execute on job DVR.IRadarrSync
+2021-12-30 10:15:00.045 +00:00 [Debug] Trigger instruction : NoInstruction
+2021-12-30 10:15:28.977 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:15:53.519 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:16:17.388 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:16:40.967 +00:00 [Error] Something bad happened, ErrorMiddleware caught this
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Ombi.Controllers.V1.IdentityController.GetUserAccessToken()
+   at lambda_method565(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Ombi.ApiKeyMiddlewear.Invoke(HttpContext context)
+   at Ombi.ErrorHandlingMiddleware.Invoke(HttpContext context)
+2021-12-30 10:16:41.256 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:16:41.258 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:16:41.258 +00:00 [Debug] Calling Execute on job Plex.IPlexContentSync
+2021-12-30 10:16:41.284 +00:00 [Debug] Trigger instruction : DeleteTrigger
+2021-12-30 10:16:41.286 +00:00 [Debug] Deleting trigger
+2021-12-30 10:17:07.646 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:17:31.354 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:17:54.719 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:18:13.773 +00:00 [Error] StatusCode: Unauthorized, Reason: Unauthorized, RequestUri: http://radarr:7878/api/v3/qualityProfile
+2021-12-30 10:18:13.785 +00:00 [Error] Something bad happened, ErrorMiddleware caught this
+Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Ombi.Api.Radarr.Models.V3.RadarrV3QualityProfile]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'error', line 2, position 10.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Ombi.Api.Api.Request[T](Request request, CancellationToken cancellationToken)
+   at Ombi.Api.Radarr.RadarrV3Api.GetProfiles(String apiKey, String baseUrl)
+   at Ombi.Controllers.V1.External.RadarrController.GetProfiles(RadarrSettings settings)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Ombi.ApiKeyMiddlewear.Invoke(HttpContext context)
+   at Ombi.ErrorHandlingMiddleware.Invoke(HttpContext context)
+2021-12-30 10:18:18.890 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:18:45.075 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:19:12.799 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:19:39.472 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:19:40.571 +00:00 [Error] StatusCode: Unauthorized, Reason: Unauthorized, RequestUri: http://radarr:7878/api/v3/rootfolder
+2021-12-30 10:19:40.579 +00:00 [Error] Something bad happened, ErrorMiddleware caught this
+Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Ombi.Api.Radarr.Models.RadarrRootFolder]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'error', line 2, position 10.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Ombi.Api.Api.Request[T](Request request, CancellationToken cancellationToken)
+   at Ombi.Api.Radarr.RadarrV3Api.GetRootFolders(String apiKey, String baseUrl)
+   at Ombi.Controllers.V1.External.RadarrController.GetRootFolders(RadarrSettings settings)
+   at lambda_method1273(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Ombi.ApiKeyMiddlewear.Invoke(HttpContext context)
+   at Ombi.ErrorHandlingMiddleware.Invoke(HttpContext context)
+2021-12-30 10:20:03.882 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:20:29.850 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:20:55.884 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:21:04.095 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:21:04.096 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:21:04.097 +00:00 [Debug] Calling Execute on job DVR.IRadarrSync
+2021-12-30 10:21:04.115 +00:00 [Debug] Trigger instruction : DeleteTrigger
+2021-12-30 10:21:04.116 +00:00 [Debug] Deleting trigger
+2021-12-30 10:21:32.930 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:21:41.490 +00:00 [Error] Could not test Plex
+System.Net.Http.HttpRequestException: Connection refused (plex:32401)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.DefaultConnectAsync(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at Ombi.Api.Api.Request[T](Request request, CancellationToken cancellationToken)
+   at Ombi.Api.Plex.PlexApi.GetStatus(String authToken, String uri)
+   at Ombi.Controllers.V1.External.TesterController.Plex(PlexServers settings)
+2021-12-30 10:21:46.155 +00:00 [Warning] Error thrown when attempting to obtain the plex libs
+System.Net.Http.HttpRequestException: Connection refused (plex:32401)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.DefaultConnectAsync(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at Ombi.Api.Api.Request[T](Request request, CancellationToken cancellationToken)
+   at Ombi.Api.Plex.PlexApi.GetLibrarySections(String authToken, String plexFullHost)
+   at Ombi.Controllers.V1.External.PlexController.GetPlexLibraries(PlexServers settings)
+2021-12-30 10:22:01.363 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:22:30.867 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:22:57.421 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:23:25.590 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:23:51.210 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:24:18.392 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:24:42.065 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:25:05.822 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:25:30.021 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:25:57.834 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:26:23.416 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:26:34.024 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:26:34.026 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:26:34.026 +00:00 [Debug] Calling Execute on job Plex.IPlexContentSync
+2021-12-30 10:26:34.051 +00:00 [Debug] Trigger instruction : DeleteTrigger
+2021-12-30 10:26:34.052 +00:00 [Debug] Deleting trigger
+2021-12-30 10:26:59.222 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:27:28.749 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:27:56.362 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:28:19.868 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:28:49.227 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:29:15.773 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:29:41.184 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:30:00.001 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:30:00.004 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:30:00.004 +00:00 [Debug] Calling Execute on job DVR.ICouchPotatoSync
+2021-12-30 10:30:00.008 +00:00 [Debug] Calling Execute on job Plex.IPlexContentSyncRecentlyAdded
+2021-12-30 10:30:00.031 +00:00 [Debug] Trigger instruction : NoInstruction
+2021-12-30 10:30:00.045 +00:00 [Debug] Trigger instruction : NoInstruction
+2021-12-30 10:30:27.746 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:30:52.126 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:31:19.994 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:31:44.918 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:31:46.328 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:31:46.329 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:31:46.329 +00:00 [Debug] Calling Execute on job DVR.ISonarrSync
+2021-12-30 10:31:46.357 +00:00 [Debug] Trigger instruction : DeleteTrigger
+2021-12-30 10:31:46.360 +00:00 [Debug] Deleting trigger
+2021-12-30 10:32:06.344 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:32:06.347 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:32:06.347 +00:00 [Debug] Calling Execute on job DVR.ISonarrSync
+2021-12-30 10:32:06.520 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:32:06.521 +00:00 [Debug] Trigger instruction : DeleteTrigger
+2021-12-30 10:32:06.522 +00:00 [Debug] Deleting trigger
+2021-12-30 10:32:06.521 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:32:06.522 +00:00 [Debug] Calling Execute on job DVR.IArrAvailabilityChecker
+2021-12-30 10:32:06.654 +00:00 [Debug] Trigger instruction : DeleteTrigger
+2021-12-30 10:32:06.654 +00:00 [Debug] Deleting trigger
+2021-12-30 10:32:11.740 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:32:11.741 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:32:11.741 +00:00 [Debug] Calling Execute on job DVR.IRadarrSync
+2021-12-30 10:32:11.802 +00:00 [Debug] Trigger instruction : DeleteTrigger
+2021-12-30 10:32:11.802 +00:00 [Debug] Deleting trigger
+2021-12-30 10:32:11.802 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:32:11.804 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:32:11.805 +00:00 [Debug] Calling Execute on job DVR.IArrAvailabilityChecker
+2021-12-30 10:32:11.846 +00:00 [Debug] Trigger instruction : DeleteTrigger
+2021-12-30 10:32:11.847 +00:00 [Debug] Deleting trigger
+2021-12-30 10:32:41.334 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:33:09.233 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:33:37.619 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:34:04.242 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:34:28.582 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:34:56.165 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:35:00.001 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:35:00.001 +00:00 [Debug] Calling Execute on job DVR.ISickRageSync
+2021-12-30 10:35:00.035 +00:00 [Debug] Trigger instruction : NoInstruction
+2021-12-30 10:35:29.618 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:35:58.255 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:36:24.926 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:36:51.541 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:37:19.501 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:37:47.795 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:38:15.345 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:38:45.152 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:39:14.692 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:39:44.448 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:40:00.001 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:40:00.001 +00:00 [Debug] Calling Execute on job DVR.ILidarrArtistSync
+2021-12-30 10:40:00.026 +00:00 [Debug] Trigger instruction : NoInstruction
+2021-12-30 10:40:27.108 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:40:55.175 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:41:21.253 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:41:47.131 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:42:10.631 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:42:38.572 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:43:07.406 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:43:33.481 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:43:59.738 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:44:10.691 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:44:10.692 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:44:10.693 +00:00 [Debug] Calling Execute on job DVR.IRadarrSync
+2021-12-30 10:44:10.738 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:44:10.738 +00:00 [Debug] Trigger instruction : DeleteTrigger
+2021-12-30 10:44:10.739 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:44:10.739 +00:00 [Debug] Deleting trigger
+2021-12-30 10:44:10.739 +00:00 [Debug] Calling Execute on job DVR.IArrAvailabilityChecker
+2021-12-30 10:44:10.784 +00:00 [Debug] Trigger instruction : DeleteTrigger
+2021-12-30 10:44:10.785 +00:00 [Debug] Deleting trigger
+2021-12-30 10:44:15.045 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:44:15.046 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:44:15.046 +00:00 [Debug] Calling Execute on job DVR.ISonarrSync
+2021-12-30 10:44:15.143 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:44:15.144 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:44:15.144 +00:00 [Debug] Trigger instruction : DeleteTrigger
+2021-12-30 10:44:15.144 +00:00 [Debug] Calling Execute on job DVR.IArrAvailabilityChecker
+2021-12-30 10:44:15.146 +00:00 [Debug] Deleting trigger
+2021-12-30 10:44:15.179 +00:00 [Debug] Trigger instruction : DeleteTrigger
+2021-12-30 10:44:15.180 +00:00 [Debug] Deleting trigger
+2021-12-30 10:44:18.931 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:44:18.932 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:44:18.932 +00:00 [Debug] Calling Execute on job DVR.ISonarrSync
+2021-12-30 10:44:19.044 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:44:19.045 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:44:19.044 +00:00 [Debug] Trigger instruction : DeleteTrigger
+2021-12-30 10:44:19.047 +00:00 [Debug] Deleting trigger
+2021-12-30 10:44:19.045 +00:00 [Debug] Calling Execute on job DVR.IArrAvailabilityChecker
+2021-12-30 10:44:19.081 +00:00 [Debug] Trigger instruction : DeleteTrigger
+2021-12-30 10:44:19.082 +00:00 [Debug] Deleting trigger
+2021-12-30 10:44:27.511 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:44:27.512 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:44:27.513 +00:00 [Debug] Calling Execute on job DVR.ISonarrSync
+2021-12-30 10:44:27.596 +00:00 [Debug] Batch acquisition of 1 triggers
+2021-12-30 10:44:27.596 +00:00 [Debug] Trigger instruction : DeleteTrigger
+2021-12-30 10:44:27.597 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:44:27.597 +00:00 [Debug] Calling Execute on job DVR.IArrAvailabilityChecker
+2021-12-30 10:44:27.598 +00:00 [Debug] Deleting trigger
+2021-12-30 10:44:27.627 +00:00 [Debug] Trigger instruction : DeleteTrigger
+2021-12-30 10:44:27.628 +00:00 [Debug] Deleting trigger
+2021-12-30 10:44:53.802 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:45:22.988 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:45:51.652 +00:00 [Debug] Batch acquisition of 0 triggers
+2021-12-30 10:46:18.747 +00:00 [Debug] Batch acquisition of 0 triggers

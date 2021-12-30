@@ -1,0 +1,116 @@
+2021-12-30 10:03:27.2194 Info Starting Jackett v0.20.184 
+2021-12-30 10:03:27.6402 Info Environment version: 6.0.1 (/app/Jackett/) 
+2021-12-30 10:03:27.6494 Info OS version: Unix 5.10.47.0 (64bit OS) (64bit process) 
+2021-12-30 10:03:27.6572 Info Jackett variant: CoreLinuxArm64 
+2021-12-30 10:03:27.6608 Info File /etc/issue: Ubuntu 18.04.6 LTS \n \l 
+2021-12-30 10:03:27.6652 Info Running in Docker: Yes (image build: v0.20.184-ls53) 
+2021-12-30 10:03:27.6695 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads 
+2021-12-30 10:03:27.6724 Info App config/log directory: /config/Jackett 
+2021-12-30 10:03:27.6772 Info Using proxy: Disabled 
+2021-12-30 10:03:27.6804 Info Using FlareSolverr: No 
+2021-12-30 10:03:27.6854 Info Using HTTP Client: HttpWebClient2 
+2021-12-30 10:03:27.7111 Info Loading Native indexers ... 
+2021-12-30 10:03:28.0084 Info Loaded 88 Native indexers: abnormal, alpharatio, anidex, anidub, animebytes, Animedia, animetorrents, anthelion, avistaz, bakabt, bb, beyond-hd-api, bitcityreloaded, bithdtv, bjshare, broadcasthenet, brokenstones, cgpeers, cinecalidad, cinemaz, danishbytes, darmowetorenty, divxtotal, epublibre, erai-raws, exoticaz, filelist, funfile, fuzer, gazellegames, gimmepeers, hdbitsapi, hdspace, hdtorrents, hebits, immortalseed, iptorrents, libble, lostfilm, magnetico, mejortorrent, morethantv, myanonamouse, ncore, nebulance, newpct, norbits, oppaitime, orpheus, partis, passthepopcorn, piratethenet, pixelhd, polishtracker, pornolab, pretome, privatehd, rarbg, redacted, retroflix, revolutiontt, rutracker, scenehd, scenetime, seals, secretcinema, sharewoodapi, shazbat, ShizaProject, showrss, speedapp, speedcd, subsplease, toloka, torrentbytes, torrentday, torrentech, torrentheaven, torrentmafya, torrentnetwork, torrentscsv, torrentseeds, torrentsyndikat, tvstore, xspeeds, xthor-api, zonaq, animetosho 
+2021-12-30 10:03:28.0139 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions 
+2021-12-30 10:03:29.8172 Info Loaded 498 Cardigann indexers: bithumen, underversel, underverse, dariustracker, animeworld, gay-torrents, torrentfunk, darktracker, whiteangel, limetorrents, hdonly, datascene, bluesbrothers, slosoul, sugoimusic, bigfangroup, kinozal, indietorrents, ptsbao, tribalmixes, bitsearch, bt4g, pterclub, bit-titan, lastfiles, booktracker, puurhollands, torrentmax, dark-shadow, rutor, hdarea, xxxtorrents, spiritofrevolution, hdbits, woot, xwtclassics, concen, torrent-pirat, scenepalace, kickasstorrents-ws, bitspyder, fanoin, divteam, torrentdownload, tellytorrent-api, kinonavse100, pirateiro, extremlymtorrents, crnaberza, torrentview, trackeros, ilcorsaronero, cpasbien, exkinoray, finvip, sporthd, torrent9, seedfile, torrentparadise, aftershock, torrent-turk, datatalli, uniondht, hdcity, torrentleech-pl, bwtorrents, nitro, classix, anisource, proporno, rapidzona, fantastiko, idope, happyfappy, asiandvdclub, oxtorrent, sosulki, catorrent, zooqle, bootytape, shareisland, extremetorrents, lepornoinfo, mixtapetorrent, metaltracker, torrentland, rainbowtracker, wihd, parnuxi, aidoruonline, trancetraffic, madsrevolution, redbits, theempire, hdforever, mikan, animelayer, anilibria, thegeeks, muziekfabriek, learnflakes, purovicio, peeratiko, cinemageddon, 3dtorrents, leech24, torrentsectorcrew, rutracker-ru, RockBox, desitorrents, uniongang, huntorrent, torrentmasters, superbits, torrentwhiz, rptorrents, jptv, totallykids, extratorrent-st, netcosmo, megamixtracker, movietorrent, torrenthr, kinorun, rintor, teamhd, bitded, resurrectthenet, bitru, torrentdownloads, oncesearch, 52pt, torrentsurf, carphunter, unionfansub, immortuos, acidlounge, badasstorrents, ztracker, ydypt, 4thd, thehorrorcharnel, 7torrents, docspedia, torrentoyunindir, internetarchive, hdchina, rgfootball, amigosshare, aither-api, scenerush, kisssub, cryptichaven, noname-club, piratadigital, arabafenice, exttorrents, toros, mesevilag, xxxadulttorrent, haidan, crt2fa, mnv, tjupt, beitai, btetree, ehentai, dxp, cinemamovies, demonoid, pctorrent, torrentbd, backups, vizuk, freshmeat, sexxi, pornoslab, noname-clubl, torrentslocal, discfan, animeworld-api, estone, torrentleech, theaudioscene, mma-torrents, bibliotik, brasiltracker, zomb, sktorrent-org, moviesite, ebooks-shares, carpathians, concertos, torrentqq, pier720, generationfree, empornium, hdcztorrent, racing4everyone, putao, speedmasterhd, firebit, chdbits, aniRena, hdbitscom, elitetorrent-biz, pwtorrents, greekdiamond, hellastz, girotorrent, audionews, hdspain, the-devils-lounge, pornleech, omgwtftrackr, hamsterstudio, hdai, aither, torrentgalaxy, reelflix-api, anime-free, speedtorrentreloaded, 0daykiev, reelflix, esharenet, mvgroupforum, hdolimpo, torrentv, peerjunkies, torrentdb, bitbazis, yourbittorrent, nethd, anaschcc, vsthouse, funkytorrents, sdbits, microbit, opencd, 2fast4you, soulvoice, yggtorrent, hd4fans, totheglorycookie, mononokebt, torrent-paradise-ml, sportscult, ilcorsaroblu, twilight, xwtorrents, broadcity, torrentlt, uhdbits, rustorka, eztv, 24rolika, bitturk, theshinning, vsttorrents, iv-torrents, cpasbienclone, torlook, majomparade, gfxpeers, portugas, btnext, skipthecommercials-api, shareisland-api, btschool, byrbt, mypornclub, beyond-hd-oneurl, 3changtrai, magico, libranet, newpct-me, cathoderaytube, hdtorrentsit, itorrent, hdtime, soundpark, alleenretail, punkshorror, pixelcove, piratbitl, hdcenter, rus-media, lesaloon, romanianmetaltorrents, thevault, solidtorrents, karagarga, blutopia, dmhy, ceskeforum, siambit, arenabg, falkonvisionteam, casatorrent, newstudio, xxxtor, magicheaven, theoccult, asiancinema, opensharing, hdme, 1ptbar, zelkaorg, losslessclub, theshow, themixingbowl, newstudiol, blutopia-api, legittorrents, megapeer, comicat, nbtorrents, gay-torrentsorg, aussierules, mteamtp, gamestorrents, marinetracker, xiteme, skipthecommercials, polishsource, ourbits, u2, nyaasi, prostylex, pornbits, baibako, redstartorrent, pornbay, film-paleis, chilebt, teamos, ilcorsaroverde, turktorrent, swarmazon, 1337x, bithorlo, hddolby, totheglory, mteamtp2fa, trezzor, gktorrent, p2pelite, teracod, cartoonchaos, milkie, arabp2p, sktorrent, yggcookie, hdatmos, yts, tasmanit, krazyzone, unlimitz, mousebits, tekno3d, tlfbits, diablotorrent, onejav, linkomanija, torlock, boxingtorrents, pornotor, greekteam, torrent9clone, eniahd, femdomcult, sexypics, brsociety, fouducinema, piratbit, byrutor, zamundanet, zetorrents, pttime, deildu, tapochek, limetorrentsclone, oshenpt, pornolive, mvgroupmain, digitalcore, fantasticheaven, hdmonkey, abtorrents, bangumi-moe, hdhouse, theplace, wdt, thesceneplace, hdc, sharewood, hdzone, haitang, selezen, ibit, thefallingangels, finelite, lat-team, beyond-hd, gaytorrentru, movietorrentz, r3vwtf, pthome, riperam, desitorrents-api, springsunday, p2pbg, rintornet, torrentz2eu, proaudiotorrents, torrentsir, ptfiles, myspleen, tvchaosuk, cinematik, hdu, kickasstorrents-to, hqsource, crazyhd, acrossthetasman, potuk, gtorrentpro, pornorip, torrentby, torrentproject2, empornium2fa, btsow, twilightszoom, acgsou, puntotorrent, pornforall, nntt, bitsexy, learnbits, datascene-api, hdsky, racingforme, tellytorrent, devilsplayground, torrentccf, keepfriends, audiobookbay, dimeadozen, btdigg, torrent-explosiv, insanetracker, mactorrentsdownload, hdturk, lemonhd, pornotorrent, jpopsuki, newretro, brsociety-api, dragonworldreloaded, filelisting, 0magnet, borgzelle, hdroute, netlab, frozenlayer, ccfbits, snowpt, animeclipse, mircrew, linuxtracker, Bittorrentfiles, gigatorrents, theleachzone, tokyotosho, turkseed, ettv, xbytesv2, ptmsg, hdhome, sukebeinyaasi, ebookparadijs, torrentkitty, isohunt2, coastalcrew, crazyspirits, trupornolabs, extremebits, genesismovement, peersfm, pussytorrents, bestcore, bluebirdhd, thepiratebay, nipponsei, torrenting, moviesdvdr, glodls, acgrip 
+2021-12-30 10:03:29.8214 Info Loaded 586 indexers in total 
+2021-12-30 10:03:29.8271 Info Adding aggregate indexer ('all' indexer) ... 
+2021-12-30 10:03:29.8469 Info Adding filter indexer ('type:public' indexer) ... 
+2021-12-30 10:03:29.8518 Info Adding filter indexer ('type:private' indexer) ... 
+2021-12-30 10:03:29.8592 Info Adding filter indexer ('type:semi-public' indexer) ... 
+2021-12-30 10:03:30.0324 Warn No XML encryptor configured. Key {c63ca587-461d-4a5e-a6f5-366212fe7f69} may be persisted to storage in unencrypted form. 
+2021-12-30 10:03:30.0324 Warn No XML encryptor configured. Key {c63ca587-461d-4a5e-a6f5-366212fe7f69} may be persisted to storage in unencrypted form. 
+2021-12-30 10:03:30.0849 Info Jackett startup finished in 3.683 s 
+2021-12-30 10:12:57.2899 Warn Some of the categories provided are unsupported in Torrentz2eu: 2010,2020,2030,2040,2045,2050,2060 
+2021-12-30 10:12:57.7124 Error Error on 20211230101257 for Torrentz2eu.txtJackett.Common.ExceptionWithConfigData: Got redirected to another domain. Try changing the indexer URL to https://torrentzeu.org/. Updated site link, please try again.
+   at Jackett.Common.Indexers.CardigannIndexer.CheckIfLoginIsNeeded(WebResult Result, IHtmlDocument document) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 847
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1470
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://torrentzeu.org/kick.php?q=2021">here</a>.</p>
+</body></html>
+ 
+2021-12-30 10:12:57.7196 Error Jackett.Common.IndexerException: Exception (torrentz2eu): Got redirected to another domain. Try changing the indexer URL to https://torrentzeu.org/. Updated site link, please try again.
+ ---> System.Exception: Parse error
+ ---> Jackett.Common.ExceptionWithConfigData: Got redirected to another domain. Try changing the indexer URL to https://torrentzeu.org/. Updated site link, please try again.
+   at Jackett.Common.Indexers.CardigannIndexer.CheckIfLoginIsNeeded(WebResult Result, IHtmlDocument document) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 847
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1470
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 781
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1623
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 401
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 413
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 755
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/vsts/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 397 Jackett.Common.IndexerException: Exception (torrentz2eu): Got redirected to another domain. Try changing the indexer URL to https://torrentzeu.org/. Updated site link, please try again.
+ ---> System.Exception: Parse error
+ ---> Jackett.Common.ExceptionWithConfigData: Got redirected to another domain. Try changing the indexer URL to https://torrentzeu.org/. Updated site link, please try again.
+   at Jackett.Common.Indexers.CardigannIndexer.CheckIfLoginIsNeeded(WebResult Result, IHtmlDocument document) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 847
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1470
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 781
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1623
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 401
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 413
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 755
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/vsts/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 397
+2021-12-30 10:14:56.5999 Error Error on 20211230101456 for Torrentz2eu.txtJackett.Common.ExceptionWithConfigData: Got redirected to another domain. Try changing the indexer URL to https://torrentz2.org.in/. Updated site link, please try again.
+   at Jackett.Common.Indexers.CardigannIndexer.CheckIfLoginIsNeeded(WebResult Result, IHtmlDocument document) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 847
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1470
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://torrentz2.org.in/kick.php?q=2021">here</a>.</p>
+</body></html>
+ 
+2021-12-30 10:14:56.6072 Error Jackett.Common.IndexerException: Exception (torrentz2eu): Got redirected to another domain. Try changing the indexer URL to https://torrentz2.org.in/. Updated site link, please try again.
+ ---> System.Exception: Parse error
+ ---> Jackett.Common.ExceptionWithConfigData: Got redirected to another domain. Try changing the indexer URL to https://torrentz2.org.in/. Updated site link, please try again.
+   at Jackett.Common.Indexers.CardigannIndexer.CheckIfLoginIsNeeded(WebResult Result, IHtmlDocument document) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 847
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1470
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 781
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1623
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 401
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 413
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 755
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/vsts/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 397 Jackett.Common.IndexerException: Exception (torrentz2eu): Got redirected to another domain. Try changing the indexer URL to https://torrentz2.org.in/. Updated site link, please try again.
+ ---> System.Exception: Parse error
+ ---> Jackett.Common.ExceptionWithConfigData: Got redirected to another domain. Try changing the indexer URL to https://torrentz2.org.in/. Updated site link, please try again.
+   at Jackett.Common.Indexers.CardigannIndexer.CheckIfLoginIsNeeded(WebResult Result, IHtmlDocument document) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 847
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1470
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 781
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1623
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 401
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 413
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 755
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/vsts/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 397
+2021-12-30 10:15:06.4425 Info Torznab search in Torrentz2eu => Found 46 releases 
+2021-12-30 10:15:12.5951 Info Torznab search in Torrentz2eu => Found 46 releases (from cache) 
+2021-12-30 10:15:53.7038 Warn Some of the categories provided are unsupported in LimeTorrents clone: 2010,2020,2030,2040,2045,2050,2060 
+2021-12-30 10:15:59.2340 Info Torznab search in LimeTorrents clone => Found 0 releases 
+2021-12-30 10:16:30.5509 Info Torznab search in LimeTorrents clone => Found 100 releases 
+2021-12-30 10:16:32.2589 Info Torznab search in LimeTorrents clone => Found 100 releases (from cache) 
+2021-12-30 10:29:38.7867 Info Torznab search in LimeTorrents clone => Found 100 releases 
+2021-12-30 10:29:40.9915 Info Torznab search in LimeTorrents clone => Found 100 releases (from cache) 
+2021-12-30 10:30:22.5597 Info Torznab search in Torrentz2eu => Found 46 releases 
+2021-12-30 10:30:24.0993 Info Torznab search in Torrentz2eu => Found 46 releases (from cache) 
+2021-12-30 10:33:34.3203 Info Torznab search in LimeTorrents clone => Found 100 releases (from cache) 
+2021-12-30 10:33:34.3203 Info Torznab search in Torrentz2eu => Found 46 releases (from cache) 
