@@ -435,3 +435,1100 @@ RequestUri: http://jackett:9117/api/v2.0/indexers/torrentz2eu/results/torznab/ap
  -- : Query successful, but no results were returned from your indexer. This may be an issue with the indexer or your indexer category settings.
 2021-12-30 10:18:13.7|Info|Auth|Auth-Unauthorized ip ::ffff:172.18.0.2 url 'http://radarr:7878/api/v3/qualityProfile'
 2021-12-30 10:19:40.5|Info|Auth|Auth-Unauthorized ip ::ffff:172.18.0.2 url 'http://radarr:7878/api/v3/rootfolder'
+2021-12-30 11:02:09.3|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.2.2.5080
+2021-12-30 11:02:09.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-12-30 11:02:10.0|Info|Router|Application mode: Interactive
+2021-12-30 11:02:10.1|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-12-30 11:02:10.8|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-12-30 11:02:11.0|Info|WebHostController|Listening on the following URLs:
+2021-12-30 11:02:11.1|Info|WebHostController|  http://*:7878
+2021-12-30 11:02:11.2|Info|RadarrBootstrapper|Starting Web Server
+2021-12-30 11:02:11.9|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-12-30 11:03:42.1|Info|RssSyncService|Starting RSS Sync
+2021-12-30 11:03:44.0|Info|DownloadDecisionMaker|Processing 146 releases
+2021-12-30 11:03:44.3|Info|RssSyncService|RSS Sync Completed. Reports found: 146, Reports grabbed: 0
+2021-12-30 12:04:14.2|Info|RssSyncService|Starting RSS Sync
+2021-12-30 12:05:12.6|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 12/30/2021 10:58:42 AM and 12/30/2021 11:09:15 AM UTC. Search may be required.
+2021-12-30 12:05:12.6|Info|DownloadDecisionMaker|Processing 146 releases
+2021-12-30 12:05:13.0|Info|RssSyncService|RSS Sync Completed. Reports found: 146, Reports grabbed: 0
+2021-12-30 13:05:16.7|Info|RssSyncService|Starting RSS Sync
+2021-12-30 13:06:15.0|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 12/30/2021 12:00:12 PM and 12/30/2021 12:10:17 PM UTC. Search may be required.
+2021-12-30 13:06:15.1|Info|DownloadDecisionMaker|Processing 146 releases
+2021-12-30 13:06:15.3|Info|RssSyncService|RSS Sync Completed. Reports found: 146, Reports grabbed: 0
+2021-12-30 14:06:32.4|Info|RssSyncService|Starting RSS Sync
+2021-12-30 14:07:30.7|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 12/30/2021 1:01:15 PM and 12/30/2021 1:11:33 PM UTC. Search may be required.
+2021-12-30 14:07:30.7|Info|DownloadDecisionMaker|Processing 146 releases
+2021-12-30 14:07:31.0|Info|RssSyncService|RSS Sync Completed. Reports found: 146, Reports grabbed: 0
+2021-12-30 14:11:47.7|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.2.2.5080
+2021-12-30 14:11:48.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-12-30 14:11:48.1|Info|Router|Application mode: Interactive
+2021-12-30 14:11:48.2|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-12-30 14:11:48.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-12-30 14:11:48.8|Info|WebHostController|Listening on the following URLs:
+2021-12-30 14:11:48.8|Info|WebHostController|  http://*:7878
+2021-12-30 14:11:49.1|Info|RadarrBootstrapper|Starting Web Server
+2021-12-30 14:11:50.0|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-12-30 15:15:04.8|Info|RssSyncService|Starting RSS Sync
+2021-12-30 16:32:17.4|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 12/30/2021 2:02:30 PM and 12/30/2021 2:20:05 PM UTC. Search may be required.
+2021-12-30 16:32:17.5|Info|DownloadDecisionMaker|Processing 100 releases
+2021-12-30 16:32:17.8|Info|RssSyncService|RSS Sync Completed. Reports found: 100, Reports grabbed: 0
+2021-12-30 22:05:21.6|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.2.2.5080
+2021-12-30 22:05:21.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-12-30 22:05:22.0|Info|Router|Application mode: Interactive
+2021-12-30 22:05:22.0|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-12-30 22:05:22.2|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-12-30 22:05:22.4|Info|WebHostController|Listening on the following URLs:
+2021-12-30 22:05:22.4|Info|WebHostController|  http://*:7878
+2021-12-30 22:05:22.6|Info|RadarrBootstrapper|Starting Web Server
+2021-12-30 22:05:23.5|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-12-30 22:17:35.5|Info|AddMovieService|Adding Movie [Swan Song (2021)][tt13207508, 765245] Path: [/mnt/media/Movies/Swan Song (2021)]
+2021-12-30 22:17:35.6|Info|RefreshMovieService|Updating info for Swan Song
+2021-12-30 22:17:36.5|Info|MediaCoverService|Downloading Poster for [Swan Song (2021)][tt13207508, 765245] https://image.tmdb.org/t/p/original/y0WW5vX58oMEg9aRRTB5QtG1Vyn.jpg
+2021-12-30 22:17:36.5|Info|DiskScanService|Scanning disk for Swan Song
+2021-12-30 22:17:36.5|Info|DiskScanService|Completed scanning disk for Swan Song
+2021-12-30 22:17:36.6|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2021-12-30 22:17:39.0|Info|MediaCoverService|Downloading Fanart for [Swan Song (2021)][tt13207508, 765245] https://image.tmdb.org/t/p/original/ibdmSDwCpDYNdIkGeu7prsMVzYZ.jpg
+2021-12-30 22:17:42.1|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-12-30 22:17:59.4|Info|NzbSearchService|Searching 2 indexers for [Swan Song]
+2021-12-30 22:17:59.8|Info|DownloadDecisionMaker|Processing 18 releases
+2021-12-30 22:18:36.2|Info|RefreshMovieService|Updating info for Swan Song
+2021-12-30 22:18:37.3|Info|DiskScanService|Scanning disk for Swan Song
+2021-12-30 22:18:37.3|Info|DiskScanService|Completed scanning disk for Swan Song
+2021-12-30 22:18:37.3|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2021-12-30 22:19:04.4|Info|RefreshMovieService|Updating info for Swan Song
+2021-12-30 22:19:05.5|Info|DiskScanService|Scanning disk for Swan Song
+2021-12-30 22:19:05.5|Info|DiskScanService|Completed scanning disk for Swan Song
+2021-12-30 22:19:05.6|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2021-12-30 22:19:10.9|Info|NzbSearchService|Searching 2 indexers for [Swan Song]
+2021-12-30 22:19:11.0|Info|DownloadDecisionMaker|Processing 18 releases
+2021-12-30 22:19:51.2|Info|MovieService|Deleted movie [Swan Song (2021)][tt13207508, 765245]
+2021-12-30 22:20:22.8|Info|AddMovieService|Adding Movie [Swan Song (2021)][tt13207508, 765245] Path: [/mnt/media/Movies/Swan Song (2021)]
+2021-12-30 22:20:22.9|Info|RefreshMovieService|Updating info for Swan Song
+2021-12-30 22:20:24.1|Info|MediaCoverService|Downloading Poster for [Swan Song (2021)][tt13207508, 765245] https://image.tmdb.org/t/p/original/y0WW5vX58oMEg9aRRTB5QtG1Vyn.jpg
+2021-12-30 22:20:24.1|Info|DiskScanService|Scanning disk for Swan Song
+2021-12-30 22:20:24.1|Info|DiskScanService|Completed scanning disk for Swan Song
+2021-12-30 22:20:24.1|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2021-12-30 22:20:26.7|Info|MediaCoverService|Downloading Fanart for [Swan Song (2021)][tt13207508, 765245] https://image.tmdb.org/t/p/original/ibdmSDwCpDYNdIkGeu7prsMVzYZ.jpg
+2021-12-30 22:20:28.6|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-12-30 22:20:34.0|Info|NzbSearchService|Searching 2 indexers for [Swan Song]
+2021-12-30 22:20:34.1|Info|DownloadDecisionMaker|Processing 18 releases
+2021-12-30 22:23:09.4|Info|DownloadService|Report sent to transmission. Swan Song 2021 1080p WEBRip x265 RARBG
+2021-12-30 22:23:56.7|Info|RefreshMovieService|Updating info for Swan Song
+2021-12-30 22:23:58.1|Info|DiskScanService|Scanning disk for Swan Song
+2021-12-30 22:23:58.1|Info|DiskScanService|Completed scanning disk for Swan Song
+2021-12-30 22:23:58.2|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2021-12-30 22:29:14.7|Warn|RadarrErrorPipeline|Invalid request Validation failed: 
+ -- : Query successful, but no results were returned from your indexer. This may be an issue with the indexer or your indexer category settings.
+2021-12-30 22:29:36.0|Warn|RadarrErrorPipeline|Invalid request Validation failed: 
+ -- : Query successful, but no results were returned from your indexer. This may be an issue with the indexer or your indexer category settings.
+2021-12-30 22:30:17.7|Warn|RadarrErrorPipeline|Invalid request Validation failed: 
+ -- : Query successful, but no results were returned from your indexer. This may be an issue with the indexer or your indexer category settings.
+2021-12-30 22:30:19.7|Warn|RadarrErrorPipeline|Invalid request Validation failed: 
+ -- : Query successful, but no results were returned from your indexer. This may be an issue with the indexer or your indexer category settings.
+2021-12-30 22:30:29.8|Warn|RadarrErrorPipeline|Invalid request Validation failed: 
+ -- : Query successful, but no results were returned from your indexer. This may be an issue with the indexer or your indexer category settings.
+2021-12-30 22:31:06.7|Warn|RadarrErrorPipeline|Invalid request Validation failed: 
+ -- : Query successful, but no results were returned from your indexer. This may be an issue with the indexer or your indexer category settings.
+2021-12-30 22:31:49.4|Warn|RadarrErrorPipeline|Invalid request Validation failed: 
+ -- : 'Categories' must be provided
+2021-12-30 22:31:50.5|Warn|RadarrErrorPipeline|Invalid request Validation failed: 
+ -- : 'Categories' must be provided
+2021-12-30 22:31:50.7|Warn|RadarrErrorPipeline|Invalid request Validation failed: 
+ -- : 'Categories' must be provided
+2021-12-30 22:31:50.9|Warn|RadarrErrorPipeline|Invalid request Validation failed: 
+ -- : 'Categories' must be provided
+2021-12-30 22:31:51.1|Warn|RadarrErrorPipeline|Invalid request Validation failed: 
+ -- : 'Categories' must be provided
+2021-12-30 22:31:51.2|Warn|RadarrErrorPipeline|Invalid request Validation failed: 
+ -- : 'Categories' must be provided
+2021-12-30 22:31:51.4|Warn|RadarrErrorPipeline|Invalid request Validation failed: 
+ -- : 'Categories' must be provided
+2021-12-30 22:38:23.8|Info|AddMovieService|Adding Movie [CODA (2021)][tt10366460, 776503] Path: [/mnt/media/Movies/CODA (2021)]
+2021-12-30 22:38:23.9|Info|RefreshMovieService|Updating info for CODA
+2021-12-30 22:38:24.8|Info|MediaCoverService|Downloading Poster for [CODA (2021)][tt10366460, 776503] https://image.tmdb.org/t/p/original/BzVjmm8l23rPsijLiNLUzuQtyd.jpg
+2021-12-30 22:38:24.8|Info|DiskScanService|Scanning disk for CODA
+2021-12-30 22:38:24.8|Info|DiskScanService|Completed scanning disk for CODA
+2021-12-30 22:38:24.8|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2021-12-30 22:38:27.1|Info|MediaCoverService|Downloading Fanart for [CODA (2021)][tt10366460, 776503] https://image.tmdb.org/t/p/original/4Tz8V8aRim8cFgKEWprSUjBy8tY.jpg
+2021-12-30 22:38:33.5|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-12-30 22:38:59.0|Info|NzbSearchService|Searching 2 indexers for [CODA]
+2021-12-30 22:38:59.6|Info|DownloadDecisionMaker|Processing 40 releases
+2021-12-30 22:39:28.1|Info|DownloadService|Report sent to transmission. Coda 2021 1080p 10bit ATVP WEBRip English 5 1 x265  mkvAnime [Telly]
+2021-12-30 22:49:56.8|Info|AddMovieService|Adding Movie [Paranormal Activity: Next of Kin (2021)][tt10515988, 609972] Path: [/mnt/media/Movies/Paranormal Activity Next of Kin (2021)]
+2021-12-30 22:49:56.8|Info|RefreshMovieService|Updating info for Paranormal Activity: Next of Kin
+2021-12-30 22:49:57.8|Info|MediaCoverService|Downloading Poster for [Paranormal Activity: Next of Kin (2021)][tt10515988, 609972] https://image.tmdb.org/t/p/original/bXAVveHiLotZbWdg3PKGhAzxYKP.jpg
+2021-12-30 22:49:57.8|Info|DiskScanService|Scanning disk for Paranormal Activity: Next of Kin
+2021-12-30 22:49:57.9|Info|DiskScanService|Completed scanning disk for Paranormal Activity: Next of Kin
+2021-12-30 22:49:57.9|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2021-12-30 22:50:00.4|Info|MediaCoverService|Downloading Fanart for [Paranormal Activity: Next of Kin (2021)][tt10515988, 609972] https://image.tmdb.org/t/p/original/39EQTf94Lckdo8yzS1CdWQSgmen.jpg
+2021-12-30 22:50:03.3|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2021-12-30 23:02:58.3|Info|RssSyncService|Starting RSS Sync
+2021-12-30 23:03:04.1|Info|DownloadDecisionMaker|Processing 100 releases
+2021-12-30 23:03:04.4|Info|RssSyncService|RSS Sync Completed. Reports found: 100, Reports grabbed: 0
+2021-12-30 23:19:31.2|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.2.2.5080
+2021-12-30 23:19:31.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-12-30 23:19:31.8|Info|Router|Application mode: Interactive
+2021-12-30 23:19:31.9|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-12-30 23:19:32.1|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-12-30 23:19:32.5|Info|WebHostController|Listening on the following URLs:
+2021-12-30 23:19:32.5|Info|WebHostController|  http://*:7878
+2021-12-30 23:19:32.7|Info|RadarrBootstrapper|Starting Web Server
+2021-12-30 23:19:33.9|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-12-30 23:35:04.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-30 23:36:34.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-30 23:38:04.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-30 23:39:34.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-30 23:41:04.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-30 23:42:34.6|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-30 23:44:04.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-30 23:45:34.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-30 23:47:04.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-30 23:48:34.9|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-30 23:50:04.9|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-30 23:51:35.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-30 23:53:05.1|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-30 23:54:35.1|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-30 23:56:05.2|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-30 23:57:35.2|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-30 23:59:05.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:00:05.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:01:05.5|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.2.2.5080
+2021-12-31 00:01:05.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-12-31 00:01:05.8|Info|Router|Application mode: Interactive
+2021-12-31 00:01:05.9|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-12-31 00:01:06.1|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-12-31 00:01:06.4|Info|WebHostController|Listening on the following URLs:
+2021-12-31 00:01:06.4|Info|WebHostController|  http://*:7878
+2021-12-31 00:01:06.5|Info|RadarrBootstrapper|Starting Web Server
+2021-12-31 00:01:07.6|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-12-31 00:01:38.2|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:06:25.7|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.2.2.5080
+2021-12-31 00:06:26.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-12-31 00:06:26.1|Info|Router|Application mode: Interactive
+2021-12-31 00:06:26.1|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-12-31 00:06:26.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-12-31 00:06:26.6|Info|WebHostController|Listening on the following URLs:
+2021-12-31 00:06:26.6|Info|WebHostController|  http://*:7878
+2021-12-31 00:06:26.7|Info|RadarrBootstrapper|Starting Web Server
+2021-12-31 00:06:27.7|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-12-31 00:06:58.0|Info|RssSyncService|Starting RSS Sync
+2021-12-31 00:06:58.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:06:59.6|Info|DownloadDecisionMaker|Processing 100 releases
+2021-12-31 00:06:59.9|Info|RssSyncService|RSS Sync Completed. Reports found: 100, Reports grabbed: 0
+2021-12-31 00:08:10.2|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.2.2.5080
+2021-12-31 00:08:10.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-12-31 00:08:10.5|Info|Router|Application mode: Interactive
+2021-12-31 00:08:10.6|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-12-31 00:08:10.7|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-12-31 00:08:11.0|Info|WebHostController|Listening on the following URLs:
+2021-12-31 00:08:11.0|Info|WebHostController|  http://*:7878
+2021-12-31 00:08:11.2|Info|RadarrBootstrapper|Starting Web Server
+2021-12-31 00:08:12.2|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-12-31 00:08:42.6|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:10:12.5|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:11:42.5|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:12:42.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:14:12.6|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:15:42.6|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:17:12.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:18:42.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:20:12.9|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:21:42.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:23:12.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:24:43.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:26:12.9|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:27:43.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:29:13.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:30:43.1|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:32:13.2|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:33:43.2|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:35:13.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:36:43.2|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:38:13.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:39:43.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:41:13.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:42:43.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:44:13.6|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:45:43.5|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:47:13.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:48:43.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:50:13.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:51:43.9|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:53:13.9|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:54:44.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:56:13.9|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:57:44.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 00:59:14.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 01:00:44.2|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 01:02:14.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 01:03:44.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 01:05:14.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 01:06:44.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 01:07:14.3|Info|RssSyncService|Starting RSS Sync
+2021-12-31 01:07:19.9|Info|DownloadDecisionMaker|Processing 100 releases
+2021-12-31 01:07:19.9|Info|RssSyncService|RSS Sync Completed. Reports found: 100, Reports grabbed: 0
+2021-12-31 01:07:44.5|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 01:09:14.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 01:10:44.6|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 01:12:14.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 01:13:44.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 01:15:14.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 01:16:44.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 01:17:44.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 01:19:15.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 01:20:45.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 01:22:15.1|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 01:23:45.1|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 01:25:15.2|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 01:30:18.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 01:31:48.9|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:06:35.1|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:07:35.0|Info|RssSyncService|Starting RSS Sync
+2021-12-31 02:07:35.4|Info|DownloadDecisionMaker|Processing 100 releases
+2021-12-31 02:07:35.5|Info|RssSyncService|RSS Sync Completed. Reports found: 100, Reports grabbed: 0
+2021-12-31 02:08:05.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:09:35.2|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:11:05.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:12:35.2|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:14:05.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:15:35.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:17:05.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:18:35.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:20:05.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:21:35.5|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:23:05.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:24:35.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:26:05.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:27:36.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:29:05.9|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:30:35.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:32:05.9|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:33:36.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:35:06.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:36:36.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:37:36.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:39:06.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:40:36.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 02:42:06.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 15:17:53.4|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.2.2.5080
+2021-12-31 15:17:53.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2021-12-31 15:17:53.8|Info|Router|Application mode: Interactive
+2021-12-31 15:17:53.9|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-12-31 15:17:54.1|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2021-12-31 15:17:54.5|Info|WebHostController|Listening on the following URLs:
+2021-12-31 15:17:54.5|Info|WebHostController|  http://*:7878
+2021-12-31 15:17:54.7|Info|RadarrBootstrapper|Starting Web Server
+2021-12-31 15:17:55.8|Info|CommandExecutor|Starting 2 threads for tasks.
+2021-12-31 15:18:26.2|Info|RssSyncService|Starting RSS Sync
+2021-12-31 15:18:27.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 15:19:25.2|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 12/31/2021 2:02:35 AM and 12/31/2021 9:12:27 AM UTC. Search may be required.
+2021-12-31 15:19:25.2|Info|DownloadDecisionMaker|Processing 100 releases
+2021-12-31 15:19:25.5|Info|RssSyncService|RSS Sync Completed. Reports found: 100, Reports grabbed: 0
+2021-12-31 15:19:56.2|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 15:23:05.4|Info|RefreshMovieService|Updating info for CODA
+2021-12-31 15:23:06.8|Info|DiskScanService|Scanning disk for CODA
+2021-12-31 15:23:06.8|Info|DiskScanService|Completed scanning disk for CODA
+2021-12-31 15:23:06.8|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2021-12-31 15:23:06.9|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2021-12-31 15:23:06.9|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2021-12-31 15:23:06.9|Info|ExistingExtraFileService|Found 0 extra files
+2021-12-31 15:33:56.7|Info|DiskScanService|Scanning disk for CODA
+2021-12-31 15:33:56.8|Info|HousekeepingService|Running housecleaning tasks
+2021-12-31 15:33:56.9|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2021-12-31 15:33:56.9|Info|Database|Vacuuming Log database
+2021-12-31 15:33:56.9|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2021-12-31 15:33:57.0|Info|MovieService|Assigning file [Coda 2021 1080p 10bit ATVP WEBRip English 5.1 x265 - mkvAnime [Telly].mkv] to movie [[CODA (2021)][tt10366460, 776503]]
+2021-12-31 15:33:57.0|Info|DiskScanService|Completed scanning disk for CODA
+2021-12-31 15:33:57.0|Info|Database|Log database compressed
+2021-12-31 15:33:57.0|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2021-12-31 15:33:57.0|Info|Database|Vacuuming Main database
+2021-12-31 15:33:57.0|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2021-12-31 15:33:57.1|Info|ExistingOtherExtraImporter|Found 1 existing other extra files
+2021-12-31 15:33:57.8|Info|Database|Main database compressed
+2021-12-31 15:33:57.9|Info|ExistingExtraFileService|Found 0 extra files
+2021-12-31 15:33:57.9|Info|RefreshMovieService|Updating info for Paranormal Activity: Next of Kin
+2021-12-31 15:33:59.7|Info|DiskScanService|Scanning disk for Paranormal Activity: Next of Kin
+2021-12-31 15:33:59.7|Info|DiskScanService|Completed scanning disk for Paranormal Activity: Next of Kin
+2021-12-31 15:33:59.7|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2021-12-31 15:33:59.7|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2021-12-31 15:33:59.7|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2021-12-31 15:33:59.7|Info|ExistingExtraFileService|Found 0 extra files
+2021-12-31 15:33:59.7|Info|RefreshMovieService|Updating info for Swan Song
+2021-12-31 15:34:01.0|Info|DiskScanService|Scanning disk for Swan Song
+2021-12-31 15:34:01.0|Info|DiskScanService|Completed scanning disk for Swan Song
+2021-12-31 15:34:01.0|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2021-12-31 15:34:01.1|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2021-12-31 15:34:01.1|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2021-12-31 15:34:01.1|Info|ExistingExtraFileService|Found 0 extra files
+2021-12-31 15:47:51.5|Info|AddMovieService|Adding Movie [Resident Evil: Welcome to Raccoon City (2021)][tt6920084, 460458] Path: [/mnt/media/Movies/Resident Evil Welcome to Raccoon City (2021)]
+2021-12-31 15:47:51.6|Info|RefreshMovieService|Updating info for Resident Evil: Welcome to Raccoon City
+2021-12-31 15:47:52.6|Info|MediaCoverService|Downloading Poster for [Resident Evil: Welcome to Raccoon City (2021)][tt6920084, 460458] https://image.tmdb.org/t/p/original/sR3iV0Jt080jgvPBtJhs3Tta1y9.jpg
+2021-12-31 15:47:52.6|Info|DiskScanService|Scanning disk for Resident Evil: Welcome to Raccoon City
+2021-12-31 15:47:52.6|Info|DiskScanService|Completed scanning disk for Resident Evil: Welcome to Raccoon City
+2021-12-31 15:47:52.6|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2021-12-31 15:47:52.7|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2021-12-31 15:47:52.7|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2021-12-31 15:47:52.7|Info|ExistingExtraFileService|Found 0 extra files
+2021-12-31 15:47:53.8|Info|MediaCoverService|Downloading Fanart for [Resident Evil: Welcome to Raccoon City (2021)][tt6920084, 460458] https://image.tmdb.org/t/p/original/o76ZDm8PS9791XiuieNB93UZcRV.jpg
+2021-12-31 15:48:06.2|Info|NzbSearchService|Searching 2 indexers for [Resident Evil: Welcome to Raccoon City]
+2021-12-31 15:48:07.2|Info|DownloadDecisionMaker|No results found
+2021-12-31 15:53:02.1|Info|AddMovieService|Adding Movie [Son (2021)][tt5624466, 754934] Path: [/mnt/media/Movies/Son (2021)]
+2021-12-31 15:53:02.1|Info|RefreshMovieService|Updating info for Son
+2021-12-31 15:53:03.0|Info|MediaCoverService|Downloading Poster for [Son (2021)][tt5624466, 754934] https://image.tmdb.org/t/p/original/4fl6EdtMp6p0RKJgESdFti1J3dC.jpg
+2021-12-31 15:53:03.0|Info|DiskScanService|Scanning disk for Son
+2021-12-31 15:53:03.1|Info|DiskScanService|Completed scanning disk for Son
+2021-12-31 15:53:03.1|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2021-12-31 15:53:03.1|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2021-12-31 15:53:03.1|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2021-12-31 15:53:03.1|Info|ExistingExtraFileService|Found 0 extra files
+2021-12-31 15:53:04.3|Info|MediaCoverService|Downloading Fanart for [Son (2021)][tt5624466, 754934] https://image.tmdb.org/t/p/original/mRZDHjArYNWpOv06kxRK1cduQKh.jpg
+2021-12-31 15:53:19.9|Info|NzbSearchService|Searching 2 indexers for [Son]
+2021-12-31 15:53:22.3|Info|DownloadDecisionMaker|Processing 40 releases
+2021-12-31 15:53:40.1|Info|NzbSearchService|Searching 2 indexers for [CODA]
+2021-12-31 15:53:40.8|Info|DownloadDecisionMaker|No results found
+2021-12-31 15:53:49.1|Info|NzbSearchService|Searching 2 indexers for [Son]
+2021-12-31 15:53:49.1|Info|DownloadDecisionMaker|Processing 40 releases
+2021-12-31 16:04:01.8|Info|NzbSearchService|Searching 2 indexers for [Son]
+2021-12-31 16:04:01.9|Info|DownloadDecisionMaker|Processing 40 releases
+2021-12-31 16:07:16.8|Info|RefreshMovieService|Updating info for Son
+2021-12-31 16:07:18.3|Info|DiskScanService|Scanning disk for Son
+2021-12-31 16:07:18.3|Info|DiskScanService|Completed scanning disk for Son
+2021-12-31 16:07:18.3|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2021-12-31 16:07:18.3|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2021-12-31 16:07:18.3|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2021-12-31 16:07:18.3|Info|ExistingExtraFileService|Found 0 extra files
+2021-12-31 16:07:50.9|Info|RssSyncService|Starting RSS Sync
+2021-12-31 16:07:51.6|Info|DownloadDecisionMaker|Processing 100 releases
+2021-12-31 16:07:51.6|Info|RssSyncService|RSS Sync Completed. Reports found: 100, Reports grabbed: 0
+2021-12-31 16:15:46.7|Info|NzbSearchService|Searching 2 indexers for [Son]
+2021-12-31 16:15:46.8|Info|DownloadDecisionMaker|Processing 40 releases
+2021-12-31 17:44:22.6|Info|RssSyncService|Starting RSS Sync
+2021-12-31 17:44:23.9|Info|DownloadDecisionMaker|Processing 146 releases
+2021-12-31 17:44:24.0|Info|RssSyncService|RSS Sync Completed. Reports found: 146, Reports grabbed: 0
+2021-12-31 17:53:07.3|Info|NzbSearchService|Searching 2 indexers for [Paranormal Activity: Next of Kin]
+2021-12-31 17:53:10.2|Info|DownloadDecisionMaker|Processing 45 releases
+2021-12-31 17:54:10.0|Info|RefreshMovieService|Updating info for Resident Evil: Welcome to Raccoon City
+2021-12-31 17:54:11.8|Info|DiskScanService|Scanning disk for Resident Evil: Welcome to Raccoon City
+2021-12-31 17:54:11.8|Info|DiskScanService|Completed scanning disk for Resident Evil: Welcome to Raccoon City
+2021-12-31 17:54:11.8|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2021-12-31 17:54:11.8|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2021-12-31 17:54:11.8|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2021-12-31 17:54:11.8|Info|ExistingExtraFileService|Found 0 extra files
+2021-12-31 17:54:26.5|Info|NzbSearchService|Searching 2 indexers for [Resident Evil: Welcome to Raccoon City]
+2021-12-31 17:54:27.4|Info|DownloadDecisionMaker|Processing 19 releases
+2021-12-31 17:54:51.3|Info|NzbSearchService|Searching 2 indexers for [Resident Evil: Welcome to Raccoon City]
+2021-12-31 17:54:51.3|Info|DownloadDecisionMaker|Processing 19 releases
+2021-12-31 17:54:51.4|Info|DownloadService|Report sent to transmission. Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5...
+2021-12-31 17:54:51.5|Info|MovieSearchService|Movie search completed. 1 reports downloaded.
+2021-12-31 17:54:52.3|Info|RefreshMovieService|Updating info for Resident Evil: Welcome to Raccoon City
+2021-12-31 17:54:53.8|Info|DiskScanService|Scanning disk for Resident Evil: Welcome to Raccoon City
+2021-12-31 17:54:53.8|Info|DiskScanService|Completed scanning disk for Resident Evil: Welcome to Raccoon City
+2021-12-31 17:54:53.8|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2021-12-31 17:54:53.8|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2021-12-31 17:54:53.9|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2021-12-31 17:54:53.9|Info|ExistingExtraFileService|Found 0 extra files
+2021-12-31 17:55:30.4|Info|NzbSearchService|Searching 2 indexers for [Paranormal Activity: Next of Kin]
+2021-12-31 17:55:30.5|Info|DownloadDecisionMaker|Processing 45 releases
+2021-12-31 18:00:17.4|Info|RefreshMovieService|Updating info for Son
+2021-12-31 18:00:20.1|Info|DiskScanService|Scanning disk for Son
+2021-12-31 18:00:20.1|Info|DiskScanService|Completed scanning disk for Son
+2021-12-31 18:00:20.1|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2021-12-31 18:00:20.1|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2021-12-31 18:00:20.1|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2021-12-31 18:00:20.1|Info|ExistingExtraFileService|Found 0 extra files
+2021-12-31 18:01:47.0|Info|NzbSearchService|Searching 2 indexers for [Son]
+2021-12-31 18:01:48.8|Info|DownloadDecisionMaker|Processing 99 releases
+2021-12-31 18:04:23.6|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 18:05:53.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 18:56:05.0|Info|RssSyncService|Starting RSS Sync
+2021-12-31 18:56:05.2|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 18:56:06.4|Info|DownloadDecisionMaker|Processing 146 releases
+2021-12-31 18:56:06.5|Info|RssSyncService|RSS Sync Completed. Reports found: 146, Reports grabbed: 0
+2021-12-31 20:11:46.6|Info|RssSyncService|Starting RSS Sync
+2021-12-31 20:11:46.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 20:11:47.8|Info|DownloadDecisionMaker|Processing 146 releases
+2021-12-31 20:11:48.0|Info|RssSyncService|RSS Sync Completed. Reports found: 146, Reports grabbed: 0
+2021-12-31 21:35:47.2|Info|RssSyncService|Starting RSS Sync
+2021-12-31 21:35:48.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 21:35:53.2|Info|DownloadDecisionMaker|Processing 146 releases
+2021-12-31 21:35:53.3|Info|RssSyncService|RSS Sync Completed. Reports found: 146, Reports grabbed: 0
+2021-12-31 23:00:50.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 23:00:50.7|Info|RssSyncService|Starting RSS Sync
+2021-12-31 23:00:52.1|Info|DownloadDecisionMaker|Processing 146 releases
+2021-12-31 23:00:52.4|Info|RssSyncService|RSS Sync Completed. Reports found: 146, Reports grabbed: 0
+2021-12-31 23:52:15.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 23:53:45.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 23:55:15.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2021-12-31 23:56:45.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 01:19:46.4|Info|RssSyncService|Starting RSS Sync
+2022-01-01 01:19:46.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 01:19:47.7|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-01 01:19:47.8|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-01 02:40:33.9|Info|RssSyncService|Starting RSS Sync
+2022-01-01 02:40:34.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 02:40:38.1|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-01 02:40:38.7|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-01 04:03:10.7|Info|RssSyncService|Starting RSS Sync
+2022-01-01 04:03:11.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 04:03:14.3|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-01 04:03:14.5|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-01 05:42:09.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 05:42:09.3|Info|RssSyncService|Starting RSS Sync
+2022-01-01 05:42:12.1|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-01 05:42:12.3|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-01 07:04:10.1|Info|RssSyncService|Starting RSS Sync
+2022-01-01 07:04:10.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 07:04:14.3|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-01 07:04:14.5|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-01 08:11:09.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 08:11:09.0|Info|RssSyncService|Starting RSS Sync
+2022-01-01 08:11:11.9|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-01 08:11:12.0|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-01 09:28:06.1|Info|RssSyncService|Starting RSS Sync
+2022-01-01 09:28:06.2|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 09:28:07.5|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-01 09:28:07.8|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-01 09:29:36.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 09:31:06.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 09:32:36.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 09:34:06.5|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 09:35:36.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 09:37:06.5|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 09:38:36.6|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 09:40:06.6|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 09:41:36.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 09:43:06.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 09:43:08.9|Info|NzbSearchService|Searching 2 indexers for [Son]
+2022-01-01 09:43:11.6|Info|DownloadDecisionMaker|Processing 99 releases
+2022-01-01 09:43:56.9|Info|NzbSearchService|Searching 2 indexers for [Son]
+2022-01-01 09:43:57.0|Info|DownloadDecisionMaker|Processing 99 releases
+2022-01-01 09:44:36.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 09:46:06.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 09:47:36.9|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from transmission
+
+[v3.2.2.5080] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Unable to connect to Transmission, please check your settings
+ ---> System.Net.WebException: Connection refused [::ffff:172.22.0.5]:9091 (transmission:9091): 'http://transmission:9091/transmission/rpc'
+ ---> System.Net.WebException: Connection refused [::ffff:172.22.0.5]:9091 (transmission:9091)
+ ---> System.Net.Http.HttpRequestException: Connection refused [::ffff:172.22.0.5]:9091 (transmission:9091)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (111): Connection refused [::ffff:172.22.0.5]:9091
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Http.ConnectHelper.Connect(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.Connect(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClientHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 146
+   --- End of inner exception stack trace ---
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 146
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 57
+   at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest(String action, Object arguments, TransmissionSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:line 316
+   --- End of inner exception stack trace ---
+   at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest(String action, Object arguments, TransmissionSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:line 316
+   at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus(IEnumerable`1 hashStrings, TransmissionSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:line 193
+   at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrents(TransmissionSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:line 43
+   at NzbDrone.Core.Download.Clients.Transmission.TransmissionBase.GetItems() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionBase.cs:line 38
+   at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads(IDownloadClient downloadClient) in D:\a\1\s\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:line 89
+
+
+2022-01-01 09:49:07.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 09:50:37.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 09:52:07.1|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 09:53:08.2|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.2.2.5080
+2022-01-01 09:53:08.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-01 09:53:08.7|Info|Router|Application mode: Interactive
+2022-01-01 09:53:08.8|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-01 09:53:08.9|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-01 09:53:09.1|Info|WebHostController|Listening on the following URLs:
+2022-01-01 09:53:09.1|Info|WebHostController|  http://*:7878
+2022-01-01 09:53:09.2|Info|RadarrBootstrapper|Starting Web Server
+2022-01-01 09:53:10.3|Info|CommandExecutor|Starting 2 threads for tasks.
+2022-01-01 09:53:40.9|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 09:55:10.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 09:56:40.6|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 09:58:10.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 09:59:40.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:00:40.9|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:02:06.9|Info|RssSyncService|Starting RSS Sync
+2022-01-01 10:02:08.2|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-01 10:02:08.6|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-01 10:02:10.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:03:41.1|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:05:11.1|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:06:41.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:08:11.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:09:41.5|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:11:11.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:12:41.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:14:11.5|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:15:41.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:17:11.6|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:18:41.6|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:20:11.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:21:41.9|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:23:11.9|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:24:42.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:26:12.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:27:42.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:29:12.2|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:30:42.1|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:32:12.1|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:33:42.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:35:12.5|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:36:42.6|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:38:12.5|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:39:42.6|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:41:12.6|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:42:42.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:44:12.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:45:42.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:47:12.9|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:48:43.1|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:50:13.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:51:43.1|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:52:29.8|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.2.2.5080
+2022-01-01 10:52:30.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-01 10:52:30.4|Info|Router|Application mode: Interactive
+2022-01-01 10:52:30.5|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-01 10:52:30.8|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-01 10:52:31.2|Info|WebHostController|Listening on the following URLs:
+2022-01-01 10:52:31.2|Info|WebHostController|  http://*:7878
+2022-01-01 10:52:31.4|Info|RadarrBootstrapper|Starting Web Server
+2022-01-01 10:52:32.4|Info|CommandExecutor|Starting 2 threads for tasks.
+2022-01-01 10:53:03.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:54:32.6|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:56:02.6|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:57:32.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 10:59:02.9|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 11:00:32.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 11:02:02.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 11:02:32.8|Info|RssSyncService|Starting RSS Sync
+2022-01-01 11:02:34.0|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-01 11:02:34.3|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-01 11:03:32.9|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/movies/Resident.Evil.Welcome.to.Raccoon.City.2021.1080p.AMZN.WEBRip.DDP5.1.x264-CM. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 11:04:35.3|Info|AddMovieService|Adding Movie [Spider-Man: No Way Home (2021)][tt10872600, 634649] Path: [/mnt/media/Movies/Spider-Man No Way Home (2021)]
+2022-01-01 11:04:35.4|Info|RefreshMovieService|Updating info for Spider-Man: No Way Home
+2022-01-01 11:04:36.3|Info|DiskScanService|Scanning disk for Spider-Man: No Way Home
+2022-01-01 11:04:36.3|Info|MediaCoverService|Downloading Poster for [Spider-Man: No Way Home (2021)][tt10872600, 634649] https://image.tmdb.org/t/p/original/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg
+2022-01-01 11:04:36.3|Info|DiskScanService|Completed scanning disk for Spider-Man: No Way Home
+2022-01-01 11:04:36.3|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 11:04:36.3|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 11:04:36.3|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 11:04:36.3|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 11:04:37.8|Info|MediaCoverService|Downloading Fanart for [Spider-Man: No Way Home (2021)][tt10872600, 634649] https://image.tmdb.org/t/p/original/1Rr5SrvHxMXHu5RjKpaMba8VTzi.jpg
+2022-01-01 11:05:13.4|Error|QBittorrent|Failed to authenticate with qBittorrent.
+
+[v3.2.2.5080] NzbDrone.Core.Download.Clients.DownloadClientAuthenticationException: Failed to authenticate with qBittorrent.
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.AuthenticateClient(HttpRequestBuilder requestBuilder, QBittorrentSettings settings, Boolean reauthenticate) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:line 393
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.ProcessRequest(HttpRequestBuilder requestBuilder, QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:line 368
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.GetApiVersion(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:line 69
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 90
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.<>c__DisplayClass7_0.<GetProxyCache>b__0() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 82
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 114
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache(QBittorrentSettings settings, Boolean force) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 82
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy(QBittorrentSettings settings, Boolean force) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 65
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.TestConnection() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:line 412
+
+
+2022-01-01 11:05:13.4|Warn|RadarrErrorPipeline|Invalid request Validation failed: 
+ -- Username: Authentication failure
+2022-01-01 11:05:46.4|Info|MovieService|Deleted movie [Spider-Man: No Way Home (2021)][tt10872600, 634649]
+2022-01-01 11:09:13.9|Info|AddMovieService|Adding Movie [Spider-Man: No Way Home (2021)][tt10872600, 634649] Path: [/mnt/media/Movies/Spider-Man No Way Home (2021)]
+2022-01-01 11:09:13.9|Info|RefreshMovieService|Updating info for Spider-Man: No Way Home
+2022-01-01 11:09:14.9|Info|DiskScanService|Scanning disk for Spider-Man: No Way Home
+2022-01-01 11:09:14.9|Info|MediaCoverService|Downloading Poster for [Spider-Man: No Way Home (2021)][tt10872600, 634649] https://image.tmdb.org/t/p/original/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg
+2022-01-01 11:09:14.9|Info|DiskScanService|Completed scanning disk for Spider-Man: No Way Home
+2022-01-01 11:09:14.9|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 11:09:14.9|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 11:09:14.9|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 11:09:14.9|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 11:09:16.5|Info|MediaCoverService|Downloading Fanart for [Spider-Man: No Way Home (2021)][tt10872600, 634649] https://image.tmdb.org/t/p/original/1Rr5SrvHxMXHu5RjKpaMba8VTzi.jpg
+2022-01-01 11:09:39.3|Info|NzbSearchService|Searching 2 indexers for [Spider-Man: No Way Home]
+2022-01-01 11:09:53.6|Info|DownloadDecisionMaker|Processing 48 releases
+2022-01-01 11:12:46.4|Info|NzbSearchService|Searching 2 indexers for [Spider-Man: No Way Home]
+2022-01-01 11:12:46.4|Info|DownloadDecisionMaker|Processing 48 releases
+2022-01-01 11:13:30.0|Info|AddMovieService|Adding Movie [The King's Man (2021)][tt6856242, 476669] Path: [/mnt/media/Movies/The King's Man (2021)]
+2022-01-01 11:13:30.1|Info|RefreshMovieService|Updating info for The King's Man
+2022-01-01 11:13:30.9|Info|MediaCoverService|Downloading Poster for [The King's Man (2021)][tt6856242, 476669] https://image.tmdb.org/t/p/original/gJYJyyvvhxxQDBTRfuBYMkvjhjh.jpg
+2022-01-01 11:13:30.9|Info|DiskScanService|Scanning disk for The King's Man
+2022-01-01 11:13:31.0|Info|DiskScanService|Completed scanning disk for The King's Man
+2022-01-01 11:13:31.0|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 11:13:31.0|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 11:13:31.0|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 11:13:31.0|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 11:13:32.7|Info|MediaCoverService|Downloading Fanart for [The King's Man (2021)][tt6856242, 476669] https://image.tmdb.org/t/p/original/4OTYefcAlaShn6TGVK33UxLW9R7.jpg
+2022-01-01 11:13:48.2|Info|NzbSearchService|Searching 2 indexers for [The King's Man]
+2022-01-01 11:13:53.6|Info|DownloadDecisionMaker|Processing 48 releases
+2022-01-01 11:16:29.6|Info|AddMovieService|Adding Movie [Demonic (2021)][tt13392012, 774021] Path: [/mnt/media/Movies/Demonic (2021)]
+2022-01-01 11:16:29.6|Info|RefreshMovieService|Updating info for Demonic
+2022-01-01 11:16:30.5|Info|MediaCoverService|Downloading Poster for [Demonic (2021)][tt13392012, 774021] https://image.tmdb.org/t/p/original/pUK9duiCK1PKqWA5rRQ4XBMHITH.jpg
+2022-01-01 11:16:30.5|Info|DiskScanService|Scanning disk for Demonic
+2022-01-01 11:16:30.5|Info|DiskScanService|Completed scanning disk for Demonic
+2022-01-01 11:16:30.5|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 11:16:30.5|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 11:16:30.5|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 11:16:30.5|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 11:16:33.7|Info|MediaCoverService|Downloading Fanart for [Demonic (2021)][tt13392012, 774021] https://image.tmdb.org/t/p/original/tFBVXnqmsmoSFR3rbltTfdGIMgV.jpg
+2022-01-01 11:16:38.1|Info|NzbSearchService|Searching 2 indexers for [Demonic]
+2022-01-01 11:16:44.1|Info|DownloadDecisionMaker|Processing 89 releases
+2022-01-01 11:17:36.9|Info|NzbSearchService|Searching 2 indexers for [Demonic]
+2022-01-01 11:17:37.1|Info|DownloadDecisionMaker|Processing 89 releases
+2022-01-01 11:18:12.1|Info|NzbSearchService|Searching 2 indexers for [Demonic]
+2022-01-01 11:18:12.2|Info|DownloadDecisionMaker|Processing 89 releases
+2022-01-01 11:21:54.2|Info|NzbSearchService|Searching 2 indexers for [Demonic]
+2022-01-01 11:21:54.3|Info|DownloadDecisionMaker|Processing 89 releases
+2022-01-01 11:22:07.7|Info|NzbSearchService|Searching 2 indexers for [Demonic]
+2022-01-01 11:22:07.8|Info|DownloadDecisionMaker|Processing 89 releases
+2022-01-01 11:22:10.3|Info|DownloadService|Report sent to qbittorrent. Demonic 2021 1080p BluRay x264 DTS HD MA 5 1
+2022-01-01 11:22:10.4|Info|MovieSearchService|Movie search completed. 1 reports downloaded.
+2022-01-01 11:23:14.0|Info|NzbSearchService|Searching 2 indexers for [Demonic]
+2022-01-01 11:23:14.0|Info|DownloadDecisionMaker|Processing 89 releases
+2022-01-01 11:23:32.6|Info|DownloadService|Report sent to qbittorrent. Demonic (2021) [1080p] [BluRay] [5 1] [YTS MX]
+2022-01-01 11:29:47.4|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.2.2.5080
+2022-01-01 11:29:47.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-01 11:29:47.7|Info|Router|Application mode: Interactive
+2022-01-01 11:29:47.8|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-01 11:29:48.0|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-01 11:29:48.2|Info|WebHostController|Listening on the following URLs:
+2022-01-01 11:29:48.3|Info|WebHostController|  http://*:7878
+2022-01-01 11:29:48.4|Info|RadarrBootstrapper|Starting Web Server
+2022-01-01 11:29:49.5|Info|CommandExecutor|Starting 2 threads for tasks.
+2022-01-01 11:29:50.1|Error|DownloadClientRootFolderCheck|Unknown error occured in DownloadClientRootFolderCheck HealthCheck
+
+[v3.2.2.5080] System.Collections.Generic.KeyNotFoundException: The given key 'radarr' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetStatus() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:line 371
+   at NzbDrone.Core.HealthCheck.Checks.DownloadClientRootFolderCheck.Check() in D:\a\1\s\src\NzbDrone.Core\HealthCheck\Checks\DownloadClientRootFolderCheck.cs:line 47
+
+
+2022-01-01 11:29:50.4|Error|RemotePathMappingCheck|Unknown error occured in RemotePathMapping HealthCheck
+
+[v3.2.2.5080] System.Collections.Generic.KeyNotFoundException: The given key 'radarr' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetStatus() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:line 371
+   at NzbDrone.Core.HealthCheck.Checks.RemotePathMappingCheck.Check() in D:\a\1\s\src\NzbDrone.Core\HealthCheck\Checks\RemotePathMappingCheck.cs:line 62
+
+
+2022-01-01 11:34:02.7|Info|MovieService|Deleted movie [Paranormal Activity: Next of Kin (2021)][tt10515988, 609972]
+2022-01-01 11:34:02.8|Info|RecycleBinProvider|Attempting to send '/mnt/media/Movies/Paranormal Activity Next of Kin (2021)' to recycling bin
+2022-01-01 11:34:02.8|Info|RecycleBinProvider|Recycling Bin has not been configured, deleting permanently. /mnt/media/Movies/Paranormal Activity Next of Kin (2021)
+2022-01-01 11:34:24.6|Info|MovieService|Deleted movie [Resident Evil: Welcome to Raccoon City (2021)][tt6920084, 460458]
+2022-01-01 11:34:30.8|Info|MovieService|Deleted movie [Son (2021)][tt5624466, 754934]
+2022-01-01 11:34:33.8|Info|MovieService|Deleted movie [Spider-Man: No Way Home (2021)][tt10872600, 634649]
+2022-01-01 11:36:58.9|Info|AddMovieService|Adding Movie [Don't Look Up (2021)][tt11286314, 646380] Path: [/mnt/media/Movies/Don't Look Up (2021)]
+2022-01-01 11:36:59.0|Info|RefreshMovieService|Updating info for Don't Look Up
+2022-01-01 11:36:59.9|Info|MediaCoverService|Downloading Poster for [Don't Look Up (2021)][tt11286314, 646380] https://image.tmdb.org/t/p/original/th4E1yqsE8DGpAseLiUrI60Hf8V.jpg
+2022-01-01 11:36:59.9|Info|DiskScanService|Scanning disk for Don't Look Up
+2022-01-01 11:36:59.9|Info|DiskScanService|Completed scanning disk for Don't Look Up
+2022-01-01 11:37:00.0|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 11:37:00.0|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 11:37:00.0|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 11:37:00.0|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 11:37:00.8|Info|MediaCoverService|Downloading Fanart for [Don't Look Up (2021)][tt11286314, 646380] https://image.tmdb.org/t/p/original/nvxrQQspxmSblCYDtvDAbVFX8Jt.jpg
+2022-01-01 11:37:12.9|Info|RefreshMovieService|Updating info for CODA
+2022-01-01 11:37:14.3|Info|DiskScanService|Scanning disk for CODA
+2022-01-01 11:37:14.4|Info|DiskScanService|Completed scanning disk for CODA
+2022-01-01 11:37:14.4|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 11:37:14.4|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 11:37:14.4|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 11:37:14.4|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 11:37:18.9|Info|MovieService|Deleted movie [Demonic (2021)][tt13392012, 774021]
+2022-01-01 11:37:34.2|Info|MovieService|Deleted movie [The King's Man (2021)][tt6856242, 476669]
+2022-01-01 11:37:39.3|Info|MovieService|Deleted movie [Swan Song (2021)][tt13207508, 765245]
+2022-01-01 11:37:48.2|Info|RefreshMovieService|Updating info for Don't Look Up
+2022-01-01 11:37:49.6|Info|DiskScanService|Scanning disk for Don't Look Up
+2022-01-01 11:37:49.6|Info|DiskScanService|Completed scanning disk for Don't Look Up
+2022-01-01 11:37:49.6|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 11:37:49.6|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 11:37:49.6|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 11:37:49.6|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 11:38:24.2|Info|AddMovieService|Adding Movie [Demonic (2021)][tt13392012, 774021] Path: [/mnt/media/Movies/Demonic (2021)]
+2022-01-01 11:38:24.3|Info|RefreshMovieService|Updating info for Demonic
+2022-01-01 11:38:25.2|Info|MediaCoverService|Downloading Poster for [Demonic (2021)][tt13392012, 774021] https://image.tmdb.org/t/p/original/pUK9duiCK1PKqWA5rRQ4XBMHITH.jpg
+2022-01-01 11:38:25.2|Info|DiskScanService|Scanning disk for Demonic
+2022-01-01 11:38:25.2|Info|DiskScanService|Completed scanning disk for Demonic
+2022-01-01 11:38:25.2|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 11:38:25.2|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 11:38:25.2|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 11:38:25.3|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 11:38:28.8|Info|MediaCoverService|Downloading Fanart for [Demonic (2021)][tt13392012, 774021] https://image.tmdb.org/t/p/original/tFBVXnqmsmoSFR3rbltTfdGIMgV.jpg
+2022-01-01 11:38:31.7|Info|RefreshMovieService|Updating info for CODA
+2022-01-01 11:38:33.9|Info|DiskScanService|Scanning disk for CODA
+2022-01-01 11:38:33.9|Info|DiskScanService|Completed scanning disk for CODA
+2022-01-01 11:38:33.9|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 11:38:33.9|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 11:38:33.9|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 11:38:33.9|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 11:38:33.9|Info|RefreshMovieService|Updating info for Demonic
+2022-01-01 11:38:35.0|Info|DiskScanService|Scanning disk for Demonic
+2022-01-01 11:38:35.0|Info|DiskScanService|Completed scanning disk for Demonic
+2022-01-01 11:38:35.1|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 11:38:35.1|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 11:38:35.1|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 11:38:35.1|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 11:38:35.1|Info|RefreshMovieService|Updating info for Don't Look Up
+2022-01-01 11:38:36.4|Info|DiskScanService|Scanning disk for Don't Look Up
+2022-01-01 11:38:36.4|Info|DiskScanService|Completed scanning disk for Don't Look Up
+2022-01-01 11:38:36.4|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 11:38:36.4|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 11:38:36.4|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 11:38:36.4|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 11:38:37.1|Info|RssSyncService|Starting RSS Sync
+2022-01-01 11:38:38.5|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-01 11:38:38.8|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-01 11:38:42.7|Info|NzbSearchService|Searching 2 indexers for [Demonic]
+2022-01-01 11:38:44.7|Info|DownloadDecisionMaker|Processing 89 releases
+2022-01-01 11:39:05.4|Info|RefreshMovieService|Updating info for Demonic
+2022-01-01 11:39:06.5|Info|DiskScanService|Scanning disk for Demonic
+2022-01-01 11:39:06.5|Info|DiskScanService|Completed scanning disk for Demonic
+2022-01-01 11:39:06.5|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 11:39:06.5|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 11:39:06.5|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 11:39:06.5|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 11:39:09.3|Info|NzbSearchService|Searching 2 indexers for [Demonic]
+2022-01-01 11:39:09.3|Info|DownloadDecisionMaker|Processing 89 releases
+2022-01-01 11:40:34.1|Info|NzbSearchService|Searching 2 indexers for [Demonic]
+2022-01-01 11:40:34.1|Info|DownloadDecisionMaker|Processing 89 releases
+2022-01-01 11:40:37.8|Info|RefreshMovieService|Updating info for Demonic
+2022-01-01 11:40:38.9|Info|DiskScanService|Scanning disk for Demonic
+2022-01-01 11:40:38.9|Info|DiskScanService|Completed scanning disk for Demonic
+2022-01-01 11:40:38.9|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 11:40:39.0|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 11:40:39.0|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 11:40:39.0|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 11:40:51.8|Info|DownloadService|Report sent to qbittorrent. Demonic (2021) [1080p] [BluRay] [5 1] [YTS MX]
+2022-01-01 12:38:52.1|Info|RssSyncService|Starting RSS Sync
+2022-01-01 12:38:53.3|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-01 12:38:53.5|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-01 13:38:54.4|Info|RssSyncService|Starting RSS Sync
+2022-01-01 13:38:56.0|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-01 13:38:56.1|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-01 14:58:49.0|Info|RssSyncService|Starting RSS Sync
+2022-01-01 14:58:50.4|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-01 14:58:50.6|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-01 16:20:51.5|Info|HousekeepingService|Running housecleaning tasks
+2022-01-01 16:20:51.5|Info|Database|Vacuuming Log database
+2022-01-01 16:20:51.6|Info|Database|Log database compressed
+2022-01-01 16:20:51.7|Info|Database|Vacuuming Main database
+2022-01-01 16:20:52.1|Info|Database|Main database compressed
+2022-01-01 16:20:52.1|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2022-01-01 16:20:52.1|Info|RssSyncService|Starting RSS Sync
+2022-01-01 16:20:52.6|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2022-01-01 16:20:53.6|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-01 16:20:53.8|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-01 17:31:36.4|Info|RssSyncService|Starting RSS Sync
+2022-01-01 17:31:38.5|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-01 18:57:31.7|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-01 19:57:52.8|Info|RssSyncService|Starting RSS Sync
+2022-01-01 19:57:54.4|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-01 19:57:54.6|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-01 20:04:41.9|Info|AddMovieService|Adding Movie [The King's Man (2021)][tt6856242, 476669] Path: [/mnt/media/Movies/The King's Man (2021)]
+2022-01-01 20:04:42.1|Info|RefreshMovieService|Updating info for The King's Man
+2022-01-01 20:04:43.2|Info|MediaCoverService|Downloading Poster for [The King's Man (2021)][tt6856242, 476669] https://image.tmdb.org/t/p/original/gJYJyyvvhxxQDBTRfuBYMkvjhjh.jpg
+2022-01-01 20:04:43.2|Info|DiskScanService|Scanning disk for The King's Man
+2022-01-01 20:04:43.3|Info|DiskScanService|Completed scanning disk for The King's Man
+2022-01-01 20:04:43.3|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 20:04:43.3|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 20:04:43.3|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 20:04:43.3|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 20:04:45.9|Info|MediaCoverService|Downloading Fanart for [The King's Man (2021)][tt6856242, 476669] https://image.tmdb.org/t/p/original/4OTYefcAlaShn6TGVK33UxLW9R7.jpg
+2022-01-01 20:05:01.9|Info|AddMovieService|Adding Movie [Morbius (2022)][tt5108870, 526896] Path: [/mnt/media/Movies/Morbius (2022)]
+2022-01-01 20:05:02.0|Info|RefreshMovieService|Updating info for Morbius
+2022-01-01 20:05:02.9|Info|MediaCoverService|Downloading Poster for [Morbius (2022)][tt5108870, 526896] https://image.tmdb.org/t/p/original/6nhwr1LCozBiIN47b8oBEomOADm.jpg
+2022-01-01 20:05:02.9|Info|DiskScanService|Scanning disk for Morbius
+2022-01-01 20:05:02.9|Info|DiskScanService|Completed scanning disk for Morbius
+2022-01-01 20:05:02.9|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 20:05:02.9|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 20:05:03.0|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 20:05:03.0|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 20:05:04.8|Info|MediaCoverService|Downloading Fanart for [Morbius (2022)][tt5108870, 526896] https://image.tmdb.org/t/p/original/qbDPVqbxFDNYfFWDxzLJ2UCbfvg.jpg
+2022-01-01 20:05:15.3|Info|RefreshMovieService|Updating info for CODA
+2022-01-01 20:05:16.6|Info|DiskScanService|Scanning disk for CODA
+2022-01-01 20:05:16.6|Info|DiskScanService|Completed scanning disk for CODA
+2022-01-01 20:05:16.6|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 20:05:16.7|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 20:05:16.7|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 20:05:16.7|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 20:05:16.7|Info|RefreshMovieService|Updating info for Demonic
+2022-01-01 20:05:18.0|Info|DiskScanService|Scanning disk for Demonic
+2022-01-01 20:05:18.0|Info|DiskScanService|Completed scanning disk for Demonic
+2022-01-01 20:05:18.0|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 20:05:18.0|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 20:05:18.0|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 20:05:18.0|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 20:05:18.0|Info|RefreshMovieService|Updating info for Don't Look Up
+2022-01-01 20:05:19.6|Info|DiskScanService|Scanning disk for Don't Look Up
+2022-01-01 20:05:19.7|Info|DiskScanService|Completed scanning disk for Don't Look Up
+2022-01-01 20:05:19.7|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 20:05:19.7|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 20:05:19.7|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 20:05:19.7|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 20:05:19.7|Info|RefreshMovieService|Updating info for The King's Man
+2022-01-01 20:05:21.2|Info|DiskScanService|Scanning disk for The King's Man
+2022-01-01 20:05:21.2|Info|DiskScanService|Completed scanning disk for The King's Man
+2022-01-01 20:05:21.2|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 20:05:21.2|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 20:05:21.2|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 20:05:21.2|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 20:05:21.2|Info|RefreshMovieService|Updating info for Morbius
+2022-01-01 20:05:22.6|Info|DiskScanService|Scanning disk for Morbius
+2022-01-01 20:05:22.6|Info|DiskScanService|Completed scanning disk for Morbius
+2022-01-01 20:05:22.6|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 20:05:22.6|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 20:05:22.6|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 20:05:22.6|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 20:05:29.9|Info|RefreshMovieService|Updating info for The King's Man
+2022-01-01 20:05:31.3|Info|DiskScanService|Scanning disk for The King's Man
+2022-01-01 20:05:31.4|Info|DiskScanService|Completed scanning disk for The King's Man
+2022-01-01 20:05:31.4|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 20:05:31.4|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 20:05:31.4|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 20:05:31.4|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 20:05:58.0|Info|RefreshMovieService|Updating info for The King's Man
+2022-01-01 20:05:59.4|Info|DiskScanService|Scanning disk for The King's Man
+2022-01-01 20:05:59.4|Info|DiskScanService|Completed scanning disk for The King's Man
+2022-01-01 20:05:59.5|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 20:05:59.5|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 20:05:59.5|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 20:05:59.5|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 20:06:00.6|Info|NzbSearchService|Searching 2 indexers for [The King's Man]
+2022-01-01 20:06:02.1|Info|DownloadDecisionMaker|Processing 48 releases
+2022-01-01 20:06:26.7|Info|RefreshMovieService|Updating info for Morbius
+2022-01-01 20:06:27.9|Info|DiskScanService|Scanning disk for Morbius
+2022-01-01 20:06:27.9|Info|DiskScanService|Completed scanning disk for Morbius
+2022-01-01 20:06:27.9|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 20:06:27.9|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 20:06:27.9|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 20:06:27.9|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 20:06:29.5|Info|NzbSearchService|Searching 2 indexers for [Morbius]
+2022-01-01 20:06:30.3|Info|DownloadDecisionMaker|Processing 14 releases
+2022-01-01 20:10:27.8|Info|AddMovieService|Adding Movie [The Legend of La Llorona (2020)][tt7267498, 631947] Path: [/mnt/media/Movies/The Legend of La Llorona (2020)]
+2022-01-01 20:10:27.9|Info|RefreshMovieService|Updating info for The Legend of La Llorona
+2022-01-01 20:10:28.8|Info|MediaCoverService|Downloading Poster for [The Legend of La Llorona (2020)][tt7267498, 631947] https://image.tmdb.org/t/p/original/slx22eZsH9REVQs5IDWhAek7M2T.jpg
+2022-01-01 20:10:28.8|Info|DiskScanService|Scanning disk for The Legend of La Llorona
+2022-01-01 20:10:28.8|Info|DiskScanService|Completed scanning disk for The Legend of La Llorona
+2022-01-01 20:10:28.9|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 20:10:28.9|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 20:10:28.9|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 20:10:28.9|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 20:10:30.3|Info|MediaCoverService|Downloading Fanart for [The Legend of La Llorona (2020)][tt7267498, 631947] https://image.tmdb.org/t/p/original/9BQPM1Fa1hdXaE7hNafO5WWNv9v.jpg
+2022-01-01 20:17:39.3|Info|RefreshMovieService|Updating info for The Legend of La Llorona
+2022-01-01 20:17:40.4|Info|DiskScanService|Scanning disk for The Legend of La Llorona
+2022-01-01 20:17:40.4|Info|DiskScanService|Completed scanning disk for The Legend of La Llorona
+2022-01-01 20:17:40.4|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 20:17:40.4|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 20:17:40.4|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 20:17:40.4|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 20:17:46.5|Info|RefreshMovieService|Updating info for The Legend of La Llorona
+2022-01-01 20:17:47.4|Info|DiskScanService|Scanning disk for The Legend of La Llorona
+2022-01-01 20:17:47.4|Info|DiskScanService|Completed scanning disk for The Legend of La Llorona
+2022-01-01 20:17:47.4|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 20:17:47.4|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 20:17:47.4|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 20:17:47.4|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 20:17:50.4|Info|NzbSearchService|Searching 2 indexers for [The Legend of La Llorona]
+2022-01-01 20:18:22.7|Info|DownloadDecisionMaker|Processing 53 releases
+2022-01-01 20:26:29.3|Info|AddMovieService|Adding Movie [The Canal (2014)][tt2517658, 265010] Path: [/mnt/media/Movies/The Canal (2014)]
+2022-01-01 20:26:29.3|Info|RefreshMovieService|Updating info for The Canal
+2022-01-01 20:26:30.4|Info|DiskScanService|Scanning disk for The Canal
+2022-01-01 20:26:30.4|Info|MediaCoverService|Downloading Poster for [The Canal (2014)][tt2517658, 265010] https://image.tmdb.org/t/p/original/jscyCWmv3vqd6fZueaYxwc7m8FI.jpg
+2022-01-01 20:26:30.4|Info|DiskScanService|Completed scanning disk for The Canal
+2022-01-01 20:26:30.4|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 20:26:30.4|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 20:26:30.4|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 20:26:30.4|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 20:26:31.6|Info|MediaCoverService|Downloading Fanart for [The Canal (2014)][tt2517658, 265010] https://image.tmdb.org/t/p/original/8OfuPvpLLd9FhVxV7B6bC51JD84.jpg
+2022-01-01 20:27:10.9|Info|AddMovieService|Adding Movie [The Intruder (2019)][tt6722030, 524247] Path: [/mnt/media/Movies/The Intruder (2019)]
+2022-01-01 20:27:11.0|Info|RefreshMovieService|Updating info for The Intruder
+2022-01-01 20:27:11.9|Info|MediaCoverService|Downloading Poster for [The Intruder (2019)][tt6722030, 524247] https://image.tmdb.org/t/p/original/p9xKyetr0ihJ2K6HJMeXzc4IwEv.jpg
+2022-01-01 20:27:11.9|Info|DiskScanService|Scanning disk for The Intruder
+2022-01-01 20:27:12.0|Info|DiskScanService|Completed scanning disk for The Intruder
+2022-01-01 20:27:12.0|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 20:27:12.0|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 20:27:12.0|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 20:27:12.0|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 20:27:14.6|Info|MediaCoverService|Downloading Fanart for [The Intruder (2019)][tt6722030, 524247] https://image.tmdb.org/t/p/original/kyegg1r5oxRCZgqU7anHYD2TJap.jpg
+2022-01-01 20:38:39.1|Warn|Torznab|torrentparadise does not support the following categories: 2010, 2020, 2050. You should probably remove them.
+2022-01-01 20:38:40.4|Warn|Torznab|torrentparadise does not support the following categories: 2010, 2020, 2050. You should probably remove them.
+2022-01-01 20:38:52.1|Info|RefreshMovieService|Updating info for The King's Man
+2022-01-01 20:38:54.0|Info|DiskScanService|Scanning disk for The King's Man
+2022-01-01 20:38:54.0|Info|DiskScanService|Completed scanning disk for The King's Man
+2022-01-01 20:38:54.0|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 20:38:54.0|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 20:38:54.0|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 20:38:54.0|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 20:38:56.9|Info|NzbSearchService|Searching 3 indexers for [The King's Man]
+2022-01-01 20:39:02.2|Info|NzbSearchService|Searching 3 indexers for [The King's Man]
+2022-01-01 20:39:02.7|Info|DownloadDecisionMaker|Processing 48 releases
+2022-01-01 20:39:02.8|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2022-01-01 20:39:08.1|Info|DownloadDecisionMaker|Processing 48 releases
+2022-01-01 20:39:45.1|Info|RefreshMovieService|Updating info for The King's Man
+2022-01-01 20:39:46.8|Info|DiskScanService|Scanning disk for The King's Man
+2022-01-01 20:39:46.8|Info|DiskScanService|Completed scanning disk for The King's Man
+2022-01-01 20:39:46.8|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 20:39:46.8|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 20:39:46.8|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 20:39:46.8|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 20:39:47.3|Info|NzbSearchService|Searching 3 indexers for [The King's Man]
+2022-01-01 20:39:47.4|Info|DownloadDecisionMaker|Processing 48 releases
+2022-01-01 20:39:47.5|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2022-01-01 20:40:23.1|Info|RefreshMovieService|Updating info for The Intruder
+2022-01-01 20:40:24.4|Info|DiskScanService|Scanning disk for The Intruder
+2022-01-01 20:40:24.4|Info|DiskScanService|Completed scanning disk for The Intruder
+2022-01-01 20:40:24.4|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 20:40:24.4|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 20:40:24.4|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 20:40:24.5|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 20:40:24.6|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /config/downloads/Demonic (2021) [1080p] [BluRay] [5.1] [YTS.MX]. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 20:40:44.4|Info|RefreshMovieService|Updating info for The Intruder
+2022-01-01 20:40:45.7|Info|DiskScanService|Scanning disk for The Intruder
+2022-01-01 20:40:45.7|Info|DiskScanService|Completed scanning disk for The Intruder
+2022-01-01 20:40:45.7|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 20:40:45.7|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 20:40:45.7|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 20:40:45.7|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 20:40:46.7|Info|NzbSearchService|Searching 3 indexers for [The Intruder]
+2022-01-01 20:40:52.4|Info|DownloadDecisionMaker|Processing 89 releases
+2022-01-01 20:40:52.6|Info|DownloadService|Report sent to qbittorrent. The.Intruder.2019.MULTi.Blu-ray.1080p.DTS-HDMA.5.1.HEVC-DDR[E...
+2022-01-01 20:40:52.6|Info|MovieSearchService|Movie search completed. 1 reports downloaded.
+2022-01-01 20:40:53.3|Info|NzbSearchService|Searching 3 indexers for [The Intruder]
+2022-01-01 20:40:53.3|Info|DownloadDecisionMaker|Processing 89 releases
+2022-01-01 20:40:57.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /config/downloads/Demonic (2021) [1080p] [BluRay] [5.1] [YTS.MX]. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 20:42:24.6|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /config/downloads/Demonic (2021) [1080p] [BluRay] [5.1] [YTS.MX]. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 20:43:54.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /config/downloads/Demonic (2021) [1080p] [BluRay] [5.1] [YTS.MX]. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 20:45:24.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /config/downloads/Demonic (2021) [1080p] [BluRay] [5.1] [YTS.MX]. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 20:46:54.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /config/downloads/Demonic (2021) [1080p] [BluRay] [5.1] [YTS.MX]. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 20:48:24.9|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /config/downloads/Demonic (2021) [1080p] [BluRay] [5.1] [YTS.MX]. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 20:49:54.8|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /config/downloads/Demonic (2021) [1080p] [BluRay] [5.1] [YTS.MX]. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 20:50:33.7|Info|NzbSearchService|Searching 3 indexers for [Morbius]
+2022-01-01 20:50:39.5|Info|DownloadDecisionMaker|Processing 14 releases
+2022-01-01 20:50:39.6|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2022-01-01 20:51:24.9|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /config/downloads/Demonic (2021) [1080p] [BluRay] [5.1] [YTS.MX]. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 20:52:54.9|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /config/downloads/Demonic (2021) [1080p] [BluRay] [5.1] [YTS.MX]. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 20:54:25.1|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /config/downloads/Demonic (2021) [1080p] [BluRay] [5.1] [YTS.MX]. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 20:55:55.1|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /config/downloads/Demonic (2021) [1080p] [BluRay] [5.1] [YTS.MX]. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 20:57:25.2|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /config/downloads/Demonic (2021) [1080p] [BluRay] [5.1] [YTS.MX]. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 20:57:55.2|Info|RssSyncService|Starting RSS Sync
+2022-01-01 20:57:56.6|Info|DownloadDecisionMaker|Processing 155 releases
+2022-01-01 20:57:57.0|Info|RssSyncService|RSS Sync Completed. Reports found: 155, Reports grabbed: 0
+2022-01-01 20:58:55.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /config/downloads/Demonic (2021) [1080p] [BluRay] [5.1] [YTS.MX]. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 21:00:25.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /config/downloads/Demonic (2021) [1080p] [BluRay] [5.1] [YTS.MX]. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 21:01:55.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /config/downloads/Demonic (2021) [1080p] [BluRay] [5.1] [YTS.MX]. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 21:03:25.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /config/downloads/Demonic (2021) [1080p] [BluRay] [5.1] [YTS.MX]. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 21:04:55.5|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Movies/Demonic (2021) [1080p] [BluRay] [5.1] [YTS.MX]. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 21:06:25.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Movies/Demonic (2021) [1080p] [BluRay] [5.1] [YTS.MX]. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 21:07:55.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /mnt/media/Movies/Demonic (2021) [1080p] [BluRay] [5.1] [YTS.MX]. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2022-01-01 21:09:25.8|Info|MovieService|Assigning file [Demonic.2021.1080p.BluRay.x264.AAC5.1-[YTS.MX].mp4] to movie [[Demonic (2021)][tt13392012, 774021]]
+2022-01-01 21:12:05.8|Info|RefreshMovieService|Updating info for The Canal
+2022-01-01 21:12:07.2|Info|DiskScanService|Scanning disk for The Canal
+2022-01-01 21:12:07.2|Info|DiskScanService|Completed scanning disk for The Canal
+2022-01-01 21:12:07.2|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 21:12:07.2|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 21:12:07.2|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 21:12:07.2|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 21:12:11.6|Info|NzbSearchService|Searching 3 indexers for [The Canal]
+2022-01-01 21:12:17.5|Info|DownloadDecisionMaker|Processing 89 releases
+2022-01-01 21:12:25.9|Info|RefreshMovieService|Updating info for The Canal
+2022-01-01 21:12:27.2|Info|DiskScanService|Scanning disk for The Canal
+2022-01-01 21:12:27.2|Info|DiskScanService|Completed scanning disk for The Canal
+2022-01-01 21:12:27.2|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 21:12:27.2|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 21:12:27.2|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 21:12:27.2|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 21:12:44.3|Info|RefreshMovieService|Updating info for The Canal
+2022-01-01 21:12:45.6|Info|DiskScanService|Scanning disk for The Canal
+2022-01-01 21:12:45.6|Info|DiskScanService|Completed scanning disk for The Canal
+2022-01-01 21:12:45.6|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 21:12:45.6|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 21:12:45.6|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 21:12:45.6|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 21:12:45.8|Info|NzbSearchService|Searching 3 indexers for [The Canal]
+2022-01-01 21:12:45.9|Info|DownloadDecisionMaker|Processing 89 releases
+2022-01-01 21:12:54.1|Info|NzbSearchService|Searching 3 indexers for [The Canal]
+2022-01-01 21:12:54.2|Info|DownloadDecisionMaker|Processing 89 releases
+2022-01-01 21:13:19.9|Info|NzbSearchService|Searching 3 indexers for [The Canal]
+2022-01-01 21:13:19.9|Info|DownloadDecisionMaker|Processing 89 releases
+2022-01-01 21:15:04.6|Info|NzbSearchService|Searching 3 indexers for [The Canal]
+2022-01-01 21:15:04.7|Info|DownloadDecisionMaker|Processing 89 releases
+2022-01-01 21:15:37.0|Info|RefreshMovieService|Updating info for The Canal
+2022-01-01 21:15:38.2|Info|DiskScanService|Scanning disk for The Canal
+2022-01-01 21:15:38.2|Info|DiskScanService|Completed scanning disk for The Canal
+2022-01-01 21:15:38.2|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 21:15:38.2|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 21:15:38.2|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 21:15:38.2|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 21:15:39.5|Info|RefreshMovieService|Updating info for The Canal
+2022-01-01 21:15:40.8|Info|DiskScanService|Scanning disk for The Canal
+2022-01-01 21:15:40.8|Info|DiskScanService|Completed scanning disk for The Canal
+2022-01-01 21:15:40.9|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 21:15:40.9|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 21:15:40.9|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 21:15:40.9|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 21:15:52.1|Info|RefreshMovieService|Updating info for The Canal
+2022-01-01 21:15:53.3|Info|DiskScanService|Scanning disk for The Canal
+2022-01-01 21:15:53.3|Info|DiskScanService|Completed scanning disk for The Canal
+2022-01-01 21:15:53.3|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 21:15:53.3|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 21:15:53.3|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 21:15:53.3|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 21:16:07.2|Info|NzbSearchService|Searching 3 indexers for [The Canal]
+2022-01-01 21:16:07.2|Info|DownloadDecisionMaker|Processing 89 releases
+2022-01-01 21:18:13.5|Info|AddMovieService|Adding Movie [Sicario (2015)][tt3397884, 273481] Path: [/mnt/media/Movies/Sicario (2015)]
+2022-01-01 21:18:13.5|Info|RefreshMovieService|Updating info for Sicario
+2022-01-01 21:18:14.5|Info|MediaCoverService|Downloading Poster for [Sicario (2015)][tt3397884, 273481] https://image.tmdb.org/t/p/original/tw0lXhbNkklvseuJ4aYldkVyXV7.jpg
+2022-01-01 21:18:14.5|Info|DiskScanService|Scanning disk for Sicario
+2022-01-01 21:18:14.6|Info|DiskScanService|Completed scanning disk for Sicario
+2022-01-01 21:18:14.6|Info|MovieScannedHandler|[Sicario] was recently added, performing post-add actions
+2022-01-01 21:18:14.6|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 21:18:14.6|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 21:18:14.6|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 21:18:14.6|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 21:18:14.8|Info|NzbSearchService|Searching 3 indexers for [Sicario]
+2022-01-01 21:18:16.9|Info|DownloadDecisionMaker|Processing 127 releases
+2022-01-01 21:18:17.0|Info|MediaCoverService|Downloading Fanart for [Sicario (2015)][tt3397884, 273481] https://image.tmdb.org/t/p/original/4NdAMnBwSAaSsUjoXkcU5aW28RF.jpg
+2022-01-01 21:18:17.7|Info|DownloadService|Report sent to qbittorrent. Sicario 2015 1080p BluRay REMUX AVC DTS HD MA TrueHD 7 1 Atmos R
+2022-01-01 21:18:17.7|Info|MovieSearchService|Movie search completed. 1 reports downloaded.
+2022-01-01 21:18:35.8|Info|AddMovieService|Adding Movie [Sicario: Day of the Soldado (2018)][tt5052474, 400535] Path: [/mnt/media/Movies/Sicario Day of the Soldado (2018)]
+2022-01-01 21:18:35.8|Info|RefreshMovieService|Updating info for Sicario: Day of the Soldado
+2022-01-01 21:18:36.8|Info|MediaCoverService|Downloading Poster for [Sicario: Day of the Soldado (2018)][tt5052474, 400535] https://image.tmdb.org/t/p/original/msqWSQkU403cQKjQHnWLnugv7EY.jpg
+2022-01-01 21:18:36.8|Info|DiskScanService|Scanning disk for Sicario: Day of the Soldado
+2022-01-01 21:18:36.8|Info|DiskScanService|Completed scanning disk for Sicario: Day of the Soldado
+2022-01-01 21:18:36.8|Info|MovieScannedHandler|[Sicario: Day of the Soldado] was recently added, performing post-add actions
+2022-01-01 21:18:36.8|Info|NzbSearchService|Searching 3 indexers for [Sicario: Day of the Soldado]
+2022-01-01 21:18:36.9|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-01 21:18:36.9|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-01 21:18:36.9|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-01 21:18:36.9|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-01 21:18:39.5|Info|MediaCoverService|Downloading Fanart for [Sicario: Day of the Soldado (2018)][tt5052474, 400535] https://image.tmdb.org/t/p/original/urMfgRUk0Kmf5p0KEJopAlqcyXm.jpg
+2022-01-01 21:18:57.0|Info|NzbSearchService|Searching 3 indexers for [Sicario: Day of the Soldado]
+2022-01-01 21:18:59.6|Info|DownloadDecisionMaker|Processing 116 releases
+2022-01-01 21:19:04.7|Info|DownloadDecisionMaker|Processing 116 releases
+2022-01-01 21:19:04.9|Info|DownloadService|Report sent to qbittorrent. Sicario.Day.Of.The.Soldado.2018.1080p.BluRay.REMUX.AVC.DTS-HD.MA
+2022-01-01 21:19:05.0|Info|MovieSearchService|Movie search completed. 1 reports downloaded.
+2022-01-01 21:21:04.3|Info|NzbSearchService|Searching 3 indexers for [The Canal]
+2022-01-01 21:21:04.4|Info|DownloadDecisionMaker|Processing 89 releases
+2022-01-01 21:21:04.4|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2022-01-01 21:21:06.6|Info|NzbSearchService|Searching 3 indexers for [The Canal]
+2022-01-01 21:21:06.7|Info|DownloadDecisionMaker|Processing 89 releases
+2022-01-01 21:21:13.3|Info|DownloadService|Report sent to qbittorrent. The Canal (2014) 1080p BrRip x264  YIFY

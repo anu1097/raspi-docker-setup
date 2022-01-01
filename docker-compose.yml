@@ -1,13 +1,14 @@
 version: "3.7"
 services:
   plex:
-    image: plexinc/pms-docker
+    image: plexinc/pms-docker:latest
     container_name: plex
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=America/New_York
+      - TZ=Asia/Kolkata
       - VERSION=docker
+      - PLEX_CLAIM=claim-9PgcGS3QysJoSgsH2oXN
     volumes:
       - ./plex/config:/config
       - ./plex/transcode:/transcode
@@ -16,29 +17,43 @@ services:
     ports:
       - 32401:32400
     restart: unless-stopped
+  qbittorrent:
+    container_name: qbittorrent
+    image: hotio/qbittorrent
+    ports:
+      - 8282:8080
+    environment:
+      - PUID=1001
+      - PGID=100
+      - UMASK=002
+      - TZ=Europe/London
+    volumes:
+      - ./qbittorrent/config:/config
+      - ./mnt/media/torrents_2:/mnt/media/torrents_2
+    restart: unless-stopped
   transmission:
-    image: linuxserver/transmission
+    image: linuxserver/transmission:latest
     container_name: transmission
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/London
+      - TZ=Asia/Kolkata
       - TRANSMISSION_WEB_HOME=/combustion-release/ #optional
     volumes:
       - ./transmission/config:/config
       - ./mnt/media/torrents:/mnt/media/torrents
     ports:
       - 9091:9091
-      - 49153:49153
-      - 49153:49153/udp
+      - 49154:49153
+      - 49154:49153/udp
     restart: unless-stopped
   jackett:
-    image: linuxserver/jackett
+    image: linuxserver/jackett:latest
     container_name: jackett
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/London
+      - TZ=Asia/Kolkata
       - RUN_OPTS=run options here #optional
     volumes:
       - ./jackett/config:/config
@@ -47,12 +62,12 @@ services:
       - 9117:9117
     restart: unless-stopped
   sonarr:
-    image: linuxserver/sonarr
+    image: linuxserver/sonarr:latest
     container_name: sonarr
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=PST
+      - TZ=Asia/Kolkata
       - UMASK_SET=022 #optional
     volumes:
       - ./sonarr/config:/config
@@ -61,12 +76,12 @@ services:
       - 8989:8989
     restart: unless-stopped
   radarr:
-    image: linuxserver/radarr
+    image: linuxserver/radarr:latest
     container_name: radarr
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=PST
+      - TZ=Asia/Kolkata
     volumes:
       - ./radarr/config:/config
       - ./mnt/media:/mnt/media
@@ -74,12 +89,12 @@ services:
       - 7878:7878
     restart: unless-stopped
   ombi:
-    image: linuxserver/ombi
+    image: linuxserver/ombi:latest
     container_name: ombi
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=PST
+      - TZ=Asia/Kolkata
       - BASE_URL=/ombi #optional
     volumes:
       - ./ombi/config:/config

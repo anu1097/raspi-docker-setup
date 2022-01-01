@@ -1,3 +1,8 @@
 .DS_Store
-mnt/media/**
+**/media/**
 plex/config/Library/Application Support/Plex Media Server/
+**/config/MediaCover/**
+**/config/downloads/**
+**/config/Logs/**
+**/config/data/logs
+**/config/jackett

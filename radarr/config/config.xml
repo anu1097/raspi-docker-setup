@@ -12,4 +12,5 @@
   <LaunchBrowser>True</LaunchBrowser>
   <Branch>master</Branch>
   <SslCertPassword></SslCertPassword>
+  <AnalyticsEnabled>False</AnalyticsEnabled>
 </Config>
