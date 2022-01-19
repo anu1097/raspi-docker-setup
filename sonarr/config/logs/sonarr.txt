@@ -2480,3 +2480,276 @@
 2022-01-01 21:24:27.6|Info|RssSyncService|Starting RSS Sync
 2022-01-01 21:24:28.9|Info|DownloadDecisionMaker|Processing 149 releases
 2022-01-01 21:24:29.4|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-20 03:24:16.0|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1342
+2022-01-20 03:24:17.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-20 03:24:18.5|Info|Router|Application mode: Interactive
+2022-01-20 03:24:19.4|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-20 03:24:20.2|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-20 03:24:21.4|Info|OwinHostController|Listening on the following URLs:
+2022-01-20 03:24:21.4|Info|OwinHostController|  http://*:8989/
+2022-01-20 03:24:24.2|Info|SonarrBootstrapper|Starting Web Server
+2022-01-20 03:24:59.2|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.0.6.1342] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings. ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00019] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:36 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00081] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:63 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:87 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector+<>c__DisplayClass7_0.<GetProxyCache>b__0 () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x000b1] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Cache\Cached.cs:104 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00049] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:65 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:45 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:217 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-01-20 03:24:59.4|Info|SceneMappingService|Updating Scene mappings
+2022-01-20 03:25:00.2|Info|RefreshSeriesService|Updating Peaky Blinders
+2022-01-20 03:25:01.8|Info|HousekeepingService|Running housecleaning tasks
+2022-01-20 03:25:01.9|Info|RefreshEpisodeService|Starting episode info refresh for: [270915][Peaky Blinders]
+2022-01-20 03:25:02.1|Info|RefreshEpisodeService|Finished episode refresh for series: [270915][Peaky Blinders].
+2022-01-20 03:25:02.2|Info|Database|Vacuuming Log database
+2022-01-20 03:25:02.2|Info|Database|Log database compressed
+2022-01-20 03:25:02.2|Info|Database|Vacuuming Main database
+2022-01-20 03:25:02.3|Info|Database|Main database compressed
+2022-01-20 03:25:02.5|Warn|DiskScanService|Series' root folder (/mnt/media/Shows/) doesn't exist.
+2022-01-20 03:25:02.5|Info|MediaCoverService|Downloading Banner for [270915][Peaky Blinders] https://artworks.thetvdb.com/banners/graphical/270915-g5.jpg
+2022-01-20 03:25:02.5|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2022-01-20 03:25:02.6|Info|ImportListSyncService|Starting Import List Sync
+2022-01-20 03:25:02.6|Info|MediaCoverService|Downloading Poster for [270915][Peaky Blinders] https://artworks.thetvdb.com/banners/posters/270915-20.jpg
+2022-01-20 03:25:02.6|Info|ImportListSyncService|Processing 0 list items
+2022-01-20 03:25:02.6|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Series added: 0
+2022-01-20 03:25:02.7|Info|RssSyncService|Starting RSS Sync
+2022-01-20 03:25:02.7|Info|BackupService|Starting Backup
+2022-01-20 03:25:02.8|Info|MediaCoverService|Downloading Fanart for [270915][Peaky Blinders] https://artworks.thetvdb.com/banners/fanart/original/270915-10.jpg
+2022-01-20 03:25:22.6|Info|MetadataService|Series folder does not exist, skipping metadata image creation
+2022-01-20 03:26:02.5|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 1/1/2022 3:33:57 PM and 1/19/2022 9:25:04 PM UTC. Search may be required.
+2022-01-20 03:26:02.5|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-20 03:26:04.7|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-20 03:26:29.7|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.0.6.1342] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings. ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00019] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:36 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00081] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:63 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:87 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector+<>c__DisplayClass7_0.<GetProxyCache>b__0 () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x000b1] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Cache\Cached.cs:104 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00049] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:65 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:45 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:217 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-01-20 03:27:47.2|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1342
+2022-01-20 03:27:49.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-20 03:27:49.5|Info|Router|Application mode: Interactive
+2022-01-20 03:27:50.8|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-20 03:27:51.8|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-20 03:27:53.2|Info|OwinHostController|Listening on the following URLs:
+2022-01-20 03:27:53.2|Info|OwinHostController|  http://*:8989/
+2022-01-20 03:27:56.1|Info|SonarrBootstrapper|Starting Web Server
+2022-01-20 03:28:31.1|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.0.6.1342] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings. ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00019] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:36 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00081] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:63 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:87 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector+<>c__DisplayClass7_0.<GetProxyCache>b__0 () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x000b1] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Cache\Cached.cs:104 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00049] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:65 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:45 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:217 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-01-20 03:30:01.1|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.0.6.1342] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings. ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00019] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:36 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00081] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:63 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:87 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector+<>c__DisplayClass7_0.<GetProxyCache>b__0 () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x000b1] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Cache\Cached.cs:104 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00049] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:65 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:45 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:217 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-01-20 03:36:15.9|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1342
+2022-01-20 03:36:18.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-20 03:36:18.5|Info|Router|Application mode: Interactive
+2022-01-20 03:36:19.7|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-20 03:36:20.6|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-20 03:36:21.9|Info|OwinHostController|Listening on the following URLs:
+2022-01-20 03:36:21.9|Info|OwinHostController|  http://*:8989/
+2022-01-20 03:36:24.9|Info|SonarrBootstrapper|Starting Web Server
+2022-01-20 03:37:00.9|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.0.6.1342] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings. ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00019] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:36 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00081] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:63 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:87 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector+<>c__DisplayClass7_0.<GetProxyCache>b__0 () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x000b1] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Cache\Cached.cs:104 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00049] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:65 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:45 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:217 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-01-20 03:39:17.8|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1342
+2022-01-20 03:39:19.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-20 03:39:20.3|Info|Router|Application mode: Interactive
+2022-01-20 03:39:21.5|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-20 03:39:22.5|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-20 03:39:23.8|Info|OwinHostController|Listening on the following URLs:
+2022-01-20 03:39:23.8|Info|OwinHostController|  http://*:8989/
+2022-01-20 03:39:26.6|Info|SonarrBootstrapper|Starting Web Server
+2022-01-20 03:41:32.5|Info|RssSyncService|Starting RSS Sync
+2022-01-20 03:41:37.2|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-20 03:41:39.6|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-20 03:43:02.6|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.0.6.1342] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings. ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00019] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:36 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00081] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:63 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:87 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector+<>c__DisplayClass7_0.<GetProxyCache>b__0 () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x000b1] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Cache\Cached.cs:104 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00049] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:65 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:45 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:217 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-01-20 03:45:00.1|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1342
+2022-01-20 03:45:02.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-20 03:45:02.7|Info|Router|Application mode: Interactive
+2022-01-20 03:45:03.9|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-20 03:45:04.8|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-20 03:45:06.0|Info|OwinHostController|Listening on the following URLs:
+2022-01-20 03:45:06.1|Info|OwinHostController|  http://*:8989/
+2022-01-20 03:45:08.8|Info|SonarrBootstrapper|Starting Web Server
+2022-01-20 03:48:44.4|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.0.6.1342] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings. ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00019] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:36 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00081] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:63 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:87 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector+<>c__DisplayClass7_0.<GetProxyCache>b__0 () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x000b1] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Cache\Cached.cs:104 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00049] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:65 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:45 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:217 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-01-20 03:52:47.0|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1342
+2022-01-20 03:52:49.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-20 03:52:49.6|Info|Router|Application mode: Interactive
+2022-01-20 03:52:50.7|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-20 03:52:51.7|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-20 03:52:52.9|Info|OwinHostController|Listening on the following URLs:
+2022-01-20 03:52:52.9|Info|OwinHostController|  http://*:8989/
+2022-01-20 03:52:56.1|Info|SonarrBootstrapper|Starting Web Server
+2022-01-20 03:55:02.3|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.0.6.1342] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings. ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00019] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:36 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00081] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:63 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:87 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector+<>c__DisplayClass7_0.<GetProxyCache>b__0 () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x000b1] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Cache\Cached.cs:104 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00049] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:65 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:45 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:217 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-01-20 03:57:02.3|Info|RssSyncService|Starting RSS Sync
+2022-01-20 03:57:07.0|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-20 03:57:09.4|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-20 03:57:55.7|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1342
+2022-01-20 03:57:57.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-20 03:57:57.5|Info|Router|Application mode: Interactive
+2022-01-20 03:57:58.3|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-20 03:57:59.3|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-20 03:58:00.6|Info|OwinHostController|Listening on the following URLs:
+2022-01-20 03:58:00.6|Info|OwinHostController|  http://*:8989/
+2022-01-20 03:58:03.6|Info|SonarrBootstrapper|Starting Web Server
+2022-01-20 04:00:09.2|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.0.6.1342] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings. ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00019] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:36 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00081] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:63 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:87 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector+<>c__DisplayClass7_0.<GetProxyCache>b__0 () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x000b1] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Cache\Cached.cs:104 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00049] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:65 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:45 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:217 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-01-20 04:04:20.2|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1342
+2022-01-20 04:04:22.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-20 04:04:22.9|Info|Router|Application mode: Interactive
+2022-01-20 04:04:24.1|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-20 04:04:25.1|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-20 04:04:26.4|Info|OwinHostController|Listening on the following URLs:
+2022-01-20 04:04:26.4|Info|OwinHostController|  http://*:8989/
+2022-01-20 04:04:29.3|Info|SonarrBootstrapper|Starting Web Server
+2022-01-20 04:06:34.9|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.0.6.1342] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings. ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00019] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:36 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00081] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:63 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:87 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector+<>c__DisplayClass7_0.<GetProxyCache>b__0 () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x000b1] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Cache\Cached.cs:104 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00049] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:65 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:45 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:217 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
