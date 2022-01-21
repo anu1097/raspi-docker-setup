@@ -5,15 +5,15 @@ services:
     container_name: plex
     network_mode: host
     environment:
-      - PUID=0
-      - PGID=0
+      - PUID=1000
+      - PGID=1000
       - VERSION=docker
       - PLEX_CLAIM= "claim-bRd2ke2zeqx9xejetMd4"
     volumes:
       - ./plex/config:/config
       - ./plex/transcode:/transcode
       - ./plex/data:/data
-      - ./mnt:/mnt
+      - /mnt:/mnt
     restart: unless-stopped
   transmission:
     image: linuxserver/transmission:latest
@@ -25,7 +25,7 @@ services:
       - TRANSMISSION_WEB_HOME=/combustion-release/ #optional
     volumes:
       - ./transmission/config:/config
-      - ./mnt/media/torrents:/mnt/media/torrents
+      - /mnt/media/torrents:/mnt/media/torrents
     ports:
       - 9091:9091
       - 49154:49153
@@ -41,7 +41,7 @@ services:
       - RUN_OPTS=run options here #optional
     volumes:
       - ./jackett/config:/config
-      - ./mnt/media/torrents/completed:/downloads
+      - /mnt/media/torrents/completed:/downloads
     ports:
       - 9117:9117
     restart: unless-stopped
@@ -55,7 +55,7 @@ services:
       - UMASK_SET=022 #optional
     volumes:
       - ./sonarr/config:/config
-      - ./mnt/media:/mnt/media
+      - /mnt/media:/mnt/media
     ports:
       - 8989:8989
     restart: unless-stopped
@@ -68,7 +68,7 @@ services:
       - TZ=Asia/Kolkata
     volumes:
       - ./radarr/config:/config
-      - ./mnt/media:/mnt/media
+      - /mnt/media:/mnt/media
     ports:
       - 7878:7878
     restart: unless-stopped
@@ -78,10 +78,57 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Asia/Kolkata
+      - TZ=Asia/Calcutta
       - BASE_URL=/ombi #optional
     volumes:
       - ./ombi/config:/config
     ports:
       - 3579:3579
     restart: unless-stopped
+  kodi:
+    container_name: kodi
+    image: linuxserver/kodi-headless
+    restart: unless-stopped
+    environment:
+      - PGID=1000
+      - PUID=1000
+      - TZ=Asia/Calcutta
+    volumes:
+      - ./kodi_data:/config/.kodi
+    ports:
+      - "8200:8080"
+      - "9090:9090"
+      - "9777:9777/udp"
+  portainer:
+    image: portainer/portainer
+    container_name: portainer
+    restart: always
+    command: -H unix:///var/run/docker.sock
+    ports:
+      - "9000:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./portainer/data:/data
+      - ./shared:/shared
+    environment:
+      - TZ=Asia/Calcutta
+  organizr:
+    container_name: organizr
+    restart: always
+    image: linuxserver/organizr
+    volumes:
+      - ./organizr:/config
+      - ./shared:/shared
+    ports:
+      - "9001:80"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Calcutta
+  watchtower:
+    container_name: watchtower
+    restart: always
+    image: v2tec/watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: --schedule "0 0 4 * * *" --cleanup
