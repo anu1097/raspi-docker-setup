@@ -9,4 +9,4 @@ plex/config/Library/Application Support/Plex Media Server/
 **/config/jackett
 **/logs**
 log
-portainer/**
+**/portainer/**

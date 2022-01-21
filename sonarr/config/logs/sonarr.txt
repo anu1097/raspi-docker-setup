@@ -4818,3 +4818,4 @@
 
 2022-01-21 13:15:41.5|Info|RssSyncService|Starting RSS Sync
 2022-01-21 13:15:41.9|Info|DownloadDecisionMaker|Processing 321 releases
+2022-01-21 13:15:46.5|Info|RssSyncService|RSS Sync Completed. Reports found: 321, Reports grabbed: 0
