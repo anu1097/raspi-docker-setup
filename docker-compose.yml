@@ -19,8 +19,8 @@ services:
     image: linuxserver/transmission:latest
     container_name: transmission
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=0
+      - PGID=0
       - TZ=Asia/Kolkata
       - TRANSMISSION_WEB_HOME=/combustion-release/ #optional
     volumes:
@@ -49,8 +49,8 @@ services:
     image: linuxserver/sonarr:latest
     container_name: sonarr
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=0
+      - PGID=0
       - TZ=Asia/Kolkata
       - UMASK_SET=022 #optional
     volumes:
@@ -63,8 +63,8 @@ services:
     image: linuxserver/radarr:latest
     container_name: radarr
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=0
+      - PGID=0
       - TZ=Asia/Kolkata
     volumes:
       - ./radarr/config:/config
@@ -132,3 +132,18 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     command: --schedule "0 0 4 * * *" --cleanup
+  tautulli:
+    container_name: tautulli
+    hostname: tautulli
+    restart: always
+    image: linuxserver/tautulli
+    volumes:
+      - ./tautulli/config:/config
+      - ./tautulli/logs:/logs:ro
+      - ./shared:/shared
+    ports:
+      - "9009:8181"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Calcutta 

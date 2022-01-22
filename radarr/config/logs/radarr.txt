@@ -3592,3 +3592,952 @@ RequestUri: http://jackett:9117/api/v2.0/indexers/torrentparadise/results/torzna
    at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads(IDownloadClient downloadClient) in D:\a\1\s\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:line 89
 
 
+2022-01-21 13:27:07.2|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.2.2.5080
+2022-01-21 13:27:09.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-21 13:27:09.6|Info|Router|Application mode: Interactive
+2022-01-21 13:27:10.0|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-21 13:27:11.2|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-21 13:27:12.2|Info|WebHostController|Listening on the following URLs:
+2022-01-21 13:27:12.2|Info|WebHostController|  http://*:7878
+2022-01-21 13:27:12.8|Info|RadarrBootstrapper|Starting Web Server
+2022-01-21 13:27:18.0|Info|CommandExecutor|Starting 2 threads for tasks.
+2022-01-21 13:18:02.7|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.2.2.5080
+2022-01-21 13:18:06.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-21 13:18:07.5|Info|Router|Application mode: Interactive
+2022-01-21 13:18:08.2|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-21 13:18:10.1|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-21 13:18:13.7|Info|WebHostController|Listening on the following URLs:
+2022-01-21 13:18:13.7|Info|WebHostController|  http://*:7878
+2022-01-21 13:18:15.8|Info|RadarrBootstrapper|Starting Web Server
+2022-01-21 13:18:22.4|Info|CommandExecutor|Starting 2 threads for tasks.
+2022-01-21 13:58:44.5|Info|RssSyncService|Starting RSS Sync
+2022-01-21 13:58:45.3|Error|NewznabCapabilitiesProvider|Failed to determine newznab api capabilities for http://jackett:9117/api/v2.0/indexers/torrentparadise/results/torznab/, using the defaults instead till Radarr restarts
+
+[v3.2.2.5080] NzbDrone.Core.Indexers.Newznab.NewznabException: Indexer is not configured
+   at NzbDrone.Core.Indexers.Newznab.NewznabRssParser.CheckError(XDocument xdoc, IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabRssParser.cs:line 53
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.ParseCapabilities(HttpResponse response) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 97
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 67
+RequestUri: http://jackett:9117/api/v2.0/indexers/torrentparadise/results/torznab/api?t=caps&apikey=(removed) OK;ContentType: application/xml;ContentLength: 99;ContentSample: <?xml version="1.0" encoding="UTF-8"?>
+<error code="201" description="Indexer is not configured" />
+
+2022-01-21 13:58:45.5|Error|Torznab|An error occurred while processing indexer feed. http://jackett:9117/api/v2.0/indexers/torrentparadise/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100
+
+[v3.2.2.5080] NzbDrone.Core.Indexers.Torznab.TorznabException: Torznab error detected: Indexer is not configured
+   at NzbDrone.Core.Indexers.Torznab.TorznabRssParser.PreProcess(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\TorznabRssParser.cs:line 48
+   at NzbDrone.Core.Indexers.RssParser.ParseResponse(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\RssParser.cs:line 55
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 285
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 123
+RequestUri: http://jackett:9117/api/v2.0/indexers/torrentparadise/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100;StatusCode: OK;ContentType: application/xml;ContentLength: 99;ContentSample: <?xml version="1.0" encoding="UTF-8"?>
+<error code="201" description="Indexer is not configured" />;FeedUrl: http://jackett:9117/api/v2.0/indexers/torrentparadise/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100
+
+2022-01-21 13:58:58.0|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-21 13:59:00.2|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-21 14:59:18.1|Info|RssSyncService|Starting RSS Sync
+2022-01-21 14:59:22.5|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-21 14:59:23.5|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-21 15:59:49.9|Info|RssSyncService|Starting RSS Sync
+2022-01-21 15:59:52.1|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-21 15:59:52.9|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-21 16:02:53.6|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.2.2.5080] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings.
+ ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 146
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 57
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:line 35
+   --- End of inner exception stack trace ---
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:line 62
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 87
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.<>c__DisplayClass7_0.<GetProxyCache>b__0() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 82
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 114
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache(QBittorrentSettings settings, Boolean force) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 82
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy(QBittorrentSettings settings, Boolean force) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 65
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:line 218
+   at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads(IDownloadClient downloadClient) in D:\a\1\s\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:line 89
+
+
+2022-01-21 17:00:21.6|Info|RssSyncService|Starting RSS Sync
+2022-01-21 17:00:24.0|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-21 17:00:25.0|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-21 17:06:24.8|Info|RefreshMovieService|Updating info for The King's Man
+2022-01-21 17:06:29.1|Info|DiskScanService|Scanning disk for The King's Man
+2022-01-21 17:06:29.1|Error|RefreshMovieService|Couldn't rescan movie [The King's Man (2021)][tt6856242, 476669]
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/The King's Man (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.DiskScanService.Scan(Movie movie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\DiskScanService.cs:line 107
+   at NzbDrone.Core.Movies.RefreshMovieService.RescanMovie(Movie movie, Boolean isNew, CommandTrigger trigger) in D:\a\1\s\src\NzbDrone.Core\Movies\RefreshMovieService.cs:line 173
+
+
+2022-01-21 17:06:29.1|Info|RefreshMovieService|Updating info for Ron's Gone Wrong
+2022-01-21 17:06:31.6|Info|DiskScanService|Scanning disk for Ron's Gone Wrong
+2022-01-21 17:06:31.6|Error|RefreshMovieService|Couldn't rescan movie [Ron's Gone Wrong (2021)][tt7504818, 482321]
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Ron's Gone Wrong (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.DiskScanService.Scan(Movie movie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\DiskScanService.cs:line 107
+   at NzbDrone.Core.Movies.RefreshMovieService.RescanMovie(Movie movie, Boolean isNew, CommandTrigger trigger) in D:\a\1\s\src\NzbDrone.Core\Movies\RefreshMovieService.cs:line 173
+
+
+2022-01-21 17:06:31.6|Info|DiskScanService|Scanning disk for The Unforgivable
+2022-01-21 17:06:31.7|Info|DiskScanService|Completed scanning disk for The Unforgivable
+2022-01-21 17:06:31.8|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-21 17:06:31.8|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-21 17:06:31.8|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-21 17:06:31.8|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-21 18:00:53.9|Info|RssSyncService|Starting RSS Sync
+2022-01-21 18:01:01.9|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-21 18:01:02.8|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-21 19:01:26.6|Info|RssSyncService|Starting RSS Sync
+2022-01-21 19:01:28.8|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-21 19:01:29.5|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-21 19:03:26.8|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.2.2.5080] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings.
+ ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 146
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 57
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:line 35
+   --- End of inner exception stack trace ---
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:line 62
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 87
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.<>c__DisplayClass7_0.<GetProxyCache>b__0() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 82
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 114
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache(QBittorrentSettings settings, Boolean force) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 82
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy(QBittorrentSettings settings, Boolean force) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 65
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:line 218
+   at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads(IDownloadClient downloadClient) in D:\a\1\s\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:line 89
+
+
+2022-01-21 19:58:53.9|Info|AddMovieService|Adding Movie [Moonfall (2022)][tt5834426, 406759] Path: [/mnt/media/Movies/Moonfall (2022)]
+2022-01-21 19:58:54.0|Info|RefreshMovieService|Updating info for Moonfall
+2022-01-21 19:58:55.7|Info|MediaCoverService|Downloading Poster for [Moonfall (2022)][tt5834426, 406759] https://image.tmdb.org/t/p/original/odVv1sqVs0KxBXiA8bhIBlPgalx.jpg
+2022-01-21 19:58:55.7|Info|DiskScanService|Scanning disk for Moonfall
+2022-01-21 19:58:55.7|Error|RefreshMovieService|Couldn't rescan movie [Moonfall (2022)][tt5834426, 406759]
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Moonfall (2022)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.DiskScanService.Scan(Movie movie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\DiskScanService.cs:line 107
+   at NzbDrone.Core.Movies.RefreshMovieService.RescanMovie(Movie movie, Boolean isNew, CommandTrigger trigger) in D:\a\1\s\src\NzbDrone.Core\Movies\RefreshMovieService.cs:line 173
+
+
+2022-01-21 19:58:57.7|Info|MediaCoverService|Downloading Fanart for [Moonfall (2022)][tt5834426, 406759] https://image.tmdb.org/t/p/original/iJsV2JLhZOBhUjAmPGVoU8pMiTN.jpg
+2022-01-21 19:59:06.7|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2022-01-21 20:00:24.2|Info|NzbSearchService|Searching 2 indexers for [Ron's Gone Wrong]
+2022-01-21 20:00:29.1|Info|DownloadDecisionMaker|Processing 59 releases
+2022-01-21 20:01:08.5|Info|RefreshMovieService|Updating info for The King's Man
+2022-01-21 20:01:13.6|Info|DiskScanService|Scanning disk for The King's Man
+2022-01-21 20:01:13.6|Error|RefreshMovieService|Couldn't rescan movie [The King's Man (2021)][tt6856242, 476669]
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/The King's Man (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.DiskScanService.Scan(Movie movie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\DiskScanService.cs:line 107
+   at NzbDrone.Core.Movies.RefreshMovieService.RescanMovie(Movie movie, Boolean isNew, CommandTrigger trigger) in D:\a\1\s\src\NzbDrone.Core\Movies\RefreshMovieService.cs:line 173
+
+
+2022-01-21 20:01:13.6|Info|RefreshMovieService|Updating info for Moonfall
+2022-01-21 20:01:14.4|Info|MediaCoverService|Downloading Fanart for [The King's Man (2021)][tt6856242, 476669] https://image.tmdb.org/t/p/original/4OTYefcAlaShn6TGVK33UxLW9R7.jpg
+2022-01-21 20:01:16.4|Info|DiskScanService|Scanning disk for Moonfall
+2022-01-21 20:01:16.4|Error|RefreshMovieService|Couldn't rescan movie [Moonfall (2022)][tt5834426, 406759]
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Moonfall (2022)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.DiskScanService.Scan(Movie movie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\DiskScanService.cs:line 107
+   at NzbDrone.Core.Movies.RefreshMovieService.RescanMovie(Movie movie, Boolean isNew, CommandTrigger trigger) in D:\a\1\s\src\NzbDrone.Core\Movies\RefreshMovieService.cs:line 173
+
+
+2022-01-21 20:01:16.4|Info|RefreshMovieService|Updating info for Ron's Gone Wrong
+2022-01-21 20:01:18.0|Info|DiskScanService|Scanning disk for Ron's Gone Wrong
+2022-01-21 20:01:18.0|Error|RefreshMovieService|Couldn't rescan movie [Ron's Gone Wrong (2021)][tt7504818, 482321]
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Ron's Gone Wrong (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.DiskScanService.Scan(Movie movie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\DiskScanService.cs:line 107
+   at NzbDrone.Core.Movies.RefreshMovieService.RescanMovie(Movie movie, Boolean isNew, CommandTrigger trigger) in D:\a\1\s\src\NzbDrone.Core\Movies\RefreshMovieService.cs:line 173
+
+
+2022-01-21 20:01:18.0|Info|RefreshMovieService|Updating info for The Unforgivable
+2022-01-21 20:01:19.5|Info|DiskScanService|Scanning disk for The Unforgivable
+2022-01-21 20:01:19.5|Info|DiskScanService|Completed scanning disk for The Unforgivable
+2022-01-21 20:01:19.5|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-21 20:01:19.5|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-21 20:01:19.5|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-21 20:01:19.5|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-21 20:01:25.0|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2022-01-21 20:01:59.2|Info|RssSyncService|Starting RSS Sync
+2022-01-21 20:02:02.0|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-21 20:02:02.8|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-21 21:02:32.0|Info|RssSyncService|Starting RSS Sync
+2022-01-21 21:02:34.3|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-21 21:02:35.0|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-21 22:02:35.1|Info|RssSyncService|Starting RSS Sync
+2022-01-21 22:02:38.6|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-21 22:02:39.4|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-21 22:04:15.3|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.2.2.5080] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings.
+ ---> System.Net.WebException: Resource temporarily unavailable (qbittorrent:8080): 'http://qbittorrent:8080/api/v2/app/webapiVersion'
+ ---> System.Net.WebException: Resource temporarily unavailable (qbittorrent:8080)
+ ---> System.Net.Http.HttpRequestException: Resource temporarily unavailable (qbittorrent:8080)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (00000001, 11): Resource temporarily unavailable
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Http.ConnectHelper.Connect(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.Connect(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClientHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 146
+   --- End of inner exception stack trace ---
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 146
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 57
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:line 35
+   --- End of inner exception stack trace ---
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:line 62
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 87
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.<>c__DisplayClass7_0.<GetProxyCache>b__0() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 82
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 114
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache(QBittorrentSettings settings, Boolean force) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 82
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy(QBittorrentSettings settings, Boolean force) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 65
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:line 218
+   at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads(IDownloadClient downloadClient) in D:\a\1\s\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:line 89
+
+
+2022-01-21 23:03:06.8|Info|RssSyncService|Starting RSS Sync
+2022-01-21 23:03:14.2|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-21 23:03:14.9|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-22 00:03:39.2|Info|RssSyncService|Starting RSS Sync
+2022-01-22 00:03:42.2|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-22 00:03:42.8|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-22 01:03:22.2|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.2.2.5080
+2022-01-22 01:03:26.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-22 01:03:27.6|Info|Router|Application mode: Interactive
+2022-01-22 01:03:28.3|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 01:03:29.7|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 01:03:34.5|Info|WebHostController|Listening on the following URLs:
+2022-01-22 01:03:34.5|Info|WebHostController|  http://*:7878
+2022-01-22 01:03:36.6|Info|RadarrBootstrapper|Starting Web Server
+2022-01-22 01:03:44.0|Info|CommandExecutor|Starting 2 threads for tasks.
+2022-01-22 01:04:15.0|Info|RssSyncService|Starting RSS Sync
+2022-01-22 01:04:21.4|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-22 01:04:23.6|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-22 01:05:45.3|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.2.2.5080] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings.
+ ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 95
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 57
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:line 35
+   --- End of inner exception stack trace ---
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:line 62
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 87
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.<>c__DisplayClass7_0.<GetProxyCache>b__0() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 82
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 114
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache(QBittorrentSettings settings, Boolean force) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 82
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy(QBittorrentSettings settings, Boolean force) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 65
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:line 218
+   at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads(IDownloadClient downloadClient) in D:\a\1\s\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:line 89
+
+
+2022-01-22 01:11:45.6|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.2.2.5080] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings.
+ ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 95
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 57
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:line 35
+   --- End of inner exception stack trace ---
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:line 62
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 87
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.<>c__DisplayClass7_0.<GetProxyCache>b__0() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 82
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 114
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache(QBittorrentSettings settings, Boolean force) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 82
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy(QBittorrentSettings settings, Boolean force) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 65
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:line 218
+   at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads(IDownloadClient downloadClient) in D:\a\1\s\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:line 89
+
+
+2022-01-22 01:17:45.6|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.2.2.5080] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings.
+ ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 95
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 57
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:line 35
+   --- End of inner exception stack trace ---
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:line 62
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 87
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.<>c__DisplayClass7_0.<GetProxyCache>b__0() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 82
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 114
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache(QBittorrentSettings settings, Boolean force) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 82
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy(QBittorrentSettings settings, Boolean force) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 65
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:line 218
+   at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads(IDownloadClient downloadClient) in D:\a\1\s\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:line 89
+
+
+2022-01-22 01:23:45.8|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.2.2.5080] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings.
+ ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 95
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 57
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:line 35
+   --- End of inner exception stack trace ---
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:line 62
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 87
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.<>c__DisplayClass7_0.<GetProxyCache>b__0() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 82
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 114
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache(QBittorrentSettings settings, Boolean force) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 82
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy(QBittorrentSettings settings, Boolean force) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 65
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:line 218
+   at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads(IDownloadClient downloadClient) in D:\a\1\s\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:line 89
+
+
+2022-01-22 02:04:46.7|Info|RssSyncService|Starting RSS Sync
+2022-01-22 02:04:46.8|Error|NewznabCapabilitiesProvider|Failed to determine newznab api capabilities for http://jackett:9117/api/v2.0/indexers/torrentparadise/results/torznab/, using the defaults instead till Radarr restarts
+
+[v3.2.2.5080] NzbDrone.Core.Indexers.Newznab.NewznabException: Indexer is not configured
+   at NzbDrone.Core.Indexers.Newznab.NewznabRssParser.CheckError(XDocument xdoc, IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabRssParser.cs:line 53
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.ParseCapabilities(HttpResponse response) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 97
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 67
+RequestUri: http://jackett:9117/api/v2.0/indexers/torrentparadise/results/torznab/api?t=caps&apikey=(removed) OK;ContentType: application/xml;ContentLength: 99;ContentSample: <?xml version="1.0" encoding="UTF-8"?>
+<error code="201" description="Indexer is not configured" />
+
+2022-01-22 02:04:46.9|Error|Torznab|An error occurred while processing indexer feed. http://jackett:9117/api/v2.0/indexers/torrentparadise/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100
+
+[v3.2.2.5080] NzbDrone.Core.Indexers.Torznab.TorznabException: Torznab error detected: Indexer is not configured
+   at NzbDrone.Core.Indexers.Torznab.TorznabRssParser.PreProcess(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\TorznabRssParser.cs:line 48
+   at NzbDrone.Core.Indexers.RssParser.ParseResponse(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\RssParser.cs:line 55
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 285
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 123
+RequestUri: http://jackett:9117/api/v2.0/indexers/torrentparadise/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100;StatusCode: OK;ContentType: application/xml;ContentLength: 99;ContentSample: <?xml version="1.0" encoding="UTF-8"?>
+<error code="201" description="Indexer is not configured" />;FeedUrl: http://jackett:9117/api/v2.0/indexers/torrentparadise/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100
+
+2022-01-22 02:04:48.9|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-22 02:04:49.7|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-22 03:05:18.9|Info|RssSyncService|Starting RSS Sync
+2022-01-22 03:05:21.1|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-22 03:05:21.9|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-22 03:40:45.1|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.2.2.5080
+2022-01-22 03:40:48.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-22 03:40:48.7|Info|Router|Application mode: Interactive
+2022-01-22 03:40:49.2|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 03:40:50.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 03:40:54.8|Info|WebHostController|Listening on the following URLs:
+2022-01-22 03:40:54.8|Info|WebHostController|  http://*:7878
+2022-01-22 03:40:56.0|Info|RadarrBootstrapper|Starting Web Server
+2022-01-22 03:41:01.7|Info|CommandExecutor|Starting 2 threads for tasks.
+2022-01-22 03:42:34.0|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.2.2.5080
+2022-01-22 03:42:36.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-22 03:42:37.2|Info|Router|Application mode: Interactive
+2022-01-22 03:42:37.8|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 03:42:39.9|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 03:42:41.7|Info|WebHostController|Listening on the following URLs:
+2022-01-22 03:42:41.7|Info|WebHostController|  http://*:7878
+2022-01-22 03:42:43.2|Info|RadarrBootstrapper|Starting Web Server
+2022-01-22 03:42:50.6|Info|CommandExecutor|Starting 2 threads for tasks.
+2022-01-22 03:49:57.5|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.2.2.5080
+2022-01-22 03:49:59.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-22 03:50:00.6|Info|Router|Application mode: Interactive
+2022-01-22 03:50:01.4|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 03:50:03.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 03:50:04.1|Info|WebHostController|Listening on the following URLs:
+2022-01-22 03:50:04.1|Info|WebHostController|  http://*:7878
+2022-01-22 03:50:04.9|Info|RadarrBootstrapper|Starting Web Server
+2022-01-22 03:50:08.7|Info|CommandExecutor|Starting 2 threads for tasks.
+2022-01-22 03:51:21.6|Info|RefreshMovieService|Updating info for Ron's Gone Wrong
+2022-01-22 03:51:24.0|Info|DiskScanService|Scanning disk for Ron's Gone Wrong
+2022-01-22 03:51:24.1|Error|RefreshMovieService|Couldn't rescan movie [Ron's Gone Wrong (2021)][tt7504818, 482321]
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Ron's Gone Wrong (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.DiskScanService.Scan(Movie movie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\DiskScanService.cs:line 107
+   at NzbDrone.Core.Movies.RefreshMovieService.RescanMovie(Movie movie, Boolean isNew, CommandTrigger trigger) in D:\a\1\s\src\NzbDrone.Core\Movies\RefreshMovieService.cs:line 173
+
+
+2022-01-22 04:05:40.0|Info|RssSyncService|Starting RSS Sync
+2022-01-22 04:05:42.4|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-22 04:05:44.5|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-22 04:10:10.0|Info|HousekeepingService|Running housecleaning tasks
+2022-01-22 04:10:10.1|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2022-01-22 04:10:10.2|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2022-01-22 04:10:10.4|Info|Database|Vacuuming Log database
+2022-01-22 04:10:10.5|Info|Database|Log database compressed
+2022-01-22 04:10:10.5|Info|Database|Vacuuming Main database
+2022-01-22 04:10:10.6|Info|Database|Main database compressed
+2022-01-22 04:24:11.1|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.2.2.5080] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings.
+ ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 95
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 57
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:line 35
+   --- End of inner exception stack trace ---
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:line 62
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 87
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.<>c__DisplayClass7_0.<GetProxyCache>b__0() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 82
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 114
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache(QBittorrentSettings settings, Boolean force) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 82
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy(QBittorrentSettings settings, Boolean force) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 65
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:line 218
+   at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads(IDownloadClient downloadClient) in D:\a\1\s\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:line 89
+
+
+2022-01-22 04:55:29.9|Info|AddMovieService|Adding Movie [Zack Snyder's Justice League (2021)][tt12361974, 791373] Path: [/mnt/media/Movies/Zack Snyder's Justice League (2021)]
+2022-01-22 04:55:29.9|Info|RefreshMovieService|Updating info for Zack Snyder's Justice League
+2022-01-22 04:55:30.7|Info|MediaCoverService|Downloading Poster for [Zack Snyder's Justice League (2021)][tt12361974, 791373] https://image.tmdb.org/t/p/original/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg
+2022-01-22 04:55:30.7|Info|DiskScanService|Scanning disk for Zack Snyder's Justice League
+2022-01-22 04:55:30.8|Error|RefreshMovieService|Couldn't rescan movie [Zack Snyder's Justice League (2021)][tt12361974, 791373]
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Zack Snyder's Justice League (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.DiskScanService.Scan(Movie movie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\DiskScanService.cs:line 107
+   at NzbDrone.Core.Movies.RefreshMovieService.RescanMovie(Movie movie, Boolean isNew, CommandTrigger trigger) in D:\a\1\s\src\NzbDrone.Core\Movies\RefreshMovieService.cs:line 173
+
+
+2022-01-22 04:55:31.8|Info|MediaCoverService|Downloading Fanart for [Zack Snyder's Justice League (2021)][tt12361974, 791373] https://image.tmdb.org/t/p/original/pcDc2WJAYGJTTvRSEIpRZwM3Ola.jpg
+2022-01-22 04:55:44.3|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2022-01-22 04:56:22.3|Info|NzbSearchService|Searching 2 indexers for [Zack Snyder's Justice League]
+2022-01-22 04:56:24.2|Info|DownloadDecisionMaker|Processing 59 releases
+2022-01-22 04:58:19.5|Info|NzbSearchService|Searching 2 indexers for [Zack Snyder's Justice League]
+2022-01-22 04:58:19.6|Info|DownloadDecisionMaker|Processing 59 releases
+2022-01-22 05:03:39.0|Info|DownloadService|Report sent to transmission. Justice League Snyders Cut (2021) 1080p HEVC 7-Rip
+2022-01-22 05:07:14.9|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.2.2.5080
+2022-01-22 05:07:18.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-22 05:07:19.5|Info|Router|Application mode: Interactive
+2022-01-22 05:07:19.9|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 05:07:21.1|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 05:07:30.6|Info|WebHostController|Listening on the following URLs:
+2022-01-22 05:07:30.6|Info|WebHostController|  http://*:7878
+2022-01-22 05:07:31.7|Info|RadarrBootstrapper|Starting Web Server
+2022-01-22 05:07:37.7|Info|CommandExecutor|Starting 2 threads for tasks.
+2022-01-22 05:08:08.3|Info|RssSyncService|Starting RSS Sync
+2022-01-22 05:08:09.0|Warn|Torznab|torrentz2eu  Connection refused [::ffff:172.20.0.11]:9117 (jackett:9117): 'http://jackett:9117/api/v2.0/indexers/torrentz2eu/results/torznab/api?t=caps&apikey=(removed)
+2022-01-22 05:08:09.0|Warn|Torznab|limetorrentsclone  Connection refused [::ffff:172.20.0.11]:9117 (jackett:9117): 'http://jackett:9117/api/v2.0/indexers/limetorrentsclone/results/torznab/api?t=caps&apikey=(removed)
+2022-01-22 05:08:09.0|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:08:09.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2022-01-22 05:09:18.6|Info|NzbSearchService|Searching 0 indexers for [Zack Snyder's Justice League]
+2022-01-22 05:09:18.6|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:09:31.4|Info|NzbSearchService|Searching 0 indexers for [Zack Snyder's Justice League]
+2022-01-22 05:09:31.4|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:09:46.1|Info|RefreshMovieService|Updating info for Zack Snyder's Justice League
+2022-01-22 05:09:47.6|Info|DiskScanService|Scanning disk for Zack Snyder's Justice League
+2022-01-22 05:09:47.6|Error|RefreshMovieService|Couldn't rescan movie [Zack Snyder's Justice League (2021)][tt12361974, 791373]
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Zack Snyder's Justice League (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.DiskScanService.Scan(Movie movie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\DiskScanService.cs:line 107
+   at NzbDrone.Core.Movies.RefreshMovieService.RescanMovie(Movie movie, Boolean isNew, CommandTrigger trigger) in D:\a\1\s\src\NzbDrone.Core\Movies\RefreshMovieService.cs:line 173
+
+
+2022-01-22 05:09:51.4|Info|NzbSearchService|Searching 0 indexers for [Zack Snyder's Justice League]
+2022-01-22 05:09:51.4|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:10:05.2|Info|NzbSearchService|Searching 0 indexers for [Zack Snyder's Justice League]
+2022-01-22 05:10:05.2|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:10:05.2|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2022-01-22 05:11:01.9|Info|NzbSearchService|Searching 0 indexers for [Zack Snyder's Justice League]
+2022-01-22 05:11:01.9|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:11:15.8|Error|NewznabCapabilitiesProvider|Failed to determine newznab api capabilities for http://jackett:9117/api/v2.0/indexers/torrentparadise/results/torznab/, using the defaults instead till Radarr restarts
+
+[v3.2.2.5080] NzbDrone.Core.Indexers.Newznab.NewznabException: Indexer is not configured
+   at NzbDrone.Core.Indexers.Newznab.NewznabRssParser.CheckError(XDocument xdoc, IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabRssParser.cs:line 53
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.ParseCapabilities(HttpResponse response) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 97
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities(NewznabSettings indexerSettings) in D:\a\1\s\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:line 67
+RequestUri: http://jackett:9117/api/v2.0/indexers/torrentparadise/results/torznab/api?t=caps&apikey=(removed) OK;ContentType: application/xml;ContentLength: 99;ContentSample: <?xml version="1.0" encoding="UTF-8"?>
+<error code="201" description="Indexer is not configured" />
+
+2022-01-22 05:11:15.8|Warn|Torznab|Unable to connect to indexer
+
+[v3.2.2.5080] NzbDrone.Core.Indexers.Torznab.TorznabException: Torznab error detected: Indexer is not configured
+   at NzbDrone.Core.Indexers.Torznab.TorznabRssParser.PreProcess(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\TorznabRssParser.cs:line 48
+   at NzbDrone.Core.Indexers.RssParser.ParseResponse(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\RssParser.cs:line 55
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 285
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.TestConnection() in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 333
+RequestUri: http://jackett:9117/api/v2.0/indexers/torrentparadise/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100;StatusCode: OK;ContentType: application/xml;ContentLength: 99;ContentSample: <?xml version="1.0" encoding="UTF-8"?>
+<error code="201" description="Indexer is not configured" />
+
+2022-01-22 05:11:22.3|Info|NzbSearchService|Searching 2 indexers for [Zack Snyder's Justice League]
+2022-01-22 05:11:23.8|Info|DownloadDecisionMaker|Processing 59 releases
+2022-01-22 05:12:07.3|Info|RefreshMovieService|Updating info for The King's Man
+2022-01-22 05:12:08.5|Info|DiskScanService|Scanning disk for The King's Man
+2022-01-22 05:12:08.5|Error|RefreshMovieService|Couldn't rescan movie [The King's Man (2021)][tt6856242, 476669]
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/The King's Man (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.DiskScanService.Scan(Movie movie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\DiskScanService.cs:line 107
+   at NzbDrone.Core.Movies.RefreshMovieService.RescanMovie(Movie movie, Boolean isNew, CommandTrigger trigger) in D:\a\1\s\src\NzbDrone.Core\Movies\RefreshMovieService.cs:line 173
+
+
+2022-01-22 05:12:08.5|Info|RefreshMovieService|Updating info for Moonfall
+2022-01-22 05:12:09.4|Info|DiskScanService|Scanning disk for Moonfall
+2022-01-22 05:12:09.4|Error|RefreshMovieService|Couldn't rescan movie [Moonfall (2022)][tt5834426, 406759]
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Moonfall (2022)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.DiskScanService.Scan(Movie movie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\DiskScanService.cs:line 107
+   at NzbDrone.Core.Movies.RefreshMovieService.RescanMovie(Movie movie, Boolean isNew, CommandTrigger trigger) in D:\a\1\s\src\NzbDrone.Core\Movies\RefreshMovieService.cs:line 173
+
+
+2022-01-22 05:12:09.4|Info|RefreshMovieService|Updating info for Ron's Gone Wrong
+2022-01-22 05:12:10.3|Info|DiskScanService|Scanning disk for Ron's Gone Wrong
+2022-01-22 05:12:10.3|Error|RefreshMovieService|Couldn't rescan movie [Ron's Gone Wrong (2021)][tt7504818, 482321]
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Ron's Gone Wrong (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.DiskScanService.Scan(Movie movie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\DiskScanService.cs:line 107
+   at NzbDrone.Core.Movies.RefreshMovieService.RescanMovie(Movie movie, Boolean isNew, CommandTrigger trigger) in D:\a\1\s\src\NzbDrone.Core\Movies\RefreshMovieService.cs:line 173
+
+
+2022-01-22 05:12:10.4|Info|RefreshMovieService|Updating info for The Unforgivable
+2022-01-22 05:12:11.5|Info|DiskScanService|Scanning disk for The Unforgivable
+2022-01-22 05:12:11.5|Error|RefreshMovieService|Couldn't rescan movie [The Unforgivable (2021)][tt11233960, 645886]
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/The Unforgivable (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.DiskScanService.Scan(Movie movie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\DiskScanService.cs:line 107
+   at NzbDrone.Core.Movies.RefreshMovieService.RescanMovie(Movie movie, Boolean isNew, CommandTrigger trigger) in D:\a\1\s\src\NzbDrone.Core\Movies\RefreshMovieService.cs:line 173
+
+
+2022-01-22 05:12:11.5|Info|RefreshMovieService|Updating info for Zack Snyder's Justice League
+2022-01-22 05:12:12.6|Info|DiskScanService|Scanning disk for Zack Snyder's Justice League
+2022-01-22 05:12:12.6|Error|RefreshMovieService|Couldn't rescan movie [Zack Snyder's Justice League (2021)][tt12361974, 791373]
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Zack Snyder's Justice League (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.DiskScanService.Scan(Movie movie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\DiskScanService.cs:line 107
+   at NzbDrone.Core.Movies.RefreshMovieService.RescanMovie(Movie movie, Boolean isNew, CommandTrigger trigger) in D:\a\1\s\src\NzbDrone.Core\Movies\RefreshMovieService.cs:line 173
+
+
+2022-01-22 05:12:14.1|Info|NzbSearchService|Searching 2 indexers for [The King's Man]
+2022-01-22 05:12:16.2|Info|DownloadDecisionMaker|Processing 54 releases
+2022-01-22 05:12:16.6|Info|NzbSearchService|Searching 2 indexers for [Moonfall]
+2022-01-22 05:12:17.6|Info|DownloadDecisionMaker|Processing 16 releases
+2022-01-22 05:12:17.6|Info|NzbSearchService|Searching 2 indexers for [Ron's Gone Wrong]
+2022-01-22 05:12:20.0|Info|DownloadDecisionMaker|Processing 59 releases
+2022-01-22 05:12:21.5|Info|DownloadService|Report sent to transmission. Rons Gone Wrong 2021 1080p BluRay REMUX AVC DTS HD MA TrueHD 7 1 Atmos FGT
+2022-01-22 05:12:21.6|Info|NzbSearchService|Searching 2 indexers for [The Unforgivable]
+2022-01-22 05:12:24.0|Info|DownloadDecisionMaker|Processing 80 releases
+2022-01-22 05:12:25.2|Info|NzbSearchService|Searching 2 indexers for [Zack Snyder's Justice League]
+2022-01-22 05:12:25.2|Info|DownloadDecisionMaker|Processing 59 releases
+2022-01-22 05:12:27.5|Info|DownloadService|Report sent to transmission. Zack Snyders Justice League (2021) (1080p) [BluRay] [5 1] [YTS MX]
+2022-01-22 05:12:27.5|Info|MovieSearchService|Movie search completed. 2 reports downloaded.
+2022-01-22 05:32:47.3|Info|RefreshMovieService|Updating info for Ron's Gone Wrong
+2022-01-22 05:32:49.4|Warn|DiskScanService|Movie's root folder (/mnt/media/Movies/) is empty.
+2022-01-22 05:32:49.4|Info|MovieScannedHandler|[Ron's Gone Wrong] was recently added, performing post-add actions
+2022-01-22 05:32:49.5|Info|NzbSearchService|Searching 2 indexers for [Ron's Gone Wrong]
+2022-01-22 05:32:49.6|Info|DownloadDecisionMaker|Processing 59 releases
+2022-01-22 05:32:50.6|Info|DownloadService|Report sent to transmission. Rons.Gone.Wrong.2021.REPACK.1080p.10bit.BluRay.8CH.x265.HEVC-PSA
+2022-01-22 05:32:50.6|Info|MovieSearchService|Movie search completed. 1 reports downloaded.
+2022-01-22 05:41:39.8|Warn|ImportApprovedMovie|Couldn't import movie /mnt/media/torrents/radarr/Ron's.Gone.Wrong.2021.REPACK.1080p.10bit.BluRay.8CH.x265.HEVC-PSA/Ron's.Gone.Wrong.2021.REPACK.1080p.10bit.BluRay.8CH.x265.HEVC-PSA.mkv
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Ron's Gone Wrong (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CreateFolder(String directoryName) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, Movie movie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 159
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, LocalMovie localMovie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 139
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CopyMovieFile(MovieFile movieFile, LocalMovie localMovie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 87
+   at NzbDrone.Core.MediaFiles.UpgradeMediaFileService.UpgradeMovieFile(MovieFile movieFile, LocalMovie localMovie, Boolean copyOnly) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\UpgradeMediaFileService.cs:line 71
+   at NzbDrone.Core.MediaFiles.MovieImport.ImportApprovedMovie.Import(List`1 decisions, Boolean newDownload, DownloadClientItem downloadClientItem, ImportMode importMode) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieImport\ImportApprovedMovie.cs:line 123
+
+
+2022-01-22 05:42:45.6|Warn|ImportApprovedMovie|Couldn't import movie /mnt/media/torrents/radarr/Ron's.Gone.Wrong.2021.REPACK.1080p.10bit.BluRay.8CH.x265.HEVC-PSA/Ron's.Gone.Wrong.2021.REPACK.1080p.10bit.BluRay.8CH.x265.HEVC-PSA.mkv
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Ron's Gone Wrong (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CreateFolder(String directoryName) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, Movie movie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 159
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, LocalMovie localMovie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 139
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CopyMovieFile(MovieFile movieFile, LocalMovie localMovie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 87
+   at NzbDrone.Core.MediaFiles.UpgradeMediaFileService.UpgradeMovieFile(MovieFile movieFile, LocalMovie localMovie, Boolean copyOnly) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\UpgradeMediaFileService.cs:line 71
+   at NzbDrone.Core.MediaFiles.MovieImport.ImportApprovedMovie.Import(List`1 decisions, Boolean newDownload, DownloadClientItem downloadClientItem, ImportMode importMode) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieImport\ImportApprovedMovie.cs:line 123
+
+
+2022-01-22 05:44:16.0|Warn|ImportApprovedMovie|Couldn't import movie /mnt/media/torrents/radarr/Ron's.Gone.Wrong.2021.REPACK.1080p.10bit.BluRay.8CH.x265.HEVC-PSA/Ron's.Gone.Wrong.2021.REPACK.1080p.10bit.BluRay.8CH.x265.HEVC-PSA.mkv
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Ron's Gone Wrong (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CreateFolder(String directoryName) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, Movie movie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 159
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, LocalMovie localMovie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 139
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CopyMovieFile(MovieFile movieFile, LocalMovie localMovie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 87
+   at NzbDrone.Core.MediaFiles.UpgradeMediaFileService.UpgradeMovieFile(MovieFile movieFile, LocalMovie localMovie, Boolean copyOnly) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\UpgradeMediaFileService.cs:line 71
+   at NzbDrone.Core.MediaFiles.MovieImport.ImportApprovedMovie.Import(List`1 decisions, Boolean newDownload, DownloadClientItem downloadClientItem, ImportMode importMode) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieImport\ImportApprovedMovie.cs:line 123
+
+
+2022-01-22 05:45:46.3|Warn|ImportApprovedMovie|Couldn't import movie /mnt/media/torrents/radarr/Ron's.Gone.Wrong.2021.REPACK.1080p.10bit.BluRay.8CH.x265.HEVC-PSA/Ron's.Gone.Wrong.2021.REPACK.1080p.10bit.BluRay.8CH.x265.HEVC-PSA.mkv
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Ron's Gone Wrong (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CreateFolder(String directoryName) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, Movie movie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 159
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, LocalMovie localMovie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 139
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CopyMovieFile(MovieFile movieFile, LocalMovie localMovie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 87
+   at NzbDrone.Core.MediaFiles.UpgradeMediaFileService.UpgradeMovieFile(MovieFile movieFile, LocalMovie localMovie, Boolean copyOnly) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\UpgradeMediaFileService.cs:line 71
+   at NzbDrone.Core.MediaFiles.MovieImport.ImportApprovedMovie.Import(List`1 decisions, Boolean newDownload, DownloadClientItem downloadClientItem, ImportMode importMode) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieImport\ImportApprovedMovie.cs:line 123
+
+
+2022-01-22 05:45:46.9|Warn|ImportApprovedMovie|Couldn't import movie /mnt/media/torrents/completed/radarr/Zack Snyders Justice League (2021) [1080p] [BluRay] [5.1] [YTS.MX]/Zack.Snyders.Justice.League.2021.1080p.BluRay.x264.AAC5.1-[YTS.MX].mp4
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Zack Snyder's Justice League (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CreateFolder(String directoryName) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, Movie movie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 159
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, LocalMovie localMovie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 139
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CopyMovieFile(MovieFile movieFile, LocalMovie localMovie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 87
+   at NzbDrone.Core.MediaFiles.UpgradeMediaFileService.UpgradeMovieFile(MovieFile movieFile, LocalMovie localMovie, Boolean copyOnly) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\UpgradeMediaFileService.cs:line 71
+   at NzbDrone.Core.MediaFiles.MovieImport.ImportApprovedMovie.Import(List`1 decisions, Boolean newDownload, DownloadClientItem downloadClientItem, ImportMode importMode) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieImport\ImportApprovedMovie.cs:line 123
+
+
+2022-01-22 05:46:43.7|Warn|ImportApprovedMovie|Couldn't import movie /mnt/media/torrents/radarr/Ron's.Gone.Wrong.2021.REPACK.1080p.10bit.BluRay.8CH.x265.HEVC-PSA/Ron's.Gone.Wrong.2021.REPACK.1080p.10bit.BluRay.8CH.x265.HEVC-PSA.mkv
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Ron's Gone Wrong (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CreateFolder(String directoryName) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, Movie movie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 159
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, LocalMovie localMovie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 139
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CopyMovieFile(MovieFile movieFile, LocalMovie localMovie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 87
+   at NzbDrone.Core.MediaFiles.UpgradeMediaFileService.UpgradeMovieFile(MovieFile movieFile, LocalMovie localMovie, Boolean copyOnly) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\UpgradeMediaFileService.cs:line 71
+   at NzbDrone.Core.MediaFiles.MovieImport.ImportApprovedMovie.Import(List`1 decisions, Boolean newDownload, DownloadClientItem downloadClientItem, ImportMode importMode) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieImport\ImportApprovedMovie.cs:line 123
+
+
+2022-01-22 05:46:44.1|Warn|ImportApprovedMovie|Couldn't import movie /mnt/media/torrents/completed/radarr/Zack Snyders Justice League (2021) [1080p] [BluRay] [5.1] [YTS.MX]/Zack.Snyders.Justice.League.2021.1080p.BluRay.x264.AAC5.1-[YTS.MX].mp4
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Zack Snyder's Justice League (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CreateFolder(String directoryName) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, Movie movie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 159
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, LocalMovie localMovie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 139
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CopyMovieFile(MovieFile movieFile, LocalMovie localMovie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 87
+   at NzbDrone.Core.MediaFiles.UpgradeMediaFileService.UpgradeMovieFile(MovieFile movieFile, LocalMovie localMovie, Boolean copyOnly) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\UpgradeMediaFileService.cs:line 71
+   at NzbDrone.Core.MediaFiles.MovieImport.ImportApprovedMovie.Import(List`1 decisions, Boolean newDownload, DownloadClientItem downloadClientItem, ImportMode importMode) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieImport\ImportApprovedMovie.cs:line 123
+
+
+2022-01-22 05:46:44.4|Warn|ImportApprovedMovie|Couldn't import movie /mnt/media/torrents/radarr/Ron's.Gone.Wrong.2021.REPACK.1080p.10bit.BluRay.8CH.x265.HEVC-PSA/Ron's.Gone.Wrong.2021.REPACK.1080p.10bit.BluRay.8CH.x265.HEVC-PSA.mkv
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Ron's Gone Wrong (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CreateFolder(String directoryName) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, Movie movie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 159
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, LocalMovie localMovie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 139
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CopyMovieFile(MovieFile movieFile, LocalMovie localMovie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 87
+   at NzbDrone.Core.MediaFiles.UpgradeMediaFileService.UpgradeMovieFile(MovieFile movieFile, LocalMovie localMovie, Boolean copyOnly) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\UpgradeMediaFileService.cs:line 71
+   at NzbDrone.Core.MediaFiles.MovieImport.ImportApprovedMovie.Import(List`1 decisions, Boolean newDownload, DownloadClientItem downloadClientItem, ImportMode importMode) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieImport\ImportApprovedMovie.cs:line 123
+
+
+2022-01-22 05:46:44.9|Warn|ImportApprovedMovie|Couldn't import movie /mnt/media/torrents/completed/radarr/Zack Snyders Justice League (2021) [1080p] [BluRay] [5.1] [YTS.MX]/Zack.Snyders.Justice.League.2021.1080p.BluRay.x264.AAC5.1-[YTS.MX].mp4
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Zack Snyder's Justice League (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CreateFolder(String directoryName) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, Movie movie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 159
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, LocalMovie localMovie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 139
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CopyMovieFile(MovieFile movieFile, LocalMovie localMovie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 87
+   at NzbDrone.Core.MediaFiles.UpgradeMediaFileService.UpgradeMovieFile(MovieFile movieFile, LocalMovie localMovie, Boolean copyOnly) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\UpgradeMediaFileService.cs:line 71
+   at NzbDrone.Core.MediaFiles.MovieImport.ImportApprovedMovie.Import(List`1 decisions, Boolean newDownload, DownloadClientItem downloadClientItem, ImportMode importMode) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieImport\ImportApprovedMovie.cs:line 123
+
+
+2022-01-22 05:48:05.6|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.2.2.5080
+2022-01-22 05:48:07.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-22 05:48:08.9|Info|Router|Application mode: Interactive
+2022-01-22 05:48:09.4|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 05:48:12.2|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 05:48:13.8|Info|WebHostController|Listening on the following URLs:
+2022-01-22 05:48:13.8|Info|WebHostController|  http://*:7878
+2022-01-22 05:48:14.7|Info|RadarrBootstrapper|Starting Web Server
+2022-01-22 05:48:19.6|Info|CommandExecutor|Starting 2 threads for tasks.
+2022-01-22 05:48:54.4|Warn|ImportApprovedMovie|Couldn't import movie /mnt/media/torrents/radarr/Ron's.Gone.Wrong.2021.REPACK.1080p.10bit.BluRay.8CH.x265.HEVC-PSA/Ron's.Gone.Wrong.2021.REPACK.1080p.10bit.BluRay.8CH.x265.HEVC-PSA.mkv
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Ron's Gone Wrong (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CreateFolder(String directoryName) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, Movie movie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 159
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, LocalMovie localMovie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 139
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CopyMovieFile(MovieFile movieFile, LocalMovie localMovie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 87
+   at NzbDrone.Core.MediaFiles.UpgradeMediaFileService.UpgradeMovieFile(MovieFile movieFile, LocalMovie localMovie, Boolean copyOnly) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\UpgradeMediaFileService.cs:line 71
+   at NzbDrone.Core.MediaFiles.MovieImport.ImportApprovedMovie.Import(List`1 decisions, Boolean newDownload, DownloadClientItem downloadClientItem, ImportMode importMode) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieImport\ImportApprovedMovie.cs:line 123
+
+
+2022-01-22 05:48:55.6|Warn|ImportApprovedMovie|Couldn't import movie /mnt/media/torrents/completed/radarr/Zack Snyders Justice League (2021) [1080p] [BluRay] [5.1] [YTS.MX]/Zack.Snyders.Justice.League.2021.1080p.BluRay.x264.AAC5.1-[YTS.MX].mp4
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Zack Snyder's Justice League (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CreateFolder(String directoryName) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, Movie movie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 159
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, LocalMovie localMovie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 139
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CopyMovieFile(MovieFile movieFile, LocalMovie localMovie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 87
+   at NzbDrone.Core.MediaFiles.UpgradeMediaFileService.UpgradeMovieFile(MovieFile movieFile, LocalMovie localMovie, Boolean copyOnly) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\UpgradeMediaFileService.cs:line 71
+   at NzbDrone.Core.MediaFiles.MovieImport.ImportApprovedMovie.Import(List`1 decisions, Boolean newDownload, DownloadClientItem downloadClientItem, ImportMode importMode) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieImport\ImportApprovedMovie.cs:line 123
+
+
+2022-01-22 05:49:04.3|Warn|ImportApprovedMovie|Couldn't import movie /mnt/media/torrents/radarr/Ron's.Gone.Wrong.2021.REPACK.1080p.10bit.BluRay.8CH.x265.HEVC-PSA/Ron's.Gone.Wrong.2021.REPACK.1080p.10bit.BluRay.8CH.x265.HEVC-PSA.mkv
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Ron's Gone Wrong (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CreateFolder(String directoryName) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, Movie movie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 159
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, LocalMovie localMovie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 139
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CopyMovieFile(MovieFile movieFile, LocalMovie localMovie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 87
+   at NzbDrone.Core.MediaFiles.UpgradeMediaFileService.UpgradeMovieFile(MovieFile movieFile, LocalMovie localMovie, Boolean copyOnly) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\UpgradeMediaFileService.cs:line 71
+   at NzbDrone.Core.MediaFiles.MovieImport.ImportApprovedMovie.Import(List`1 decisions, Boolean newDownload, DownloadClientItem downloadClientItem, ImportMode importMode) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieImport\ImportApprovedMovie.cs:line 123
+
+
+2022-01-22 05:49:04.8|Warn|ImportApprovedMovie|Couldn't import movie /mnt/media/torrents/completed/radarr/Zack Snyders Justice League (2021) [1080p] [BluRay] [5.1] [YTS.MX]/Zack.Snyders.Justice.League.2021.1080p.BluRay.x264.AAC5.1-[YTS.MX].mp4
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Zack Snyder's Justice League (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CreateFolder(String directoryName) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, Movie movie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 159
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, LocalMovie localMovie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 139
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CopyMovieFile(MovieFile movieFile, LocalMovie localMovie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 87
+   at NzbDrone.Core.MediaFiles.UpgradeMediaFileService.UpgradeMovieFile(MovieFile movieFile, LocalMovie localMovie, Boolean copyOnly) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\UpgradeMediaFileService.cs:line 71
+   at NzbDrone.Core.MediaFiles.MovieImport.ImportApprovedMovie.Import(List`1 decisions, Boolean newDownload, DownloadClientItem downloadClientItem, ImportMode importMode) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieImport\ImportApprovedMovie.cs:line 123
+
+
+2022-01-22 05:49:05.2|Warn|ImportApprovedMovie|Couldn't import movie /mnt/media/torrents/radarr/Ron's.Gone.Wrong.2021.REPACK.1080p.10bit.BluRay.8CH.x265.HEVC-PSA/Ron's.Gone.Wrong.2021.REPACK.1080p.10bit.BluRay.8CH.x265.HEVC-PSA.mkv
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Ron's Gone Wrong (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CreateFolder(String directoryName) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, Movie movie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 159
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, LocalMovie localMovie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 139
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CopyMovieFile(MovieFile movieFile, LocalMovie localMovie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 87
+   at NzbDrone.Core.MediaFiles.UpgradeMediaFileService.UpgradeMovieFile(MovieFile movieFile, LocalMovie localMovie, Boolean copyOnly) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\UpgradeMediaFileService.cs:line 71
+   at NzbDrone.Core.MediaFiles.MovieImport.ImportApprovedMovie.Import(List`1 decisions, Boolean newDownload, DownloadClientItem downloadClientItem, ImportMode importMode) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieImport\ImportApprovedMovie.cs:line 123
+
+
+2022-01-22 05:49:05.8|Warn|ImportApprovedMovie|Couldn't import movie /mnt/media/torrents/completed/radarr/Zack Snyders Justice League (2021) [1080p] [BluRay] [5.1] [YTS.MX]/Zack.Snyders.Justice.League.2021.1080p.BluRay.x264.AAC5.1-[YTS.MX].mp4
+
+[v3.2.2.5080] System.UnauthorizedAccessException: Access to the path '/mnt/media/Movies/Zack Snyder's Justice League (2021)' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NzbDrone.Common.Disk.DiskProviderBase.CreateFolder(String path) in D:\a\1\s\src\NzbDrone.Common\Disk\DiskProviderBase.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CreateFolder(String directoryName) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 189
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, Movie movie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 159
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.EnsureMovieFolder(MovieFile movieFile, LocalMovie localMovie, String filePath) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 139
+   at NzbDrone.Core.MediaFiles.MovieFileMovingService.CopyMovieFile(MovieFile movieFile, LocalMovie localMovie) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieFileMovingService.cs:line 87
+   at NzbDrone.Core.MediaFiles.UpgradeMediaFileService.UpgradeMovieFile(MovieFile movieFile, LocalMovie localMovie, Boolean copyOnly) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\UpgradeMediaFileService.cs:line 71
+   at NzbDrone.Core.MediaFiles.MovieImport.ImportApprovedMovie.Import(List`1 decisions, Boolean newDownload, DownloadClientItem downloadClientItem, ImportMode importMode) in D:\a\1\s\src\NzbDrone.Core\MediaFiles\MovieImport\ImportApprovedMovie.cs:line 123
+
+
+2022-01-22 05:51:22.5|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.2.2.5080
+2022-01-22 05:51:25.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-22 05:51:25.4|Info|Router|Application mode: Interactive
+2022-01-22 05:51:25.7|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 05:51:26.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 05:51:27.8|Info|WebHostController|Listening on the following URLs:
+2022-01-22 05:51:27.8|Info|WebHostController|  http://*:7878
+2022-01-22 05:51:28.4|Info|RadarrBootstrapper|Starting Web Server
+2022-01-22 05:51:33.3|Info|CommandExecutor|Starting 2 threads for tasks.
+2022-01-22 05:52:12.8|Info|MovieService|Assigning file [Zack.Snyders.Justice.League.2021.1080p.BluRay.x264.AAC5.1-[YTS.MX].mp4] to movie [[Zack Snyder's Justice League (2021)][tt12361974, 791373]]
+2022-01-22 05:52:13.7|Info|MovieService|Assigning file [Ron's.Gone.Wrong.2021.REPACK.1080p.10bit.BluRay.8CH.x265.HEVC-PSA.mkv] to movie [[Ron's Gone Wrong (2021)][tt7504818, 482321]]
+2022-01-22 06:08:34.3|Info|RssSyncService|Starting RSS Sync
+2022-01-22 06:08:36.7|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-22 06:08:38.0|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-22 07:09:06.8|Info|RssSyncService|Starting RSS Sync
+2022-01-22 07:09:09.0|Info|DownloadDecisionMaker|Processing 149 releases
+2022-01-22 07:09:09.9|Info|RssSyncService|RSS Sync Completed. Reports found: 149, Reports grabbed: 0
+2022-01-22 07:23:37.1|Error|TaskExtensions|Task Error
+
+[v3.2.2.5080] code = Full (13), message = System.Data.SQLite.SQLiteException (0x800007FF): database or disk is full
+database or disk is full
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1064
+   at Dapper.SqlMapper.QueryMultipleImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 1047
+   at NzbDrone.Core.Datastore.BasicRepository`1.Insert(IDbConnection connection, IDbTransaction transaction, TModel model) in D:\a\1\s\src\NzbDrone.Core\Datastore\BasicRepository.cs:line 180
+   at NzbDrone.Core.Datastore.BasicRepository`1.Insert(TModel model) in D:\a\1\s\src\NzbDrone.Core\Datastore\BasicRepository.cs:line 143
+   at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand](TCommand command, CommandPriority priority, CommandTrigger trigger) in D:\a\1\s\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:line 135
+   at System.Runtime.CompilerServices.RuntimeHelpers.DispatchTailCalls(IntPtr callersRetAddrSlot, IntPtr callTarget, IntPtr retVal)
+   at CallSite.Target(Closure , CallSite , CommandQueueManager , Object , CommandPriority , CommandTrigger )
+   at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push(String commandName, Nullable`1 lastExecutionTime, Nullable`1 lastStartTime, CommandPriority priority, CommandTrigger trigger) in D:\a\1\s\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:line 144
+   at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands() in D:\a\1\s\src\NzbDrone.Core\Jobs\Scheduler.cs:line 42
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+
+
+2022-01-22 07:24:07.1|Error|TaskExtensions|Task Error
+
+[v3.2.2.5080] code = Full (13), message = System.Data.SQLite.SQLiteException (0x800007FF): database or disk is full
+database or disk is full
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.2022-01-22 08:01:25.3|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 3.2.2.5080
+2022-01-22 08:01:28.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-22 08:01:29.4|Info|Router|Application mode: Interactive
+2022-01-22 08:01:30.0|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 08:01:31.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 08:01:33.7|Info|WebHostController|Listening on the following URLs:
+2022-01-22 08:01:33.7|Info|WebHostController|  http://*:7878
+2022-01-22 08:01:35.3|Info|RadarrBootstrapper|Starting Web Server
+2022-01-22 08:01:41.4|Info|CommandExecutor|Starting 2 threads for tasks.
+2022-01-22 08:02:12.0|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.2.2.5080] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings.
+ ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 95
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 57
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:line 35
+   --- End of inner exception stack trace ---
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:line 62
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy(QBittorrentSettings settings) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 87
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.<>c__DisplayClass7_0.<GetProxyCache>b__0() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 82
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in D:\a\1\s\src\NzbDrone.Common\Cache\Cached.cs:line 114
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache(QBittorrentSettings settings, Boolean force) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 82
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy(QBittorrentSettings settings, Boolean force) in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:line 65
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems() in D:\a\1\s\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:line 218
+   at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads(IDownloadClient downloadClient) in D:\a\1\s\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:line 89
+
+

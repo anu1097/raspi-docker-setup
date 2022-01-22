@@ -4819,3 +4819,872 @@
 2022-01-21 13:15:41.5|Info|RssSyncService|Starting RSS Sync
 2022-01-21 13:15:41.9|Info|DownloadDecisionMaker|Processing 321 releases
 2022-01-21 13:15:46.5|Info|RssSyncService|RSS Sync Completed. Reports found: 321, Reports grabbed: 0
+2022-01-21 13:27:34.9|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1342
+2022-01-21 13:27:36.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-21 13:27:37.0|Info|Router|Application mode: Interactive
+2022-01-21 13:27:37.8|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-21 13:27:38.7|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-21 13:27:39.9|Info|OwinHostController|Listening on the following URLs:
+2022-01-21 13:27:39.9|Info|OwinHostController|  http://*:8989/
+2022-01-21 13:27:42.8|Info|SonarrBootstrapper|Starting Web Server
+2022-01-21 13:30:47.6|Info|RssSyncService|Starting RSS Sync
+2022-01-21 13:31:52.3|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 1/21/2022 7:30:12 AM and 1/21/2022 7:30:52 AM UTC. Search may be required.
+2022-01-21 13:31:52.4|Info|DownloadDecisionMaker|Processing 323 releases
+2022-01-21 13:31:57.1|Info|RssSyncService|RSS Sync Completed. Reports found: 323, Reports grabbed: 0
+2022-01-21 13:18:10.2|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1342
+2022-01-21 13:18:16.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-21 13:18:17.4|Info|Router|Application mode: Interactive
+2022-01-21 13:18:19.1|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-21 13:18:20.7|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-21 13:18:22.5|Info|OwinHostController|Listening on the following URLs:
+2022-01-21 13:18:22.5|Info|OwinHostController|  http://*:8989/
+2022-01-21 13:18:26.3|Info|SonarrBootstrapper|Starting Web Server
+2022-01-21 13:58:53.6|Info|RssSyncService|Starting RSS Sync
+2022-01-21 13:58:59.7|Info|DownloadDecisionMaker|Processing 313 releases
+2022-01-21 13:59:04.5|Info|RssSyncService|RSS Sync Completed. Reports found: 313, Reports grabbed: 0
+2022-01-21 14:14:24.1|Info|RssSyncService|Starting RSS Sync
+2022-01-21 14:14:24.6|Info|DownloadDecisionMaker|Processing 313 releases
+2022-01-21 14:14:28.5|Info|RssSyncService|RSS Sync Completed. Reports found: 313, Reports grabbed: 0
+2022-01-21 14:29:54.6|Info|RssSyncService|Starting RSS Sync
+2022-01-21 14:29:55.1|Info|DownloadDecisionMaker|Processing 313 releases
+2022-01-21 14:29:58.8|Info|RssSyncService|RSS Sync Completed. Reports found: 313, Reports grabbed: 0
+2022-01-21 14:45:25.1|Info|RssSyncService|Starting RSS Sync
+2022-01-21 14:46:29.1|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 1/21/2022 8:28:54 AM and 1/21/2022 8:45:28 AM UTC. Search may be required.
+2022-01-21 14:46:29.1|Info|DownloadDecisionMaker|Processing 323 releases
+2022-01-21 14:46:33.6|Info|RssSyncService|RSS Sync Completed. Reports found: 323, Reports grabbed: 0
+2022-01-21 15:01:55.8|Info|RssSyncService|Starting RSS Sync
+2022-01-21 15:02:01.0|Info|DownloadDecisionMaker|Processing 280 releases
+2022-01-21 15:02:04.8|Info|RssSyncService|RSS Sync Completed. Reports found: 280, Reports grabbed: 0
+2022-01-21 15:17:26.1|Info|RssSyncService|Starting RSS Sync
+2022-01-21 15:17:26.6|Info|DownloadDecisionMaker|Processing 280 releases
+2022-01-21 15:17:30.2|Info|RssSyncService|RSS Sync Completed. Reports found: 280, Reports grabbed: 0
+2022-01-21 15:32:56.9|Info|RssSyncService|Starting RSS Sync
+2022-01-21 15:32:57.3|Info|DownloadDecisionMaker|Processing 280 releases
+2022-01-21 15:33:00.9|Info|RssSyncService|RSS Sync Completed. Reports found: 280, Reports grabbed: 0
+2022-01-21 15:43:57.1|Info|SceneMappingService|Updating Scene mappings
+2022-01-21 15:48:27.2|Info|RssSyncService|Starting RSS Sync
+2022-01-21 15:49:28.2|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 1/21/2022 9:31:58 AM and 1/21/2022 9:48:29 AM UTC. Search may be required.
+2022-01-21 15:49:28.2|Info|DownloadDecisionMaker|Processing 281 releases
+2022-01-21 15:49:31.7|Info|RssSyncService|RSS Sync Completed. Reports found: 281, Reports grabbed: 0
+2022-01-21 16:02:57.7|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.0.6.1342] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings. ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00019] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:36 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00081] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:63 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:87 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector+<>c__DisplayClass7_0.<GetProxyCache>b__0 () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x000b1] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Cache\Cached.cs:104 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00049] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:65 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:45 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:217 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-01-21 16:04:57.8|Info|RssSyncService|Starting RSS Sync
+2022-01-21 16:05:00.1|Info|DownloadDecisionMaker|Processing 281 releases
+2022-01-21 16:05:03.8|Info|RssSyncService|RSS Sync Completed. Reports found: 281, Reports grabbed: 0
+2022-01-21 16:10:58.1|Info|RefreshSeriesService|Updating Attack on Titan
+2022-01-21 16:10:59.6|Info|RefreshEpisodeService|Starting episode info refresh for: [267440][Attack on Titan]
+2022-01-21 16:10:59.9|Info|RefreshEpisodeService|Finished episode refresh for series: [267440][Attack on Titan].
+2022-01-21 16:11:01.4|Info|DiskScanService|Scanning Attack on Titan
+2022-01-21 16:11:01.5|Info|DiskScanService|Completed scanning disk for Attack on Titan
+2022-01-21 16:11:01.5|Info|MetadataService|Series folder does not exist, skipping metadata creation
+2022-01-21 16:11:01.6|Info|RefreshSeriesService|Skipping refresh of series: Breaking Bad
+2022-01-21 16:11:01.6|Info|DiskScanService|Scanning Breaking Bad
+2022-01-21 16:11:01.6|Info|DiskScanService|Completed scanning disk for Breaking Bad
+2022-01-21 16:11:01.7|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-21 16:11:01.7|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-21 16:11:01.7|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-21 16:11:01.7|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-21 16:11:01.8|Info|RefreshSeriesService|Skipping refresh of series: Death Note
+2022-01-21 16:11:01.8|Info|DiskScanService|Scanning Death Note
+2022-01-21 16:11:01.8|Info|DiskScanService|Completed scanning disk for Death Note
+2022-01-21 16:11:01.8|Info|MetadataService|Series folder does not exist, skipping metadata creation
+2022-01-21 16:11:01.8|Info|RefreshSeriesService|Updating Ted Lasso
+2022-01-21 16:11:02.2|Info|RefreshEpisodeService|Starting episode info refresh for: [383203][Ted Lasso]
+2022-01-21 16:11:02.3|Info|RefreshEpisodeService|Finished episode refresh for series: [383203][Ted Lasso].
+2022-01-21 16:11:02.3|Info|DiskScanService|Scanning Ted Lasso
+2022-01-21 16:11:02.3|Info|DiskScanService|Completed scanning disk for Ted Lasso
+2022-01-21 16:11:02.3|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-21 16:11:02.3|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-21 16:11:02.3|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-21 16:11:02.3|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-21 16:20:28.4|Info|RssSyncService|Starting RSS Sync
+2022-01-21 16:20:28.8|Info|DownloadDecisionMaker|Processing 281 releases
+2022-01-21 16:20:32.1|Info|RssSyncService|RSS Sync Completed. Reports found: 281, Reports grabbed: 0
+2022-01-21 16:35:58.9|Info|RssSyncService|Starting RSS Sync
+2022-01-21 16:36:01.4|Info|DownloadDecisionMaker|Processing 265 releases
+2022-01-21 16:36:05.0|Info|RssSyncService|RSS Sync Completed. Reports found: 265, Reports grabbed: 0
+2022-01-21 16:51:29.8|Info|RssSyncService|Starting RSS Sync
+2022-01-21 16:52:38.0|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 1/21/2022 10:34:59 AM and 1/21/2022 10:51:33 AM UTC. Search may be required.
+2022-01-21 16:52:38.1|Info|DownloadDecisionMaker|Processing 265 releases
+2022-01-21 16:52:41.7|Info|RssSyncService|RSS Sync Completed. Reports found: 265, Reports grabbed: 0
+2022-01-21 17:08:00.5|Info|RssSyncService|Starting RSS Sync
+2022-01-21 17:08:03.2|Info|DownloadDecisionMaker|Processing 265 releases
+2022-01-21 17:08:06.6|Info|RssSyncService|RSS Sync Completed. Reports found: 265, Reports grabbed: 0
+2022-01-21 17:23:30.8|Info|RssSyncService|Starting RSS Sync
+2022-01-21 17:23:35.7|Info|DownloadDecisionMaker|Processing 262 releases
+2022-01-21 17:23:39.7|Info|RssSyncService|RSS Sync Completed. Reports found: 262, Reports grabbed: 0
+2022-01-21 17:39:01.3|Info|RssSyncService|Starting RSS Sync
+2022-01-21 17:39:01.7|Info|DownloadDecisionMaker|Processing 262 releases
+2022-01-21 17:39:05.3|Info|RssSyncService|RSS Sync Completed. Reports found: 262, Reports grabbed: 0
+2022-01-21 17:54:31.8|Info|RssSyncService|Starting RSS Sync
+2022-01-21 17:55:36.4|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 1/21/2022 11:38:02 AM and 1/21/2022 11:54:34 AM UTC. Search may be required.
+2022-01-21 17:55:36.5|Info|DownloadDecisionMaker|Processing 262 releases
+2022-01-21 17:55:40.4|Info|RssSyncService|RSS Sync Completed. Reports found: 262, Reports grabbed: 0
+2022-01-21 18:11:02.4|Info|RssSyncService|Starting RSS Sync
+2022-01-21 18:11:06.5|Info|DownloadDecisionMaker|Processing 265 releases
+2022-01-21 18:11:09.6|Info|RssSyncService|RSS Sync Completed. Reports found: 265, Reports grabbed: 0
+2022-01-21 18:26:32.9|Info|RssSyncService|Starting RSS Sync
+2022-01-21 18:26:33.3|Info|DownloadDecisionMaker|Processing 265 releases
+2022-01-21 18:26:36.3|Info|RssSyncService|RSS Sync Completed. Reports found: 265, Reports grabbed: 0
+2022-01-21 18:42:03.3|Info|RssSyncService|Starting RSS Sync
+2022-01-21 18:42:03.7|Info|DownloadDecisionMaker|Processing 265 releases
+2022-01-21 18:42:07.1|Info|RssSyncService|RSS Sync Completed. Reports found: 265, Reports grabbed: 0
+2022-01-21 18:44:33.6|Info|SceneMappingService|Updating Scene mappings
+2022-01-21 18:57:34.1|Info|RssSyncService|Starting RSS Sync
+2022-01-21 18:58:38.4|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 1/21/2022 12:41:05 PM and 1/21/2022 12:57:37 PM UTC. Search may be required.
+2022-01-21 18:58:38.4|Info|DownloadDecisionMaker|Processing 263 releases
+2022-01-21 18:58:41.9|Info|RssSyncService|RSS Sync Completed. Reports found: 263, Reports grabbed: 0
+2022-01-21 19:03:11.3|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.0.6.1342] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings. ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00019] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:36 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00081] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:63 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:87 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector+<>c__DisplayClass7_0.<GetProxyCache>b__0 () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x000b1] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Cache\Cached.cs:104 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00049] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:65 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:45 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:217 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-01-21 19:14:04.6|Info|RssSyncService|Starting RSS Sync
+2022-01-21 19:14:09.5|Info|DownloadDecisionMaker|Processing 263 releases
+2022-01-21 19:14:13.6|Info|RssSyncService|RSS Sync Completed. Reports found: 263, Reports grabbed: 0
+2022-01-21 19:29:35.0|Info|RssSyncService|Starting RSS Sync
+2022-01-21 19:29:35.4|Info|DownloadDecisionMaker|Processing 263 releases
+2022-01-21 19:29:39.1|Info|RssSyncService|RSS Sync Completed. Reports found: 263, Reports grabbed: 0
+2022-01-21 19:45:05.6|Info|RssSyncService|Starting RSS Sync
+2022-01-21 19:45:12.2|Info|DownloadDecisionMaker|Processing 273 releases
+2022-01-21 19:45:16.2|Info|RssSyncService|RSS Sync Completed. Reports found: 273, Reports grabbed: 0
+2022-01-21 20:00:36.1|Info|RssSyncService|Starting RSS Sync
+2022-01-21 20:01:37.7|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 1/21/2022 1:44:08 PM and 1/21/2022 2:00:37 PM UTC. Search may be required.
+2022-01-21 20:01:37.8|Info|DownloadDecisionMaker|Processing 273 releases
+2022-01-21 20:01:41.8|Info|RssSyncService|RSS Sync Completed. Reports found: 273, Reports grabbed: 0
+2022-01-21 20:01:45.3|Info|SceneMappingService|Updating Scene mappings
+2022-01-21 20:01:53.4|Info|RefreshSeriesService|Updating Death Note
+2022-01-21 20:01:54.5|Info|RefreshEpisodeService|Starting episode info refresh for: [79481][Death Note]
+2022-01-21 20:01:54.6|Info|RefreshEpisodeService|Finished episode refresh for series: [79481][Death Note].
+2022-01-21 20:01:54.7|Info|DiskScanService|Scanning Death Note
+2022-01-21 20:01:54.7|Info|DiskScanService|Completed scanning disk for Death Note
+2022-01-21 20:01:54.7|Info|MetadataService|Series folder does not exist, skipping metadata creation
+2022-01-21 20:17:06.7|Info|RssSyncService|Starting RSS Sync
+2022-01-21 20:17:08.7|Info|DownloadDecisionMaker|Processing 273 releases
+2022-01-21 20:17:13.0|Info|RssSyncService|RSS Sync Completed. Reports found: 273, Reports grabbed: 0
+2022-01-21 20:32:37.1|Info|RssSyncService|Starting RSS Sync
+2022-01-21 20:32:39.9|Info|DownloadDecisionMaker|Processing 278 releases
+2022-01-21 20:32:43.0|Info|RssSyncService|RSS Sync Completed. Reports found: 278, Reports grabbed: 0
+2022-01-21 20:48:07.7|Info|RssSyncService|Starting RSS Sync
+2022-01-21 20:48:08.2|Info|DownloadDecisionMaker|Processing 278 releases
+2022-01-21 20:48:11.5|Info|RssSyncService|RSS Sync Completed. Reports found: 278, Reports grabbed: 0
+2022-01-21 21:03:38.3|Info|RssSyncService|Starting RSS Sync
+2022-01-21 21:04:39.0|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 1/21/2022 2:47:07 PM and 1/21/2022 3:03:39 PM UTC. Search may be required.
+2022-01-21 21:04:39.0|Info|DownloadDecisionMaker|Processing 278 releases
+2022-01-21 21:04:42.3|Info|RssSyncService|RSS Sync Completed. Reports found: 278, Reports grabbed: 0
+2022-01-21 21:20:08.8|Info|RssSyncService|Starting RSS Sync
+2022-01-21 21:20:12.6|Info|DownloadDecisionMaker|Processing 279 releases
+2022-01-21 21:20:15.8|Info|RssSyncService|RSS Sync Completed. Reports found: 279, Reports grabbed: 0
+2022-01-21 21:35:39.3|Info|RssSyncService|Starting RSS Sync
+2022-01-21 21:35:39.9|Info|DownloadDecisionMaker|Processing 279 releases
+2022-01-21 21:35:43.1|Info|RssSyncService|RSS Sync Completed. Reports found: 279, Reports grabbed: 0
+2022-01-21 21:45:09.6|Info|SceneMappingService|Updating Scene mappings
+2022-01-21 21:51:09.8|Info|RssSyncService|Starting RSS Sync
+2022-01-21 21:51:10.2|Info|DownloadDecisionMaker|Processing 279 releases
+2022-01-21 21:51:13.4|Info|RssSyncService|RSS Sync Completed. Reports found: 279, Reports grabbed: 0
+2022-01-21 22:04:40.6|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.0.6.1342] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings. ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00019] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:36 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00081] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:63 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:87 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector+<>c__DisplayClass7_0.<GetProxyCache>b__0 () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x000b1] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Cache\Cached.cs:104 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00049] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:65 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:45 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:217 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-01-21 22:06:40.6|Info|RssSyncService|Starting RSS Sync
+2022-01-21 22:07:42.4|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 1/21/2022 3:50:10 PM and 1/21/2022 4:06:43 PM UTC. Search may be required.
+2022-01-21 22:07:42.4|Info|DownloadDecisionMaker|Processing 275 releases
+2022-01-21 22:07:46.3|Info|RssSyncService|RSS Sync Completed. Reports found: 275, Reports grabbed: 0
+2022-01-21 22:23:11.1|Info|RssSyncService|Starting RSS Sync
+2022-01-21 22:23:14.4|Info|DownloadDecisionMaker|Processing 275 releases
+2022-01-21 22:23:17.8|Info|RssSyncService|RSS Sync Completed. Reports found: 275, Reports grabbed: 0
+2022-01-21 22:38:41.7|Info|RssSyncService|Starting RSS Sync
+2022-01-21 22:38:42.1|Info|DownloadDecisionMaker|Processing 275 releases
+2022-01-21 22:38:45.4|Info|RssSyncService|RSS Sync Completed. Reports found: 275, Reports grabbed: 0
+2022-01-21 22:54:12.4|Info|RssSyncService|Starting RSS Sync
+2022-01-21 22:54:15.0|Info|DownloadDecisionMaker|Processing 272 releases
+2022-01-21 22:54:19.1|Info|RssSyncService|RSS Sync Completed. Reports found: 272, Reports grabbed: 0
+2022-01-21 23:09:43.0|Info|RssSyncService|Starting RSS Sync
+2022-01-21 23:10:44.6|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 1/21/2022 4:53:13 PM and 1/21/2022 5:09:44 PM UTC. Search may be required.
+2022-01-21 23:10:44.6|Info|DownloadDecisionMaker|Processing 272 releases
+2022-01-21 23:10:48.8|Info|RssSyncService|RSS Sync Completed. Reports found: 272, Reports grabbed: 0
+2022-01-21 23:26:13.5|Info|RssSyncService|Starting RSS Sync
+2022-01-21 23:26:15.8|Info|DownloadDecisionMaker|Processing 272 releases
+2022-01-21 23:26:19.7|Info|RssSyncService|RSS Sync Completed. Reports found: 272, Reports grabbed: 0
+2022-01-21 23:41:44.1|Info|RssSyncService|Starting RSS Sync
+2022-01-21 23:41:47.1|Info|DownloadDecisionMaker|Processing 272 releases
+2022-01-21 23:41:51.4|Info|RssSyncService|RSS Sync Completed. Reports found: 272, Reports grabbed: 0
+2022-01-21 23:57:14.5|Info|RssSyncService|Starting RSS Sync
+2022-01-21 23:57:14.9|Info|DownloadDecisionMaker|Processing 272 releases
+2022-01-21 23:57:19.0|Info|RssSyncService|RSS Sync Completed. Reports found: 272, Reports grabbed: 0
+2022-01-22 00:12:45.0|Info|RssSyncService|Starting RSS Sync
+2022-01-22 00:13:45.4|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 1/21/2022 5:56:14 PM and 1/21/2022 6:12:46 PM UTC. Search may be required.
+2022-01-22 00:13:45.4|Info|DownloadDecisionMaker|Processing 272 releases
+2022-01-22 00:13:49.9|Info|RssSyncService|RSS Sync Completed. Reports found: 272, Reports grabbed: 0
+2022-01-22 00:29:15.7|Info|RssSyncService|Starting RSS Sync
+2022-01-22 00:29:23.3|Info|DownloadDecisionMaker|Processing 269 releases
+2022-01-22 00:29:27.2|Info|RssSyncService|RSS Sync Completed. Reports found: 269, Reports grabbed: 0
+2022-01-22 00:44:46.5|Info|RssSyncService|Starting RSS Sync
+2022-01-22 00:44:47.3|Info|DownloadDecisionMaker|Processing 269 releases
+2022-01-22 00:44:52.0|Info|RssSyncService|RSS Sync Completed. Reports found: 269, Reports grabbed: 0
+2022-01-22 00:45:46.6|Info|SceneMappingService|Updating Scene mappings
+2022-01-22 01:00:18.4|Info|RssSyncService|Starting RSS Sync
+2022-01-22 01:00:19.0|Info|DownloadDecisionMaker|Processing 269 releases
+2022-01-22 01:00:23.1|Info|RssSyncService|RSS Sync Completed. Reports found: 269, Reports grabbed: 0
+2022-01-22 01:03:26.3|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1342
+2022-01-22 01:03:33.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-22 01:03:34.4|Info|Router|Application mode: Interactive
+2022-01-22 01:03:36.4|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 01:03:38.5|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 01:03:40.5|Info|OwinHostController|Listening on the following URLs:
+2022-01-22 01:03:40.5|Info|OwinHostController|  http://*:8989/
+2022-01-22 01:03:45.8|Info|SonarrBootstrapper|Starting Web Server
+2022-01-22 01:05:54.9|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.0.6.1342] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings. ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00019] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:36 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00081] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:63 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:87 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector+<>c__DisplayClass7_0.<GetProxyCache>b__0 () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x000b1] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Cache\Cached.cs:104 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00049] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:65 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:45 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:217 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-01-22 01:11:55.0|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.0.6.1342] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings. ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00019] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:36 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00081] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:63 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:87 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector+<>c__DisplayClass7_0.<GetProxyCache>b__0 () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x000b1] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Cache\Cached.cs:104 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00049] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:65 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:45 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:217 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-01-22 01:15:25.1|Info|RssSyncService|Starting RSS Sync
+2022-01-22 01:16:24.8|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 1/21/2022 6:59:17 PM and 1/21/2022 7:15:26 PM UTC. Search may be required.
+2022-01-22 01:16:24.9|Info|DownloadDecisionMaker|Processing 268 releases
+2022-01-22 01:16:29.2|Info|RssSyncService|RSS Sync Completed. Reports found: 268, Reports grabbed: 0
+2022-01-22 01:17:55.2|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.0.6.1342] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings. ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00019] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:36 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00081] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:63 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:87 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector+<>c__DisplayClass7_0.<GetProxyCache>b__0 () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x000b1] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Cache\Cached.cs:104 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00049] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:65 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:45 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:217 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-01-22 01:23:55.3|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.0.6.1342] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings. ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00019] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:36 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00081] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:63 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:87 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector+<>c__DisplayClass7_0.<GetProxyCache>b__0 () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x000b1] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Cache\Cached.cs:104 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00049] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:65 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:45 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:217 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-01-22 01:31:55.5|Info|RssSyncService|Starting RSS Sync
+2022-01-22 01:31:57.8|Info|DownloadDecisionMaker|Processing 268 releases
+2022-01-22 01:32:02.0|Info|RssSyncService|RSS Sync Completed. Reports found: 268, Reports grabbed: 0
+2022-01-22 01:47:26.0|Info|RssSyncService|Starting RSS Sync
+2022-01-22 01:47:26.4|Info|DownloadDecisionMaker|Processing 268 releases
+2022-01-22 01:47:30.7|Info|RssSyncService|RSS Sync Completed. Reports found: 268, Reports grabbed: 0
+2022-01-22 02:02:56.6|Info|RssSyncService|Starting RSS Sync
+2022-01-22 02:03:16.2|Info|DownloadDecisionMaker|Processing 268 releases
+2022-01-22 02:03:20.4|Info|RssSyncService|RSS Sync Completed. Reports found: 268, Reports grabbed: 0
+2022-01-22 02:18:27.0|Info|RssSyncService|Starting RSS Sync
+2022-01-22 02:19:26.3|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 1/21/2022 8:01:56 PM and 1/21/2022 8:18:28 PM UTC. Search may be required.
+2022-01-22 02:19:26.4|Info|DownloadDecisionMaker|Processing 268 releases
+2022-01-22 02:19:30.7|Info|RssSyncService|RSS Sync Completed. Reports found: 268, Reports grabbed: 0
+2022-01-22 02:34:57.5|Info|RssSyncService|Starting RSS Sync
+2022-01-22 02:34:59.4|Info|DownloadDecisionMaker|Processing 268 releases
+2022-01-22 02:35:03.6|Info|RssSyncService|RSS Sync Completed. Reports found: 268, Reports grabbed: 0
+2022-01-22 02:50:28.4|Info|RssSyncService|Starting RSS Sync
+2022-01-22 02:50:30.8|Info|DownloadDecisionMaker|Processing 270 releases
+2022-01-22 02:50:34.6|Info|RssSyncService|RSS Sync Completed. Reports found: 270, Reports grabbed: 0
+2022-01-22 03:05:59.1|Info|RssSyncService|Starting RSS Sync
+2022-01-22 03:05:59.4|Info|DownloadDecisionMaker|Processing 270 releases
+2022-01-22 03:06:03.3|Info|RssSyncService|RSS Sync Completed. Reports found: 270, Reports grabbed: 0
+2022-01-22 03:21:30.0|Info|RssSyncService|Starting RSS Sync
+2022-01-22 03:22:29.5|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 1/21/2022 9:04:58 PM and 1/21/2022 9:21:31 PM UTC. Search may be required.
+2022-01-22 03:22:29.5|Info|DownloadDecisionMaker|Processing 270 releases
+2022-01-22 03:22:33.0|Info|RssSyncService|RSS Sync Completed. Reports found: 270, Reports grabbed: 0
+2022-01-22 03:38:00.4|Info|RssSyncService|Starting RSS Sync
+2022-01-22 03:38:08.3|Info|DownloadDecisionMaker|Processing 265 releases
+2022-01-22 03:38:12.1|Info|RssSyncService|RSS Sync Completed. Reports found: 265, Reports grabbed: 0
+2022-01-22 03:41:17.2|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1342
+2022-01-22 03:41:19.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-22 03:41:20.1|Info|Router|Application mode: Interactive
+2022-01-22 03:41:20.9|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 03:41:21.9|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 03:41:22.9|Info|OwinHostController|Listening on the following URLs:
+2022-01-22 03:41:22.9|Info|OwinHostController|  http://*:8989/
+2022-01-22 03:41:24.9|Info|SonarrBootstrapper|Starting Web Server
+2022-01-22 03:42:39.6|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1342
+2022-01-22 03:42:43.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-22 03:42:44.5|Info|Router|Application mode: Interactive
+2022-01-22 03:42:46.6|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 03:42:48.3|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 03:42:50.0|Info|OwinHostController|Listening on the following URLs:
+2022-01-22 03:42:50.0|Info|OwinHostController|  http://*:8989/
+2022-01-22 03:42:55.1|Info|SonarrBootstrapper|Starting Web Server
+2022-01-22 03:46:03.0|Info|SceneMappingService|Updating Scene mappings
+2022-01-22 03:50:39.1|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1342
+2022-01-22 03:50:41.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-22 03:50:42.4|Info|Router|Application mode: Interactive
+2022-01-22 03:50:43.6|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 03:50:45.5|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 03:50:47.9|Info|OwinHostController|Listening on the following URLs:
+2022-01-22 03:50:47.9|Info|OwinHostController|  http://*:8989/
+2022-01-22 03:50:51.6|Info|SonarrBootstrapper|Starting Web Server
+2022-01-22 03:53:26.7|Info|RssSyncService|Starting RSS Sync
+2022-01-22 03:53:32.3|Info|DownloadDecisionMaker|Processing 265 releases
+2022-01-22 03:53:36.4|Info|RssSyncService|RSS Sync Completed. Reports found: 265, Reports grabbed: 0
+2022-01-22 04:08:57.5|Info|RssSyncService|Starting RSS Sync
+2022-01-22 04:08:58.0|Info|DownloadDecisionMaker|Processing 265 releases
+2022-01-22 04:09:01.7|Info|RssSyncService|RSS Sync Completed. Reports found: 265, Reports grabbed: 0
+2022-01-22 04:10:27.6|Info|HousekeepingService|Running housecleaning tasks
+2022-01-22 04:10:27.7|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2022-01-22 04:10:27.9|Info|Database|Vacuuming Log database
+2022-01-22 04:10:27.9|Info|Database|Log database compressed
+2022-01-22 04:10:28.0|Info|Database|Vacuuming Main database
+2022-01-22 04:10:28.1|Info|Database|Main database compressed
+2022-01-22 04:10:57.7|Info|ImportListSyncService|Starting Import List Sync
+2022-01-22 04:10:57.7|Info|ImportListSyncService|Processing 0 list items
+2022-01-22 04:10:57.8|Info|SceneMappingService|Updating Scene mappings
+2022-01-22 04:11:04.8|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Series added: 0
+2022-01-22 04:11:27.8|Info|RefreshSeriesService|Updating Attack on Titan
+2022-01-22 04:11:29.1|Info|RefreshEpisodeService|Starting episode info refresh for: [267440][Attack on Titan]
+2022-01-22 04:11:29.4|Info|RefreshEpisodeService|Finished episode refresh for series: [267440][Attack on Titan].
+2022-01-22 04:11:30.7|Info|DiskScanService|Scanning Attack on Titan
+2022-01-22 04:11:30.7|Info|DiskScanService|Completed scanning disk for Attack on Titan
+2022-01-22 04:11:30.8|Info|MetadataService|Series folder does not exist, skipping metadata creation
+2022-01-22 04:11:30.9|Info|RefreshSeriesService|Skipping refresh of series: Breaking Bad
+2022-01-22 04:11:30.9|Info|DiskScanService|Scanning Breaking Bad
+2022-01-22 04:11:30.9|Info|DiskScanService|Completed scanning disk for Breaking Bad
+2022-01-22 04:11:31.0|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-22 04:11:31.0|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-22 04:11:31.0|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-22 04:11:31.0|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-22 04:11:31.0|Info|RefreshSeriesService|Updating Ted Lasso
+2022-01-22 04:11:31.3|Info|RefreshEpisodeService|Starting episode info refresh for: [383203][Ted Lasso]
+2022-01-22 04:11:31.4|Info|RefreshEpisodeService|Finished episode refresh for series: [383203][Ted Lasso].
+2022-01-22 04:11:31.4|Info|DiskScanService|Scanning Ted Lasso
+2022-01-22 04:11:31.4|Info|DiskScanService|Completed scanning disk for Ted Lasso
+2022-01-22 04:11:31.4|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-01-22 04:11:31.4|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-01-22 04:11:31.4|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-01-22 04:11:31.4|Info|ExistingExtraFileService|Found 0 extra files
+2022-01-22 04:24:28.1|Info|RssSyncService|Starting RSS Sync
+2022-01-22 04:24:28.6|Info|DownloadDecisionMaker|Processing 265 releases
+2022-01-22 04:24:32.7|Info|RssSyncService|RSS Sync Completed. Reports found: 265, Reports grabbed: 0
+2022-01-22 04:24:58.2|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.0.6.1342] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings. ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00019] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:36 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00081] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:63 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:87 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector+<>c__DisplayClass7_0.<GetProxyCache>b__0 () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x000b1] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Cache\Cached.cs:104 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00049] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:65 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:45 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:217 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-01-22 04:39:58.7|Info|RssSyncService|Starting RSS Sync
+2022-01-22 04:40:58.3|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 1/21/2022 10:23:29 PM and 1/21/2022 10:40:00 PM UTC. Search may be required.
+2022-01-22 04:40:58.3|Info|DownloadDecisionMaker|Processing 259 releases
+2022-01-22 04:41:01.4|Info|RssSyncService|RSS Sync Completed. Reports found: 259, Reports grabbed: 0
+2022-01-22 04:55:52.5|Info|AddSeriesService|Adding Series [76320][Justice League] Path: [/mnt/media/Shows/Justice League]
+2022-01-22 04:55:52.6|Info|RefreshSeriesService|Updating Justice League
+2022-01-22 04:55:52.7|Info|RefreshEpisodeService|Starting episode info refresh for: [76320][Justice League]
+2022-01-22 04:55:52.8|Info|RefreshEpisodeService|Finished episode refresh for series: [76320][Justice League].
+2022-01-22 04:55:52.8|Info|MediaCoverService|Downloading Banner for [76320][Justice League] https://artworks.thetvdb.com/banners/graphical/3914-g.jpg
+2022-01-22 04:55:52.8|Info|DiskScanService|Scanning Justice League
+2022-01-22 04:55:52.9|Info|DiskScanService|Completed scanning disk for Justice League
+2022-01-22 04:55:52.9|Info|SeriesScannedHandler|[Justice League] was recently added, performing post-add actions
+2022-01-22 04:55:52.9|Warn|MediaCoverMapper|File /config/MediaCover/11/poster.jpg not found
+2022-01-22 04:55:53.2|Info|MetadataService|Series folder does not exist, skipping metadata creation
+2022-01-22 04:55:53.2|Info|MediaCoverService|Downloading Poster for [76320][Justice League] https://artworks.thetvdb.com/banners/posters/76320-3.jpg
+2022-01-22 04:55:53.7|Info|MediaCoverService|Downloading Fanart for [76320][Justice League] https://artworks.thetvdb.com/banners/fanart/original/76320-4.jpg
+2022-01-22 04:56:00.8|Info|NzbSearchService|Searching indexers for [Justice League : S01E01]. 4 active indexers
+2022-01-22 04:56:00.9|Info|NzbSearchService|Searching indexers for [Justice League : S02]. 4 active indexers
+2022-01-22 04:56:02.9|Error|Torznab|An error occurred while processing feed. http://jackett:9117/api/v2.0/indexers/badasstorrents/results/torznab/api?t=tvsearch&cat=5000&extended=1&apikey=(removed)&offset=0&limit=100&q=La%20Ligue%20des%20justiciers&season=1&ep=1
+
+[v3.0.6.1342] NzbDrone.Core.Indexers.Torznab.TorznabException: Torznab error detected: Jackett.Common.IndexerException: Exception (badasstorrents): Challenge detected but FlareSolverr is not configured
+ ---> FlareSolverrSharp.Exceptions.FlareSolverrException: Challenge detected but FlareSolverr is not configured
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 178
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 186
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 603
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1375
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 401
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 413
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 768
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 397
+  at NzbDrone.Core.Indexers.Torznab.TorznabRssParser.PreProcess (NzbDrone.Core.Indexers.IndexerResponse indexerResponse) [0x000b8] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Indexers\Torznab\TorznabRssParser.cs:42 
+  at NzbDrone.Core.Indexers.RssParser.ParseResponse (NzbDrone.Core.Indexers.IndexerResponse indexerResponse) [0x0000d] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Indexers\RssParser.cs:55 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].FetchPage (NzbDrone.Core.Indexers.IndexerRequest request, NzbDrone.Core.Indexers.IParseIndexerResponse parser) [0x00052] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:308 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].FetchReleases (System.Func`2[T,TResult] pageableRequestChainSelector, System.Boolean isRecent) [0x000a8] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:143 
+
+2022-01-22 04:56:03.4|Error|Torznab|An error occurred while processing feed. http://jackett:9117/api/v2.0/indexers/badasstorrents/results/torznab/api?t=tvsearch&cat=5000&extended=1&apikey=(removed)&offset=0&limit=100&q=La%20Ligue%20des%20justiciers&season=2
+
+[v3.0.6.1342] NzbDrone.Core.Indexers.Torznab.TorznabException: Torznab error detected: Jackett.Common.IndexerException: Exception (badasstorrents): Challenge detected but FlareSolverr is not configured
+ ---> FlareSolverrSharp.Exceptions.FlareSolverrException: Challenge detected but FlareSolverr is not configured
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 178
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 186
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 603
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1375
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 401
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 413
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 768
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 397
+  at NzbDrone.Core.Indexers.Torznab.TorznabRssParser.PreProcess (NzbDrone.Core.Indexers.IndexerResponse indexerResponse) [0x000b8] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Indexers\Torznab\TorznabRssParser.cs:42 
+  at NzbDrone.Core.Indexers.RssParser.ParseResponse (NzbDrone.Core.Indexers.IndexerResponse indexerResponse) [0x0000d] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Indexers\RssParser.cs:55 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].FetchPage (NzbDrone.Core.Indexers.IndexerRequest request, NzbDrone.Core.Indexers.IParseIndexerResponse parser) [0x00052] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:308 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].FetchReleases (System.Func`2[T,TResult] pageableRequestChainSelector, System.Boolean isRecent) [0x000a8] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:143 
+
+2022-01-22 04:56:07.1|Info|MetadataService|Series folder does not exist, skipping metadata image creation
+2022-01-22 04:56:08.3|Info|DownloadDecisionMaker|Processing 61 releases
+2022-01-22 04:56:08.5|Info|DownloadDecisionMaker|Processing 10 releases
+2022-01-22 04:56:08.5|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 04:56:08.6|Info|NzbSearchService|Searching indexers for [Justice League : S01E02]. 3 active indexers
+2022-01-22 04:56:10.0|Info|SeasonSearchService|Season search completed. 0 reports downloaded.
+2022-01-22 04:56:15.2|Info|DownloadDecisionMaker|Processing 6 releases
+2022-01-22 04:56:15.3|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 04:56:15.3|Info|NzbSearchService|Searching indexers for [Justice League : S01E03]. 3 active indexers
+2022-01-22 04:56:23.6|Info|DownloadDecisionMaker|Processing 4 releases
+2022-01-22 04:56:23.6|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 04:56:23.6|Info|NzbSearchService|Searching indexers for [Justice League : S01E04]. 3 active indexers
+2022-01-22 04:56:29.5|Info|RssSyncService|Starting RSS Sync
+2022-01-22 04:56:30.4|Info|DownloadDecisionMaker|Processing 7 releases
+2022-01-22 04:56:30.5|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 04:56:30.5|Info|NzbSearchService|Searching indexers for [Justice League : S01E05]. 3 active indexers
+2022-01-22 04:56:33.2|Info|DownloadDecisionMaker|Processing 249 releases
+2022-01-22 04:56:36.4|Info|RssSyncService|RSS Sync Completed. Reports found: 249, Reports grabbed: 0
+2022-01-22 04:56:40.0|Info|DownloadDecisionMaker|Processing 13 releases
+2022-01-22 04:56:40.0|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 04:56:40.1|Info|NzbSearchService|Searching indexers for [Justice League : S01E06]. 3 active indexers
+2022-01-22 04:56:47.7|Info|DownloadDecisionMaker|Processing 11 releases
+2022-01-22 04:56:47.8|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 04:56:47.8|Info|NzbSearchService|Searching indexers for [Justice League : S01E07]. 3 active indexers
+2022-01-22 04:56:54.7|Info|DownloadDecisionMaker|Processing 9 releases
+2022-01-22 04:56:54.7|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 04:56:54.8|Info|NzbSearchService|Searching indexers for [Justice League : S01E08]. 3 active indexers
+2022-01-22 04:57:01.3|Info|DownloadDecisionMaker|Processing 10 releases
+2022-01-22 04:57:01.3|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 04:57:01.4|Info|NzbSearchService|Searching indexers for [Justice League : S01E09]. 3 active indexers
+2022-01-22 04:57:07.6|Info|DownloadDecisionMaker|Processing 6 releases
+2022-01-22 04:57:07.6|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 04:57:07.7|Info|NzbSearchService|Searching indexers for [Justice League : S01E10]. 3 active indexers
+2022-01-22 04:57:14.0|Info|DownloadDecisionMaker|Processing 6 releases
+2022-01-22 04:57:14.0|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 04:57:14.1|Info|NzbSearchService|Searching indexers for [Justice League : S01E11]. 3 active indexers
+2022-01-22 04:57:20.5|Info|DownloadDecisionMaker|Processing 15 releases
+2022-01-22 04:57:20.6|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 04:57:20.7|Info|NzbSearchService|Searching indexers for [Justice League : S01E12]. 3 active indexers
+2022-01-22 04:57:27.6|Info|DownloadDecisionMaker|Processing 10 releases
+2022-01-22 04:57:27.6|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 04:57:27.7|Info|NzbSearchService|Searching indexers for [Justice League : S01E13]. 3 active indexers
+2022-01-22 04:57:34.0|Info|DownloadDecisionMaker|Processing 11 releases
+2022-01-22 04:57:34.1|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 04:57:34.2|Info|NzbSearchService|Searching indexers for [Justice League : S01E14]. 3 active indexers
+2022-01-22 04:57:41.7|Info|DownloadDecisionMaker|Processing 13 releases
+2022-01-22 04:57:41.7|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 04:57:41.8|Info|NzbSearchService|Searching indexers for [Justice League : S01E15]. 3 active indexers
+2022-01-22 04:57:51.4|Info|DownloadDecisionMaker|Processing 8 releases
+2022-01-22 04:57:51.4|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 04:57:51.5|Info|NzbSearchService|Searching indexers for [Justice League : S01E16]. 3 active indexers
+2022-01-22 04:58:05.5|Info|DownloadDecisionMaker|Processing 7 releases
+2022-01-22 04:58:05.5|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 04:58:05.6|Info|NzbSearchService|Searching indexers for [Justice League : S01E17]. 3 active indexers
+2022-01-22 04:58:37.3|Info|DownloadDecisionMaker|Processing 9 releases
+2022-01-22 04:58:37.4|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 04:58:37.4|Info|NzbSearchService|Searching indexers for [Justice League : S01E18]. 3 active indexers
+2022-01-22 04:59:04.5|Info|DownloadDecisionMaker|Processing 7 releases
+2022-01-22 04:59:04.6|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 04:59:04.7|Info|NzbSearchService|Searching indexers for [Justice League : S01E19]. 3 active indexers
+2022-01-22 04:59:35.6|Info|DownloadDecisionMaker|Processing 6 releases
+2022-01-22 04:59:35.6|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 04:59:35.7|Info|NzbSearchService|Searching indexers for [Justice League : S01E20]. 3 active indexers
+2022-01-22 04:59:50.3|Info|DownloadDecisionMaker|Processing 12 releases
+2022-01-22 04:59:50.3|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 04:59:50.4|Info|NzbSearchService|Searching indexers for [Justice League : S01E21]. 3 active indexers
+2022-01-22 04:59:57.8|Info|DownloadDecisionMaker|Processing 9 releases
+2022-01-22 04:59:57.8|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 04:59:57.9|Info|NzbSearchService|Searching indexers for [Justice League : S01E22]. 3 active indexers
+2022-01-22 05:00:10.8|Info|DownloadDecisionMaker|Processing 12 releases
+2022-01-22 05:00:10.9|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:00:11.0|Info|NzbSearchService|Searching indexers for [Justice League : S01E23]. 3 active indexers
+2022-01-22 05:00:21.5|Info|DownloadDecisionMaker|Processing 12 releases
+2022-01-22 05:00:21.6|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:00:21.6|Info|NzbSearchService|Searching indexers for [Justice League : S01E24]. 3 active indexers
+2022-01-22 05:00:34.5|Info|DownloadDecisionMaker|Processing 13 releases
+2022-01-22 05:00:34.6|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:00:34.7|Info|NzbSearchService|Searching indexers for [Justice League : S02E01]. 3 active indexers
+2022-01-22 05:00:45.4|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:00:45.4|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:00:45.5|Info|NzbSearchService|Searching indexers for [Justice League : S02E02]. 3 active indexers
+2022-01-22 05:00:57.8|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:00:57.8|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:00:57.9|Info|NzbSearchService|Searching indexers for [Justice League : S02E03]. 3 active indexers
+2022-01-22 05:01:06.9|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:01:06.9|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:01:06.9|Info|NzbSearchService|Searching indexers for [Justice League : S02E04]. 3 active indexers
+2022-01-22 05:01:17.7|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:01:17.7|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:01:17.8|Info|NzbSearchService|Searching indexers for [Justice League : S02E05]. 3 active indexers
+2022-01-22 05:01:28.0|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:01:28.0|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:01:28.1|Info|NzbSearchService|Searching indexers for [Justice League : S02E06]. 3 active indexers
+2022-01-22 05:01:37.3|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:01:37.3|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:01:37.4|Info|NzbSearchService|Searching indexers for [Justice League : S02E07]. 3 active indexers
+2022-01-22 05:01:47.1|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:01:47.1|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:01:47.2|Info|NzbSearchService|Searching indexers for [Justice League : S02E08]. 3 active indexers
+2022-01-22 05:01:57.0|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:01:57.0|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:01:57.0|Info|NzbSearchService|Searching indexers for [Justice League : S02E09]. 3 active indexers
+2022-01-22 05:02:06.0|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:02:06.0|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:02:06.0|Info|NzbSearchService|Searching indexers for [Justice League : S02E10]. 3 active indexers
+2022-01-22 05:02:16.0|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:02:16.0|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:02:16.1|Info|NzbSearchService|Searching indexers for [Justice League : S02E11]. 3 active indexers
+2022-01-22 05:02:36.7|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:02:36.7|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:02:36.8|Info|NzbSearchService|Searching indexers for [Justice League : S02E12]. 3 active indexers
+2022-01-22 05:02:59.5|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:02:59.5|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:02:59.6|Info|NzbSearchService|Searching indexers for [Justice League : S02E13]. 3 active indexers
+2022-01-22 05:03:13.0|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:03:13.0|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:03:13.1|Info|NzbSearchService|Searching indexers for [Justice League : S02E14]. 3 active indexers
+2022-01-22 05:03:24.1|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:03:24.1|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:03:24.2|Info|NzbSearchService|Searching indexers for [Justice League : S02E15]. 3 active indexers
+2022-01-22 05:03:33.2|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:03:33.2|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:03:33.3|Info|NzbSearchService|Searching indexers for [Justice League : S02E16]. 3 active indexers
+2022-01-22 05:03:42.0|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:03:42.0|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:03:42.0|Info|NzbSearchService|Searching indexers for [Justice League : S02E17]. 3 active indexers
+2022-01-22 05:03:51.8|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:03:51.8|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:03:51.9|Info|NzbSearchService|Searching indexers for [Justice League : S02E18]. 3 active indexers
+2022-01-22 05:04:01.7|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:04:01.7|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:04:01.7|Info|NzbSearchService|Searching indexers for [Justice League : S02E19]. 3 active indexers
+2022-01-22 05:04:10.8|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:04:10.8|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:04:10.9|Info|NzbSearchService|Searching indexers for [Justice League : S02E20]. 3 active indexers
+2022-01-22 05:04:22.1|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:04:22.1|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:04:22.2|Info|NzbSearchService|Searching indexers for [Justice League : S02E21]. 3 active indexers
+2022-01-22 05:04:31.5|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:04:31.5|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:04:31.5|Info|NzbSearchService|Searching indexers for [Justice League : S02E22]. 3 active indexers
+2022-01-22 05:04:40.5|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:04:40.5|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:04:40.5|Info|NzbSearchService|Searching indexers for [Justice League : S02E23]. 3 active indexers
+2022-01-22 05:04:50.0|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:04:50.0|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:04:50.1|Info|NzbSearchService|Searching indexers for [Justice League : S02E24]. 3 active indexers
+2022-01-22 05:04:59.0|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:04:59.0|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:04:59.1|Info|NzbSearchService|Searching indexers for [Justice League : S02E25]. 3 active indexers
+2022-01-22 05:05:05.2|Info|NzbSearchService|Searching indexers for [Justice League : S01]. 3 active indexers
+2022-01-22 05:05:08.4|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:05:08.4|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:05:08.4|Info|NzbSearchService|Searching indexers for [Justice League : S02E26]. 3 active indexers
+2022-01-22 05:05:13.4|Info|DownloadDecisionMaker|Processing 79 releases
+2022-01-22 05:05:19.8|Info|DownloadDecisionMaker|No results found
+2022-01-22 05:05:19.8|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-01-22 05:07:52.6|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1342
+2022-01-22 05:07:55.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-22 05:07:55.7|Info|Router|Application mode: Interactive
+2022-01-22 05:07:56.7|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 05:07:57.6|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 05:07:58.7|Info|OwinHostController|Listening on the following URLs:
+2022-01-22 05:07:58.7|Info|OwinHostController|  http://*:8989/
+2022-01-22 05:08:01.0|Info|SonarrBootstrapper|Starting Web Server
+2022-01-22 05:09:05.9|Info|NzbSearchService|Searching indexers for [Justice League : S01]. 3 active indexers
+2022-01-22 05:09:11.2|Info|DownloadDecisionMaker|Processing 79 releases
+2022-01-22 05:10:47.9|Info|DownloadService|Report sent to transmission. Justice.League.S01.1080p.Flarrow.Films
+2022-01-22 05:12:05.6|Info|RssSyncService|Starting RSS Sync
+2022-01-22 05:12:07.6|Warn|Torznab|Indexer badasstorrents rss sync didn't cover the period between 1/21/2022 8:10:03 PM and 1/21/2022 8:42:07 PM UTC. Search may be required.
+2022-01-22 05:12:07.7|Info|DownloadDecisionMaker|Processing 261 releases
+2022-01-22 05:12:11.1|Info|RssSyncService|RSS Sync Completed. Reports found: 261, Reports grabbed: 0
+2022-01-22 05:13:35.6|Error|TaskExtensions|Task Error
+
+[v3.0.6.1342] System.Data.SQLite.SQLiteException (0x80004005): database or disk is full
+database or disk is full
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00083] in <61a20cde294d4a3eb43b9d9f6284613b>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Da2022-01-22 05:27:40.2|Info|RssSyncService|Starting RSS Sync
+2022-01-22 05:27:40.9|Info|DownloadDecisionMaker|Processing 261 releases
+2022-01-22 05:27:44.2|Info|RssSyncService|RSS Sync Completed. Reports found: 261, Reports grabbed: 0
+2022-01-22 05:35:09.7|Info|SceneMappingService|Updating Scene mappings
+2022-01-22 05:35:15.4|Info|SceneMappingService|Updating Scene mappings
+2022-01-22 05:35:22.2|Info|RefreshSeriesService|Updating Justice League
+2022-01-22 05:35:24.5|Info|RefreshEpisodeService|Starting episode info refresh for: [76320][Justice League]
+2022-01-22 05:35:24.9|Info|RefreshEpisodeService|Finished episode refresh for series: [76320][Justice League].
+2022-01-22 05:35:24.9|Info|RefreshSeriesService|Updating Attack on Titan
+2022-01-22 05:35:25.0|Warn|DiskScanService|Series' root folder (/mnt/media/Shows/) is empty.
+2022-01-22 05:35:26.2|Info|RefreshEpisodeService|Starting episode info refresh for: [267440][Attack on Titan]
+2022-01-22 05:35:26.5|Info|RefreshEpisodeService|Finished episode refresh for series: [267440][Attack on Titan].
+2022-01-22 05:35:30.1|Warn|DiskScanService|Series' root folder (/mnt/media/Shows/) is empty.
+2022-01-22 05:35:41.8|Info|NzbSearchService|Searching indexers for [Justice League : S01]. 4 active indexers
+2022-01-22 05:35:44.8|Error|Torznab|An error occurred while processing feed. http://jackett:9117/api/v2.0/indexers/badasstorrents/results/torznab/api?t=tvsearch&cat=5000&extended=1&apikey=(removed)&offset=0&limit=100&q=La%20Ligue%20des%20justiciers&season=1
+
+[v3.0.6.1342] NzbDrone.Core.Indexers.Torznab.TorznabException: Torznab error detected: Jackett.Common.IndexerException: Exception (badasstorrents): Challenge detected but FlareSolverr is not configured
+ ---> FlareSolverrSharp.Exceptions.FlareSolverrException: Challenge detected but FlareSolverr is not configured
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 178
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 209
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 607
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1374
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 415
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 415
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 771
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 433
+  at NzbDrone.Core.Indexers.Torznab.TorznabRssParser.PreProcess (NzbDrone.Core.Indexers.IndexerResponse indexerResponse) [0x000b8] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Indexers\Torznab\TorznabRssParser.cs:42 
+  at NzbDrone.Core.Indexers.RssParser.ParseResponse (NzbDrone.Core.Indexers.IndexerResponse indexerResponse) [0x0000d] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Indexers\RssParser.cs:55 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].FetchPage (NzbDrone.Core.Indexers.IndexerRequest request, NzbDrone.Core.Indexers.IParseIndexerResponse parser) [0x00052] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:308 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].FetchReleases (System.Func`2[T,TResult] pageableRequestChainSelector, System.Boolean isRecent) [0x000a8] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:143 
+
+2022-01-22 05:35:45.0|Info|DownloadDecisionMaker|Processing 79 releases
+2022-01-22 05:37:49.1|Info|SceneMappingService|Updating Scene mappings
+2022-01-22 05:37:49.6|Info|NzbSearchService|Searching indexers for [Justice League : S01]. 3 active indexers
+2022-01-22 05:37:53.7|Info|DownloadDecisionMaker|Processing 79 releases
+2022-01-22 05:37:55.4|Info|NzbSearchService|Searching indexers for [Justice League : S02]. 3 active indexers
+2022-01-22 05:38:01.8|Info|RefreshSeriesService|Updating Justice League
+2022-01-22 05:38:01.9|Info|RefreshEpisodeService|Starting episode info refresh for: [76320][Justice League]
+2022-01-22 05:38:04.0|Info|RefreshEpisodeService|Finished episode refresh for series: [76320][Justice League].
+2022-01-22 05:38:04.0|Warn|DiskScanService|Series' root folder (/mnt/media/Shows/) is empty.
+2022-01-22 05:38:10.7|Info|DownloadDecisionMaker|Processing 61 releases
+2022-01-22 05:38:13.4|Info|NzbSearchService|Searching indexers for [Justice League : S03]. 3 active indexers
+2022-01-22 05:39:07.7|Info|DownloadDecisionMaker|Processing 72 releases
+2022-01-22 05:39:09.1|Info|NzbSearchService|Searching indexers for [Justice League : S04]. 3 active indexers
+2022-01-22 05:39:45.9|Info|DownloadDecisionMaker|Processing 57 releases
+2022-01-22 05:39:47.2|Info|NzbSearchService|Searching indexers for [Justice League : S05]. 3 active indexers
+2022-01-22 05:40:24.8|Info|DownloadDecisionMaker|Processing 52 releases
+2022-01-22 05:40:27.3|Info|SeriesSearchService|Series search completed. 0 reports downloaded.
+2022-01-22 05:42:46.8|Info|RssSyncService|Starting RSS Sync
+2022-01-22 05:42:47.2|Info|DownloadDecisionMaker|Processing 261 releases
+2022-01-22 05:42:50.4|Info|RssSyncService|RSS Sync Completed. Reports found: 261, Reports grabbed: 0
+2022-01-22 05:48:37.9|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1342
+2022-01-22 05:48:40.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-22 05:48:40.5|Info|Router|Application mode: Interactive
+2022-01-22 05:48:41.4|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 05:48:42.2|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 05:48:43.6|Info|OwinHostController|Listening on the following URLs:
+2022-01-22 05:48:43.6|Info|OwinHostController|  http://*:8989/
+2022-01-22 05:48:46.1|Info|SonarrBootstrapper|Starting Web Server
+2022-01-22 05:51:52.7|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1342
+2022-01-22 05:51:54.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-22 05:51:55.2|Info|Router|Application mode: Interactive
+2022-01-22 05:51:56.2|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 05:51:57.0|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 05:51:58.1|Info|OwinHostController|Listening on the following URLs:
+2022-01-22 05:51:58.1|Info|OwinHostController|  http://*:8989/
+2022-01-22 05:52:00.4|Info|SonarrBootstrapper|Starting Web Server
+2022-01-22 05:56:06.8|Info|NzbSearchService|Searching indexers for [Breaking Bad : S01]. 4 active indexers
+2022-01-22 05:56:09.8|Error|Torznab|An error occurred while processing feed. http://jackett:9117/api/v2.0/indexers/badasstorrents/results/torznab/api?t=tvsearch&cat=5000&extended=1&apikey=(removed)&offset=0&limit=100&q=Breaking%20Bad&season=1
+
+[v3.0.6.1342] NzbDrone.Core.Indexers.Torznab.TorznabException: Torznab error detected: Jackett.Common.IndexerException: Exception (badasstorrents): Challenge detected but FlareSolverr is not configured
+ ---> FlareSolverrSharp.Exceptions.FlareSolverrException: Challenge detected but FlareSolverr is not configured
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 178
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 186
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 603
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1374
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 401
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 413
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 768
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 397
+  at NzbDrone.Core.Indexers.Torznab.TorznabRssParser.PreProcess (NzbDrone.Core.Indexers.IndexerResponse indexerResponse) [0x000b8] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Indexers\Torznab\TorznabRssParser.cs:42 
+  at NzbDrone.Core.Indexers.RssParser.ParseResponse (NzbDrone.Core.Indexers.IndexerResponse indexerResponse) [0x0000d] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Indexers\RssParser.cs:55 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].FetchPage (NzbDrone.Core.Indexers.IndexerRequest request, NzbDrone.Core.Indexers.IParseIndexerResponse parser) [0x00052] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:308 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].FetchReleases (System.Func`2[T,TResult] pageableRequestChainSelector, System.Boolean isRecent) [0x000a8] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:143 
+
+2022-01-22 05:56:13.5|Info|DownloadDecisionMaker|Processing 110 releases
+2022-01-22 05:58:06.5|Info|RssSyncService|Starting RSS Sync
+2022-01-22 05:59:06.5|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 1/21/2022 11:42:06 PM and 1/21/2022 11:58:07 PM UTC. Search may be required.
+2022-01-22 05:59:06.5|Info|DownloadDecisionMaker|Processing 249 releases
+2022-01-22 05:59:09.5|Info|RssSyncService|RSS Sync Completed. Reports found: 249, Reports grabbed: 0
+2022-01-22 06:14:37.1|Info|RssSyncService|Starting RSS Sync
+2022-01-22 06:14:39.2|Info|DownloadDecisionMaker|Processing 264 releases
+2022-01-22 06:14:41.8|Info|RssSyncService|RSS Sync Completed. Reports found: 264, Reports grabbed: 0
+2022-01-22 06:30:08.0|Info|RssSyncService|Starting RSS Sync
+2022-01-22 06:30:08.3|Info|DownloadDecisionMaker|Processing 264 releases
+2022-01-22 06:30:10.9|Info|RssSyncService|RSS Sync Completed. Reports found: 264, Reports grabbed: 0
+2022-01-22 06:45:38.7|Info|RssSyncService|Starting RSS Sync
+2022-01-22 06:45:41.3|Info|DownloadDecisionMaker|Processing 264 releases
+2022-01-22 06:45:45.4|Info|RssSyncService|RSS Sync Completed. Reports found: 264, Reports grabbed: 0
+2022-01-22 06:46:38.8|Info|SceneMappingService|Updating Scene mappings
+2022-01-22 07:01:09.8|Info|RssSyncService|Starting RSS Sync
+2022-01-22 07:02:12.4|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 1/22/2022 12:44:38 AM and 1/22/2022 1:01:13 AM UTC. Search may be required.
+2022-01-22 07:02:12.4|Info|DownloadDecisionMaker|Processing 265 releases
+2022-01-22 07:02:16.2|Info|RssSyncService|RSS Sync Completed. Reports found: 265, Reports grabbed: 0
+2022-01-22 07:17:40.6|Info|RssSyncService|Starting RSS Sync
+2022-01-22 07:17:42.4|Info|DownloadDecisionMaker|Processing 265 releases
+2022-01-22 07:17:46.0|Info|RssSyncService|RSS Sync Completed. Reports found: 265, Reports grabbed: 0
+2022-01-22 07:22:10.6|Info|NzbSearchService|Searching indexers for [Ted Lasso : S02]. 4 active indexers
+2022-01-22 07:22:11.5|Error|Torznab|An error occurred while processing feed. http://jackett:9117/api/v2.0/indexers/badasstorrents/results/torznab/api?t=tvsearch&cat=5000&extended=1&apikey=(removed)&offset=0&limit=100&q=Ted%20Lasso&season=2
+
+[v3.0.6.1342] NzbDrone.Core.Indexers.Torznab.TorznabException: Torznab error detected: Jackett.Common.IndexerException: Exception (badasstorrents): Challenge detected but FlareSolverr is not configured
+ ---> FlareSolverrSharp.Exceptions.FlareSolverrException: Challenge detected but FlareSolverr is not configured
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 178
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 209
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 607
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/CardigannIndexer.cs:line 1375
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 415
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 415
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 771
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 433
+  at NzbDrone.Core.Indexers.Torznab.TorznabRssParser.PreProcess (NzbDrone.Core.Indexers.IndexerResponse indexerResponse) [0x000b8] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Indexers\Torznab\TorznabRssParser.cs:42 
+  at NzbDrone.Core.Indexers.RssParser.ParseResponse (NzbDrone.Core.Indexers.IndexerResponse indexerResponse) [0x0000d] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Indexers\RssParser.cs:55 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].FetchPage (NzbDrone.Core.Indexers.IndexerRequest request, NzbDrone.Core.Indexers.IParseIndexerResponse parser) [0x00052] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:308 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].FetchReleases (System.Func`2[T,TResult] pageableRequestChainSelector, System.Boolean isRecent) [0x000a8] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:143 
+
+2022-01-22 07:22:12.9|Info|DownloadDecisionMaker|Processing 48 releases
+2022-01-22 07:22:15.7|Info|DownloadService|Report sent to transmission. Ted.Lasso.S02.1080p.ATVP.WEB-DL.DDP5.1.H.264-EniaHD
+2022-01-22 07:22:15.9|Info|SeasonSearchService|Season search completed. 1 reports downloaded.
+2022-01-22 07:23:40.8|Error|TaskExtensions|Task Error
+
+[v3.0.6.1342] System.Data.SQLite.SQLiteException (0x80004005): database or disk is full
+database or disk is full
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00083] in <61a20cde294d4a3eb43b9d9f6284613b>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0003c] in <61a20cde294d4a3eb43b9d9f6284613b>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x0016b] in <61a20cde294d4a3eb43b9d9f6284613b>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x00090] in <61a20cde294d4a3eb43b9d9f6284613b>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <61a20cde294d4a3eb43b9d9f6284613b>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <61a20cde294d4a3eb43b9d9f6284613b>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <61a20cde294d4a3eb43b9d9f6284613b>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at (wrapper dynamic-method) System.Object.CallSite.Target(System.Runtime.CompilerServices.Closure,System.Runtime.CompilerServices.CallSite,NzbDrone.Core.Messaging.Commands.CommandQueueManager,object,NzbDrone.Core.Messaging.Commands.CommandPriority,NzbDrone.Core.Messaging.Commands.CommandTrigger)
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <254335e8c4aa42e3923a8ba0d5ce8650>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00002022-01-22 08:01:27.7|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.6.1342
+2022-01-22 08:01:31.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-01-22 08:01:32.3|Info|Router|Application mode: Interactive
+2022-01-22 08:01:34.3|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 08:01:35.8|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-01-22 08:01:37.9|Info|OwinHostController|Listening on the following URLs:
+2022-01-22 08:01:37.9|Info|OwinHostController|  http://*:8989/
+2022-01-22 08:01:42.8|Info|SonarrBootstrapper|Starting Web Server
+2022-01-22 08:02:20.2|Info|RssSyncService|Starting RSS Sync
+2022-01-22 08:02:20.2|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qbittorrent
+
+[v3.0.6.1342] NzbDrone.Core.Download.Clients.DownloadClientException: Failed to connect to qBittorrent, check your settings. ---> System.Net.WebException: DNS Name Resolution Failure: 'qbittorrent'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00019] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:36 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00081] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxyV2.cs:63 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:87 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector+<>c__DisplayClass7_0.<GetProxyCache>b__0 () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x000b1] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Cache\Cached.cs:104 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00049] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:82 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean force) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxySelector.cs:65 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:45 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:217 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-01-22 08:03:25.4|Warn|Torznab|Indexer limetorrentsclone rss sync didn't cover the period between 1/22/2022 1:47:41 AM and 1/22/2022 2:02:25 AM UTC. Search may be required.
+2022-01-22 08:03:25.4|Info|DownloadDecisionMaker|Processing 273 releases
+2022-01-22 08:03:29.0|Info|RssSyncService|RSS Sync Completed. Reports found: 273, Reports grabbed: 0
