@@ -1,0 +1,15 @@
+version: "2.1"
+services:
+  duckdns:
+    image: ghcr.io/linuxserver/duckdns
+    container_name: duckdns
+    environment:
+      - PUID=1000 #optional
+      - PGID=1000 #optional
+      - TZ=Asia/Kolkata
+      - SUBDOMAINS=<>
+      - TOKEN=<>
+      - LOG_FILE=true #optional
+    volumes:
+      - ./config:/config #optional
+    restart: unless-stopped
