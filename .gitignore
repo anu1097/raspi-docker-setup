@@ -1,12 +1,11 @@
 .DS_Store
 **/media/**
-plex/config/Library/Application Support/Plex Media Server/
-**/config/MediaCover/**
-**/config/downloads/**
-**/config/Logs/**
-**/config/logs/**
-**/config/data/logs
-**/config/jackett
-**/logs**
-log
-**/portainer/**
+jackett/
+portainer/
+jellyfin/
+organizr/
+sonarr/
+radarr/
+mnt/
+shared/
+tautulli/

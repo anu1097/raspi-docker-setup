@@ -5,12 +5,11 @@
   <SslCertPath></SslCertPath>
   <Port>7878</Port>
   <UrlBase></UrlBase>
-  <ApiKey>0ff87246617341faa27f3dfc1a566dc3</ApiKey>
+  <ApiKey>802d923b1a534508b22529a575c32a1b</ApiKey>
   <AuthenticationMethod>None</AuthenticationMethod>
   <UpdateMechanism>Docker</UpdateMechanism>
   <SslPort>9898</SslPort>
   <LaunchBrowser>True</LaunchBrowser>
   <Branch>master</Branch>
   <SslCertPassword></SslCertPassword>
-  <AnalyticsEnabled>False</AnalyticsEnabled>
 </Config>

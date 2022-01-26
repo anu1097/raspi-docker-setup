@@ -1,20 +1,5 @@
 version: "3.7"
 services:
-  plex:
-    image: ghcr.io/linuxserver/plex:arm32v7-latest 
-    container_name: plex
-    network_mode: host
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - VERSION=docker
-      - PLEX_CLAIM= "claim-bRd2ke2zeqx9xejetMd4"
-    volumes:
-      - ./plex/config:/config
-      - ./plex/transcode:/transcode
-      - ./plex/data:/data
-      - /mnt:/mnt
-    restart: unless-stopped
   transmission:
     image: linuxserver/transmission:latest
     container_name: transmission
@@ -22,14 +7,13 @@ services:
       - PUID=0
       - PGID=0
       - TZ=Asia/Kolkata
-      - TRANSMISSION_WEB_HOME=/combustion-release/ #optional
+      # - TRANSMISSION_WEB_HOME=/combustion-release/ #optional
     volumes:
       - ./transmission/config:/config
-      - /mnt/media/torrents:/mnt/media/torrents
+      # - /mnt/usb0/torrents:/torrents
+      - ./mnt/torrents:/torrents
     ports:
-      - 9091:9091
-      - 49154:49153
-      - 49154:49153/udp
+      - 9001:9091
     restart: unless-stopped
   jackett:
     image: linuxserver/jackett:latest
@@ -41,9 +25,8 @@ services:
       - RUN_OPTS=run options here #optional
     volumes:
       - ./jackett/config:/config
-      - /mnt/media/torrents/completed:/downloads
     ports:
-      - 9117:9117
+      - 9002:9117
     restart: unless-stopped
   sonarr:
     image: linuxserver/sonarr:latest
@@ -55,9 +38,10 @@ services:
       - UMASK_SET=022 #optional
     volumes:
       - ./sonarr/config:/config
-      - /mnt/media:/mnt/media
+      # - /mnt/usb0/media:/media
+      - ./mnt/media:/media
     ports:
-      - 8989:8989
+      - 9003:8989
     restart: unless-stopped
   radarr:
     image: linuxserver/radarr:latest
@@ -68,44 +52,18 @@ services:
       - TZ=Asia/Kolkata
     volumes:
       - ./radarr/config:/config
-      - /mnt/media:/mnt/media
+      # - /mnt/usb0/media:/media
+      - ./mnt/media:/media
     ports:
-      - 7878:7878
+      - 9004:7878
     restart: unless-stopped
-  ombi:
-    image: linuxserver/ombi:latest
-    container_name: ombi
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Asia/Calcutta
-      - BASE_URL=/ombi #optional
-    volumes:
-      - ./ombi/config:/config
-    ports:
-      - 3579:3579
-    restart: unless-stopped
-  kodi:
-    container_name: kodi
-    image: linuxserver/kodi-headless
-    restart: unless-stopped
-    environment:
-      - PGID=1000
-      - PUID=1000
-      - TZ=Asia/Calcutta
-    volumes:
-      - ./kodi_data:/config/.kodi
-    ports:
-      - "8200:8080"
-      - "9090:9090"
-      - "9777:9777/udp"
   portainer:
     image: portainer/portainer
     container_name: portainer
     restart: always
     command: -H unix:///var/run/docker.sock
     ports:
-      - "9000:9000"
+      - "9005:9000"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./portainer/data:/data
@@ -120,30 +78,41 @@ services:
       - ./organizr:/config
       - ./shared:/shared
     ports:
-      - "9001:80"
+      - "9006:80"
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=Asia/Calcutta
   watchtower:
-    container_name: watchtower
-    restart: always
-    image: v2tec/watchtower
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-    command: --schedule "0 0 4 * * *" --cleanup
-  tautulli:
-    container_name: tautulli
-    hostname: tautulli
-    restart: always
-    image: linuxserver/tautulli
-    volumes:
-      - ./tautulli/config:/config
-      - ./tautulli/logs:/logs:ro
-      - ./shared:/shared
-    ports:
-      - "9009:8181"
+      image: containrrr/watchtower
+      container_name: watchtower
+      volumes:
+          - /var/run/docker.sock:/var/run/docker.sock
+      environment:
+          - TZ=Asia/Calcutta
+          - WATCHTOWER_MONITOR_ONLY=true
+          - WATCHTOWER_CLEANUP=true
+          - WATCHTOWER_SCHEDULE= 0 0 04 ? * FRI #At 04:00 AM, only on Friday Change to suit
+          - WATCHTOWER_NOTIFICATIONS=email
+          - WATCHTOWER_NOTIFICATION_EMAIL_FROM=<>
+          - WATCHTOWER_NOTIFICATION_EMAIL_TO=<>
+          - WATCHTOWER_NOTIFICATION_EMAIL_SERVER=<>
+          - WATCHTOWER_NOTIFICATION_EMAIL_SERVER_PASSWORD=<>
+          - WATCHTOWER_NOTIFICATION_EMAIL_SUBJECTTAG=Watchtower Alert - Container Updates
+          - WATCHTOWER_NOTIFICATION_EMAIL_SERVER_USER=<>
+          - WATCHTOWER_NOTIFICATION_EMAIL_SERVER_PORT=587
+      restart: unless-stopped
+  jellyfin:
+    image: lscr.io/linuxserver/jellyfin
+    container_name: jellyfin
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Asia/Calcutta 
+      - PUID=0
+      - PGID=0
+      - TZ=Asia/Calcutta
+    volumes:
+      - ./jellyfin/config:/config
+      # - /mnt/usb0/media:/media
+      - ./mnt/media:/media
+    ports:
+      - 9007:8096
+    restart: unless-stopped
