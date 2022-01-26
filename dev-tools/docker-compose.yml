@@ -4,7 +4,7 @@ services:
   
   # Define a theia code editor
   theia:
-    image: brjapon/theia-arm64
+    image: brjapon/theia-arm
     restart: always
     ports:
       - '8000:3000'
