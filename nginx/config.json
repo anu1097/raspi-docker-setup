@@ -1,0 +1,10 @@
+{
+	"database": {
+		"engine": "mysql",
+		"host": "db",
+		"name": "npm",
+		"user": "changeme",
+		"password": "changeme",
+		"port": 3306
+	}
+}

@@ -1,0 +1,11 @@
+.DS_Store
+**/jackett/
+**/portainer/
+**/jellyfin
+**/organizr/
+**/sonarr/
+**/radarr/
+**/mnt/
+**/shared/
+**/data/
+**/letsencrypt/

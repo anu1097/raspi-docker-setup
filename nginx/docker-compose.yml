@@ -1,0 +1,28 @@
+version: '3'
+services:
+  app:
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    ports:
+      - '80:80'
+      - '81:81'
+      - '443:443'
+    environment:
+      DB_MYSQL_HOST: "db"
+      DB_MYSQL_PORT: 3306
+      DB_MYSQL_USER: "changeme"
+      DB_MYSQL_PASSWORD: "changeme"
+      DB_MYSQL_NAME: "npm"
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
+  db:
+    image: 'jc21/mariadb-aria:latest'
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: 'changeme'
+      MYSQL_DATABASE: 'npm'
+      MYSQL_USER: 'changeme'
+      MYSQL_PASSWORD: 'changeme'
+    volumes:
+      - ./data/mysql:/var/lib/mysql

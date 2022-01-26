@@ -1,0 +1,118 @@
+version: "3.7"
+services:
+  transmission:
+    image: linuxserver/transmission:latest
+    container_name: transmission
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Asia/Kolkata
+      # - TRANSMISSION_WEB_HOME=/combustion-release/ #optional
+    volumes:
+      - ./transmission/config:/config
+      # - /mnt/usb0/torrents:/torrents
+      - ./mnt/torrents:/torrents
+    ports:
+      - 9001:9091
+    restart: unless-stopped
+  jackett:
+    image: linuxserver/jackett:latest
+    container_name: jackett
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Kolkata
+      - RUN_OPTS=run options here #optional
+    volumes:
+      - ./jackett/config:/config
+    ports:
+      - 9002:9117
+    restart: unless-stopped
+  sonarr:
+    image: linuxserver/sonarr:latest
+    container_name: sonarr
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Asia/Kolkata
+      - UMASK_SET=022 #optional
+    volumes:
+      - ./sonarr/config:/config
+      # - /mnt/usb0/media:/media
+      - ./mnt/media:/media
+    ports:
+      - 9003:8989
+    restart: unless-stopped
+  radarr:
+    image: linuxserver/radarr:latest
+    container_name: radarr
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Asia/Kolkata
+    volumes:
+      - ./radarr/config:/config
+      # - /mnt/usb0/media:/media
+      - ./mnt/media:/media
+    ports:
+      - 9004:7878
+    restart: unless-stopped
+  portainer:
+    image: portainer/portainer
+    container_name: portainer
+    restart: always
+    command: -H unix:///var/run/docker.sock
+    ports:
+      - "9005:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./portainer/data:/data
+      - ./shared:/shared
+    environment:
+      - TZ=Asia/Calcutta
+  organizr:
+    container_name: organizr
+    restart: always
+    image: linuxserver/organizr
+    volumes:
+      - ./organizr:/config
+      - ./shared:/shared
+    ports:
+      - "9006:80"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Calcutta
+  watchtower:
+      image: containrrr/watchtower
+      container_name: watchtower
+      volumes:
+          - /var/run/docker.sock:/var/run/docker.sock
+      environment:
+          - TZ=Asia/Calcutta
+          - WATCHTOWER_MONITOR_ONLY=true
+          - WATCHTOWER_CLEANUP=true
+          - WATCHTOWER_SCHEDULE= 0 0 04 ? * FRI #At 04:00 AM, only on Friday Change to suit
+          - WATCHTOWER_NOTIFICATIONS=email
+          - WATCHTOWER_NOTIFICATION_EMAIL_FROM=<>
+          - WATCHTOWER_NOTIFICATION_EMAIL_TO=<>
+          - WATCHTOWER_NOTIFICATION_EMAIL_SERVER=<>
+          - WATCHTOWER_NOTIFICATION_EMAIL_SERVER_PASSWORD=<>
+          - WATCHTOWER_NOTIFICATION_EMAIL_SUBJECTTAG=Watchtower Alert - Container Updates
+          - WATCHTOWER_NOTIFICATION_EMAIL_SERVER_USER=<>
+          - WATCHTOWER_NOTIFICATION_EMAIL_SERVER_PORT=587
+      restart: unless-stopped
+  jellyfin:
+    image: lscr.io/linuxserver/jellyfin
+    container_name: jellyfin
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Asia/Calcutta
+    volumes:
+      - ./jellyfin/config:/config
+      # - /mnt/usb0/media:/media
+      - ./mnt/media:/media
+    ports:
+      - 9007:8096
+    restart: unless-stopped

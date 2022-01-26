@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+  
+  # Define a theia code editor
+  theia:
+    image: brjapon/theia-arm64
+    restart: always
+    ports:
+      - '8000:3000'
+    volumes:
+      - './theia/:/home/project'
+    container_name: theiav

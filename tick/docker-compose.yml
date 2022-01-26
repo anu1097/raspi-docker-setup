@@ -1,0 +1,23 @@
+version: '3.7'
+services:
+  telegraf:
+    image: telegraf:latest
+    configs:
+    - source: telegraf-conf
+      target: /etc/telegraf/telegraf.conf
+    ports:
+    - 8186:8186
+  influxdb:
+    image: influxdb:latest
+  chronograf:
+    image: chronograf:latest
+    ports:
+    - 8888:8888
+    command: ["chronograf", "--influxdb-url=http://influxdb:8086"]
+  kapacitor:
+    image: kapacitor:latest
+    environment:
+    - KAPACITOR_INFLUXDB_0_URLS_0=http://influxdb:8086
+configs:
+  telegraf-conf:
+    file: ./telegraf.conf
