@@ -119,6 +119,7 @@ services:
     volumes:
       - ./jellyfin/config:/config
       - /mnt/usb0/media:/media
+      - /mnt/usb0/torrents:/torrents
       # - ./mnt/media:/media
     ports:
       - 9007:8096
