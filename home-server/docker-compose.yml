@@ -65,7 +65,7 @@ services:
       - 9004:7878
     restart: unless-stopped
   lidarr:
-    image: "linuxserver/lidarr"
+    image: linuxserver/lidarr:latest
     hostname: lidarr
     container_name: "lidarr"
     volumes:
@@ -82,7 +82,7 @@ services:
       - PGID=0
       - TZ=Asia/Kolkata
   portainer:
-    image: portainer/portainer
+    image: portainer/portainer:latest
     container_name: portainer
     restart: always
     command: -H unix:///var/run/docker.sock
@@ -97,7 +97,7 @@ services:
   organizr:
     container_name: organizr
     restart: always
-    image: linuxserver/organizr
+    image: linuxserver/organizr:latest
     volumes:
       - ./organizr:/config
       - ./shared:/shared
@@ -108,7 +108,7 @@ services:
       - PGID=1001
       - TZ=Asia/Kolkata
   watchtower:
-      image: containrrr/watchtower
+      image: containrrr/watchtower:latest
       container_name: watchtower
       volumes:
           - /var/run/docker.sock:/var/run/docker.sock
@@ -127,7 +127,7 @@ services:
           - WATCHTOWER_NOTIFICATION_EMAIL_SERVER_PORT=587
       restart: unless-stopped
   jellyfin:
-    image: lscr.io/linuxserver/jellyfin
+    image: lscr.io/linuxserver/jellyfin:latest
     container_name: jellyfin
     environment:
       - PUID=0
@@ -145,7 +145,7 @@ services:
     container_name: ombi
     hostname: ombi
     restart: always
-    image: linuxserver/ombi
+    image: linuxserver/ombi:latest
     volumes:
       - ./ombi:/config
       - ./shared:/shared

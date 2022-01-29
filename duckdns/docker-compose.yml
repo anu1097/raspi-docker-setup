@@ -7,9 +7,9 @@ services:
     environment:
       - PUID=1001 #optional
       - PGID=1001 #optional
-      - TZ=Europe/London
-      - SUBDOMAINS=raspi-sarthi-organizr,raspi-sarthi-jellyfin
-      - TOKEN=6f4d5f09-86d6-4367-8637-d1732bd6dc26
+      - TZ=Asia/Kolkata
+      - SUBDOMAINS=<>
+      - TOKEN=<>
       - LOG_FILE=true #optional
     volumes:
       - ./config:/config #optional
