@@ -10,4 +10,7 @@
 **/data/
 **/letsencrypt/
 **/transmission/
-**/config/
+**/config
+**/ombi/
+**/lidarr/
+/

@@ -1,14 +1,15 @@
+---
 version: "2.1"
 services:
   duckdns:
-    image: ghcr.io/linuxserver/duckdns
+    image: lscr.io/linuxserver/duckdns
     container_name: duckdns
     environment:
-      - PUID=1000 #optional
-      - PGID=1000 #optional
-      - TZ=Asia/Kolkata
-      - SUBDOMAINS=<>
-      - TOKEN=<>
+      - PUID=1001 #optional
+      - PGID=1001 #optional
+      - TZ=Europe/London
+      - SUBDOMAINS=raspi-sarthi-organizr,raspi-sarthi-jellyfin
+      - TOKEN=6f4d5f09-86d6-4367-8637-d1732bd6dc26
       - LOG_FILE=true #optional
     volumes:
       - ./config:/config #optional
