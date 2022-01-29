@@ -20,8 +20,8 @@ services:
     image: linuxserver/jackett:latest
     container_name: jackett
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=1001
+      - PGID=1001
       - TZ=Asia/Kolkata
       - RUN_OPTS=run options here #optional
     volumes:
@@ -64,6 +64,23 @@ services:
     ports:
       - 9004:7878
     restart: unless-stopped
+  lidarr:
+    image: "linuxserver/lidarr"
+    hostname: lidarr
+    container_name: "lidarr"
+    volumes:
+      - ./lidarr:/config
+      - /mnt/usb0/media:/media
+      - /mnt/usb0/torrents:/torrents
+      - "/etc/localtime:/etc/localtime:ro"
+      - ./shared:/shared
+    ports:
+      - "9008:8686"
+    restart: always
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Asia/Kolkata
   portainer:
     image: portainer/portainer
     container_name: portainer
@@ -76,7 +93,7 @@ services:
       - ./portainer/data:/data
       - ./shared:/shared
     environment:
-      - TZ=Asia/Calcutta
+      - TZ=Asia/Kolkata
   organizr:
     container_name: organizr
     restart: always
@@ -87,16 +104,16 @@ services:
     ports:
       - "9006:80"
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Asia/Calcutta
+      - PUID=1001
+      - PGID=1001
+      - TZ=Asia/Kolkata
   watchtower:
       image: containrrr/watchtower
       container_name: watchtower
       volumes:
           - /var/run/docker.sock:/var/run/docker.sock
       environment:
-          - TZ=Asia/Calcutta
+          - TZ=Asia/Kolkata
           - WATCHTOWER_MONITOR_ONLY=true
           - WATCHTOWER_CLEANUP=true
           - WATCHTOWER_SCHEDULE= 0 0 04 ? * FRI #At 04:00 AM, only on Friday Change to suit
@@ -115,7 +132,7 @@ services:
     environment:
       - PUID=0
       - PGID=0
-      - TZ=Asia/Calcutta
+      - TZ=Asia/Kolkata
     volumes:
       - ./jellyfin/config:/config
       - /mnt/usb0/media:/media
@@ -124,3 +141,17 @@ services:
     ports:
       - 9007:8096
     restart: unless-stopped
+  ombi:
+    container_name: ombi
+    hostname: ombi
+    restart: always
+    image: linuxserver/ombi
+    volumes:
+      - ./ombi:/config
+      - ./shared:/shared
+    ports:
+      - "9009:3579"
+    environment:
+      - PUID=1001
+      - PGID=1001
+      - TZ=Asia/Kolkata
