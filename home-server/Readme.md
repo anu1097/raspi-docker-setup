@@ -1,7 +1,9 @@
 Contents - 
+
 1. Ombi - For exposing functionality to get requests
-2. Radarr - For Movies
-3. Sonarr - For TV
+2. Jackett - For Indexers
+3. Radarr - For Movies
+4. Sonarr - For TV
 5. Lidarr - For Music
 6. Transmission - Torrent Client
 7. Jellyfin - For Media Server
