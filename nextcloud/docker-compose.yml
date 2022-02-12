@@ -6,12 +6,14 @@ services:
     command: --transaction-isolation=READ-COMMITTED --binlog-format=ROW
     restart: always
     volumes:
-      - ./nextclouddb:/var/lib/mysql
+      - /mnt/usb0/nextcloud/nextcloudd:/var/lib/mysql
     environment:
-      - MYSQL_ROOT_PASSWORD=YOURROOTPASSWORD
-      - MYSQL_PASSWORD=YOURPASSWORD
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_PASSWORD=pqssword
       - MYSQL_DATABASE=nextcloud
       - MYSQL_USER=nextcloud
+      - PUID=0
+      - PGID=0
 
   app:
     image: nextcloud
@@ -20,5 +22,8 @@ services:
     links:
       - db
     volumes:
-      - ./nextcloud:/var/www/html
+      - /mnt/usb0/nextcloud/data:/var/www/html
+    environment:
+      - PUID=0
+      - PGID=0
     restart: always
