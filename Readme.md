@@ -27,3 +27,7 @@ To Stop
 ```
 docker-compose down
 ```
+
+Guide to help understand what tools you are installing, and additional configurations after you have set them up - 
+1. https://www.smarthomebeginner.com/docker-home-media-server-2018-basic/
+2. https://zacholland.net/a-complete-guide-to-setting-up-a-plex-home-media-server-with-automated-requests-downloads/
